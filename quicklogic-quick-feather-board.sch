@@ -184,24 +184,7 @@ F 6 "22u" H 6515 9897 50  0000 L CNN "Val"
 	1    6400 9950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 9800 6000 9800
 Connection ~ 5450 9800
-$Comp
-L antmicroResistors0402:R_100k_0402 R4
-U 1 1 5DC1AA19
-P 6000 9950
-F 0 "R4" V 5955 10020 60  0000 L CNN
-F 1 "R_100k_0402" H 6000 9800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6200 10150 60  0001 L CNN
-F 3 "" H 6000 9950 50  0001 C CNN
-F 4 "453k" V 6053 10020 50  0000 L CNN "Val"
-	1    6000 9950
-	0    1    1    0   
-$EndComp
-Connection ~ 6000 9800
-Wire Wire Line
-	6000 9800 6400 9800
 $Comp
 L antmicroResistors0402:R_100k_0402 R5
 U 1 1 5DC1ABAE
@@ -221,7 +204,6 @@ Wire Wire Line
 Connection ~ 5450 10100
 Wire Wire Line
 	6000 10100 6000 10150
-Connection ~ 6000 10100
 $Comp
 L power:GND #PWR0104
 U 1 1 5DC1AF75
@@ -281,8 +263,6 @@ F 3 "" H 2050 10300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2050 10300 2050 10150
-Text Notes 5800 9550 0    50   ~ 0
-TODO: add 453k to library 
 $Comp
 L antmicroPMICBatteryChargers:MCP73831T-2ACI_OT U2
 U 1 1 5DC1E64E
@@ -474,4 +454,24 @@ F 3 "" H 3650 10200 50  0001 C CNN
 	1    3650 10300
 	1    0    0    -1  
 $EndComp
+$Comp
+L antmicroResistors0402:R_453k_0402 R4
+U 1 1 5DC1BB54
+P 6000 9950
+F 0 "R4" V 5955 10020 60  0000 L CNN
+F 1 "R_453k_0402" H 6000 9800 60  0001 C CNN
+F 2 "antmicro-footprints:0402" H 6200 10150 60  0001 L CNN
+F 3 "" H 6000 9950 50  0001 C CNN
+F 4 "VISHAY" H 6200 10350 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402453KFKED" H 6200 10250 60  0001 L CNN "MPN"
+F 6 "453k" V 6053 10020 50  0000 L CNN "Val"
+	1    6000 9950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 9800 6000 9800
+Connection ~ 6000 9800
+Wire Wire Line
+	6000 9800 6400 9800
+Connection ~ 6000 10100
 $EndSCHEMATC
