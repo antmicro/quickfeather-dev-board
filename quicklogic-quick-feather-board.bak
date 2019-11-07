@@ -93,17 +93,6 @@ F 5 "Murata" H 5000 10900 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroDCDCConverters:TPS62821DLCR U1
-U 1 1 5DC19D52
-P 3650 10300
-F 0 "U1" H 3700 11065 50  0000 C CNN
-F 1 "TPS62821DLCR" H 3700 10974 50  0000 C CNN
-F 2 "antmicro-footprints:VSON-10-1EP_3x3mm" H 3550 10100 50  0001 C CNN
-F 3 "" H 3650 10200 50  0001 C CNN
-	1    3650 10300
-	1    0    0    -1  
-$EndComp
-$Comp
 L antmicroResistors0402:R_100k_0402 R1
 U 1 1 5DC19E95
 P 2800 10100
@@ -195,24 +184,7 @@ F 6 "22u" H 6515 9897 50  0000 L CNN "Val"
 	1    6400 9950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 9800 6000 9800
 Connection ~ 5450 9800
-$Comp
-L antmicroResistors0402:R_100k_0402 R4
-U 1 1 5DC1AA19
-P 6000 9950
-F 0 "R4" V 5955 10020 60  0000 L CNN
-F 1 "R_100k_0402" H 6000 9800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6200 10150 60  0001 L CNN
-F 3 "" H 6000 9950 50  0001 C CNN
-F 4 "453k" V 6053 10020 50  0000 L CNN "Val"
-	1    6000 9950
-	0    1    1    0   
-$EndComp
-Connection ~ 6000 9800
-Wire Wire Line
-	6000 9800 6400 9800
 $Comp
 L antmicroResistors0402:R_100k_0402 R5
 U 1 1 5DC1ABAE
@@ -232,7 +204,6 @@ Wire Wire Line
 Connection ~ 5450 10100
 Wire Wire Line
 	6000 10100 6000 10150
-Connection ~ 6000 10100
 $Comp
 L power:GND #PWR0104
 U 1 1 5DC1AF75
@@ -292,8 +263,6 @@ F 3 "" H 2050 10300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2050 10300 2050 10150
-Text Notes 5800 9550 0    50   ~ 0
-TODO: add 453k to library 
 $Comp
 L antmicroPMICBatteryChargers:MCP73831T-2ACI_OT U2
 U 1 1 5DC1E64E
@@ -472,6 +441,391 @@ Wire Wire Line
 	2050 9400 1550 9400
 Text Label 1650 9400 0    50   ~ 0
 VBAT
-Text Notes 5350 4950 0    50   ~ 0
-TODO: add flash memory
+$Comp
+L antmicroDCDCConverters:TPS62821DLCR U1
+U 1 1 5DC2B18E
+P 3650 10300
+F 0 "U1" H 3700 11065 50  0000 C CNN
+F 1 "TPS62821DLCR" H 3700 10974 50  0000 C CNN
+F 2 "antmicro-footprints:QFN-8_2x1mm" H 3550 10100 50  0001 C CNN
+F 3 "" H 3650 10200 50  0001 C CNN
+	1    3650 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_453k_0402 R4
+U 1 1 5DC1BB54
+P 6000 9950
+F 0 "R4" V 5955 10020 60  0000 L CNN
+F 1 "R_453k_0402" H 6000 9800 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6200 10150 60  0001 L CNN
+F 3 "" H 6000 9950 50  0001 C CNN
+F 4 "VISHAY" H 6200 10350 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402453KFKED" H 6200 10250 60  0001 L CNN "MPN"
+F 6 "453k" V 6053 10020 50  0000 L CNN "Val"
+	1    6000 9950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 9800 6000 9800
+Connection ~ 6000 9800
+Wire Wire Line
+	6000 9800 6400 9800
+Connection ~ 6000 10100
+Text Notes 6900 10150 0    50   ~ 0
+TODO: decide if we want to have 1v8 or 3v3 power supply for EOS (flash requires 1v8)
+Text Label 9600 3100 0    50   ~ 0
+1V8_SYS
+Wire Wire Line
+	10300 3200 10300 3100
+Wire Wire Line
+	10300 3100 9550 3100
+$Comp
+L power:GND #PWR05
+U 1 1 5DC43CAC
+P 10300 4100
+F 0 "#PWR05" H 10300 3850 50  0001 C CNN
+F 1 "GND" H 10305 3927 50  0000 C CNN
+F 2 "" H 10300 4100 50  0001 C CNN
+F 3 "" H 10300 4100 50  0001 C CNN
+	1    10300 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 4000 10300 4100
+$Comp
+L antmicroResistors0402:R_10k_0402 R8
+U 1 1 5DC453B0
+P 8350 3650
+F 0 "R8" V 8305 3720 60  0000 L CNN
+F 1 "R_10k_0402" H 8350 3500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8550 3850 60  0001 L CNN
+F 3 "" H 8350 3650 50  0001 C CNN
+F 4 "VISHAY" H 8550 4050 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 8550 3950 60  0001 L CNN "MPN"
+F 6 "10k" V 8403 3720 50  0000 L CNN "Val"
+	1    8350 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_10k_0402 R9
+U 1 1 5DC45F9F
+P 8350 3950
+F 0 "R9" V 8305 4020 60  0000 L CNN
+F 1 "R_10k_0402" H 8350 3800 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8550 4150 60  0001 L CNN
+F 3 "" H 8350 3950 50  0001 C CNN
+F 4 "VISHAY" H 8550 4350 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 8550 4250 60  0001 L CNN "MPN"
+F 6 "10k" V 8403 4020 50  0000 L CNN "Val"
+	1    8350 3950
+	0    1    1    0   
+$EndComp
+Connection ~ 8350 3800
+$Comp
+L power:GND #PWR04
+U 1 1 5DC45FE6
+P 8350 4100
+F 0 "#PWR04" H 8350 3850 50  0001 C CNN
+F 1 "GND" H 8355 3927 50  0000 C CNN
+F 2 "" H 8350 4100 50  0001 C CNN
+F 3 "" H 8350 4100 50  0001 C CNN
+	1    8350 4100
+	1    0    0    -1  
+$EndComp
+Text Label 8000 3200 0    50   ~ 0
+1V8_SYS
+$Comp
+L antmicroResistors0402:R_10k_0402 R10
+U 1 1 5DC484F8
+P 8600 3350
+F 0 "R10" V 8555 3420 60  0000 L CNN
+F 1 "R_10k_0402" H 8600 3200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8800 3550 60  0001 L CNN
+F 3 "" H 8600 3350 50  0001 C CNN
+F 4 "VISHAY" H 8800 3750 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 8800 3650 60  0001 L CNN "MPN"
+F 6 "10k" V 8653 3420 50  0000 L CNN "Val"
+	1    8600 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 3200 8350 3200
+Connection ~ 8350 3200
+Wire Wire Line
+	8350 3200 7800 3200
+Wire Wire Line
+	8350 3200 8350 3500
+Wire Wire Line
+	10550 3600 11300 3600
+$Comp
+L antmicroCapacitors0402:C_100n_0402_6V3 C8
+U 1 1 5DC4FB2F
+P 10450 3100
+F 0 "C8" V 10192 3100 60  0000 C CNN
+F 1 "C_100n_0402_6V3" H 10450 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10650 3300 60  0001 L CNN
+F 3 "" H 10450 3100 50  0001 C CNN
+F 4 "Walsin" H 10650 3500 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 10650 3400 60  0001 L CNN "MPN"
+F 6 "100n" V 10290 3100 50  0000 C CNN "Val"
+	1    10450 3100
+	0    1    1    0   
+$EndComp
+Connection ~ 10300 3100
+$Comp
+L power:GND #PWR06
+U 1 1 5DC4FC17
+P 10600 3100
+F 0 "#PWR06" H 10600 2850 50  0001 C CNN
+F 1 "GND" H 10605 2927 50  0000 C CNN
+F 2 "" H 10600 3100 50  0001 C CNN
+F 3 "" H 10600 3100 50  0001 C CNN
+	1    10600 3100
+	0    -1   -1   0   
+$EndComp
+Text Label 9100 3400 0    50   ~ 0
+SPI_MASTER_SS
+Wire Wire Line
+	8600 3500 9850 3500
+Wire Wire Line
+	8350 3800 9850 3800
+Wire Wire Line
+	8850 3600 9850 3600
+Wire Wire Line
+	8850 3700 9850 3700
+Wire Wire Line
+	8850 3400 9850 3400
+Text Label 9100 3600 0    50   ~ 0
+SPI_MASTER_MOSI
+Text Label 9100 3700 0    50   ~ 0
+SPI_MASTER_SCK
+Text Label 10600 3600 0    50   ~ 0
+SPI_MASTER_MISO
+Text Notes 5050 5200 0    50   ~ 0
+TODO: connect SPI flash, add voltage level shifting if necessary (and pullups)
+$Comp
+L antmicroResistors0402:R_0R_0402 R7
+U 1 1 5DC591A1
+P 2600 4350
+F 0 "R7" H 2600 4563 60  0000 C CNN
+F 1 "R_0R_0402" H 2600 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2800 4550 60  0001 L CNN
+F 3 "" H 2600 4350 50  0001 C CNN
+F 4 "PANASONIC" H 2800 4750 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2800 4650 60  0001 L CNN "MPN"
+F 6 "0R" H 2600 4465 50  0000 C CNN "Val"
+	1    2600 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4350 2750 4350
+Wire Wire Line
+	2450 4350 2450 4450
+$Comp
+L power:GND #PWR03
+U 1 1 5DC5B39C
+P 2450 5650
+F 0 "#PWR03" H 2450 5400 50  0001 C CNN
+F 1 "GND" H 2455 5477 50  0000 C CNN
+F 2 "" H 2450 5650 50  0001 C CNN
+F 3 "" H 2450 5650 50  0001 C CNN
+	1    2450 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4450 2450 4450
+Connection ~ 2450 4450
+Wire Wire Line
+	2450 4450 2450 4550
+Wire Wire Line
+	2850 4550 2450 4550
+Connection ~ 2450 4550
+Wire Wire Line
+	2450 4550 2450 4650
+Wire Wire Line
+	2850 4650 2450 4650
+Connection ~ 2450 4650
+Wire Wire Line
+	2450 4650 2450 4750
+Wire Wire Line
+	2850 4750 2450 4750
+Connection ~ 2450 4750
+Wire Wire Line
+	2450 4750 2450 5650
+Wire Wire Line
+	2850 2900 2550 2900
+Wire Wire Line
+	2850 3050 2550 3050
+Wire Wire Line
+	2550 3050 2550 2900
+Connection ~ 2550 2900
+Wire Wire Line
+	2550 2900 2200 2900
+Wire Wire Line
+	2850 3200 2550 3200
+Wire Wire Line
+	2550 3200 2550 3050
+Connection ~ 2550 3050
+Wire Wire Line
+	2850 3300 2550 3300
+Wire Wire Line
+	2550 3300 2550 3200
+Connection ~ 2550 3200
+Text Label 1900 2900 0    50   ~ 0
+EOS_VDD
+Text Notes 1300 2700 0    50   ~ 0
+TODO: connect to power supply source
+Wire Wire Line
+	2850 3750 2200 3750
+Text Label 1900 3750 0    50   ~ 0
+RST_N
+Text Notes 1050 3500 0    50   ~ 0
+TODO: add RST source
+$Comp
+L antmicroResistors0402:R_10k_0402 R6
+U 1 1 5DC687BB
+P 2200 3600
+F 0 "R6" V 2155 3670 60  0000 L CNN
+F 1 "R_10k_0402" H 2200 3450 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2400 3800 60  0001 L CNN
+F 3 "" H 2200 3600 50  0001 C CNN
+F 4 "VISHAY" H 2400 4000 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2400 3900 60  0001 L CNN "MPN"
+F 6 "10k" V 2253 3670 50  0000 L CNN "Val"
+	1    2200 3600
+	0    1    1    0   
+$EndComp
+Connection ~ 2200 3750
+Wire Wire Line
+	2200 3750 1850 3750
+Wire Wire Line
+	2200 3450 2200 2900
+Connection ~ 2200 2900
+Wire Wire Line
+	2200 2900 1850 2900
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP1
+U 1 1 5DC6A7F5
+P 2600 3500
+F 0 "TP1" V 2600 3400 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2600 3400 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2800 3700 60  0001 L CNN
+F 3 "" H 2800 3800 60  0001 L CNN
+	1    2600 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP2
+U 1 1 5DC6A90F
+P 2600 3600
+F 0 "TP2" V 2600 3500 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2600 3500 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2800 3800 60  0001 L CNN
+F 3 "" H 2800 3900 60  0001 L CNN
+	1    2600 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 3500 2700 3500
+Wire Wire Line
+	2700 3600 2850 3600
+$Comp
+L antmicroCrystals:ECS-_327-12_5-34B-TR X1
+U 1 1 5DC7219A
+P 1400 4250
+F 0 "X1" H 1400 4010 50  0000 C CNN
+F 1 "ECS-_327-12_5-34B-TR" H 1400 4101 50  0000 C CNN
+F 2 "antmicro-footprints:SMD-2_3.2x1.5mm" H 1600 4450 60  0001 L CNN
+F 3 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" H 1600 4550 60  0001 L CNN
+F 4 "ECS-.327-12.5-34B-TR" H 1600 4750 60  0001 L CNN "MPN"
+F 5 "ECS Inc." H 1600 5350 60  0001 L CNN "Manufacturer"
+	1    1400 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 3900 800  3900
+Wire Wire Line
+	800  3900 800  4250
+Wire Wire Line
+	800  4250 1050 4250
+Wire Wire Line
+	1550 4250 1700 4250
+Wire Wire Line
+	2100 4250 2100 4000
+Wire Wire Line
+	2100 4000 2850 4000
+Wire Wire Line
+	1700 4250 1700 4400
+Connection ~ 1700 4250
+Wire Wire Line
+	1700 4250 2100 4250
+Wire Wire Line
+	1050 4250 1050 4400
+Connection ~ 1050 4250
+Wire Wire Line
+	1050 4250 1250 4250
+$Comp
+L antmicroCapacitors0402:C_12p_0402 C6
+U 1 1 5DC7C95B
+P 1050 4550
+F 0 "C6" H 1165 4595 60  0000 L CNN
+F 1 "C_12p_0402" H 1050 4400 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1250 4750 60  0001 L CNN
+F 3 "" H 1050 4550 50  0001 C CNN
+F 4 "TDK" H 1250 4950 60  0001 L CNN "Manufacturer"
+F 5 "CGA2B2C0G1H120J050BA" H 1250 4850 60  0001 L CNN "MPN"
+F 6 "12p" H 1165 4497 50  0000 L CNN "Val"
+	1    1050 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_12p_0402 C7
+U 1 1 5DC7C9F1
+P 1700 4550
+F 0 "C7" H 1815 4595 60  0000 L CNN
+F 1 "C_12p_0402" H 1700 4400 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1900 4750 60  0001 L CNN
+F 3 "" H 1700 4550 50  0001 C CNN
+F 4 "TDK" H 1900 4950 60  0001 L CNN "Manufacturer"
+F 5 "CGA2B2C0G1H120J050BA" H 1900 4850 60  0001 L CNN "MPN"
+F 6 "12p" H 1815 4497 50  0000 L CNN "Val"
+	1    1700 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5DC7CB3C
+P 1700 4700
+F 0 "#PWR02" H 1700 4450 50  0001 C CNN
+F 1 "GND" H 1705 4527 50  0000 C CNN
+F 2 "" H 1700 4700 50  0001 C CNN
+F 3 "" H 1700 4700 50  0001 C CNN
+	1    1700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5DC7CB81
+P 1050 4700
+F 0 "#PWR01" H 1050 4450 50  0001 C CNN
+F 1 "GND" H 1055 4527 50  0000 C CNN
+F 2 "" H 1050 4700 50  0001 C CNN
+F 3 "" H 1050 4700 50  0001 C CNN
+	1    1050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMemory:MX25U6435FZNI-10G U3
+U 1 1 5DC87C5B
+P 10150 3400
+F 0 "U3" H 10591 3253 60  0000 L CNN
+F 1 "MX25U6435FZNI-10G" H 10591 3147 60  0000 L CNN
+F 2 "antmicro-footprints:DFN-8-1EP_6x5mm_P1.27mm_EP4x3.4mm" H 10350 3600 60  0001 L CNN
+F 3 "https://www.macronix.com/Lists/Datasheet/Attachments/7411/MX25U6435F,%201.8V,%2064Mb,%20v1.5.pdf" H 10350 3700 60  0001 L CNN
+F 4 "MR25H256CDC" H 10350 3900 60  0001 L CNN "MPN"
+F 5 "Macronix" H 10350 4500 60  0001 L CNN "Manufacturer"
+	1    10150 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
