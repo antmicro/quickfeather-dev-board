@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:quicklogic-quick-feather-board-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -604,22 +604,6 @@ Text Label 10600 3600 0    50   ~ 0
 SPI_MASTER_MISO
 Text Notes 5050 5200 0    50   ~ 0
 TODO: connect SPI flash, add voltage level shifting if necessary (and pullups)
-$Comp
-L antmicroResistors0402:R_0R_0402 R7
-U 1 1 5DC591A1
-P 2600 4350
-F 0 "R7" H 2600 4563 60  0000 C CNN
-F 1 "R_0R_0402" H 2600 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2800 4550 60  0001 L CNN
-F 3 "" H 2600 4350 50  0001 C CNN
-F 4 "PANASONIC" H 2800 4750 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2800 4650 60  0001 L CNN "MPN"
-F 6 "0R" H 2600 4465 50  0000 C CNN "Val"
-	1    2600 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 4350 2750 4350
 Wire Wire Line
 	2450 4350 2450 4450
 $Comp
@@ -828,4 +812,10 @@ F 5 "Macronix" H 10350 4500 60  0001 L CNN "Manufacturer"
 	1    10150 3400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2450 4350 2850 4350
+NoConn ~ 4900 4400
+NoConn ~ 4900 4500
+Text Notes 5050 4500 0    50   ~ 0
+TODO: do not connect for routing purposes
 $EndSCHEMATC

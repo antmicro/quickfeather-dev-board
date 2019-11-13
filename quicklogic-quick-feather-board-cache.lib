@@ -61,7 +61,7 @@ ENDDEF
 #
 # antmicroCapacitors0402_C_100n_0402_6V3
 #
-DEF ~antmicroCapacitors0402_C_100n_0402_6V3 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0402_C_100n_0402_6V3 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0402_C_100n_0402_6V3" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -79,7 +79,7 @@ ENDDEF
 #
 # antmicroCapacitors0402_C_100p_0402
 #
-DEF ~antmicroCapacitors0402_C_100p_0402 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0402_C_100p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0402_C_100p_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -97,7 +97,7 @@ ENDDEF
 #
 # antmicroCapacitors0402_C_12p_0402
 #
-DEF ~antmicroCapacitors0402_C_12p_0402 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0402_C_12p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0402_C_12p_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -115,7 +115,7 @@ ENDDEF
 #
 # antmicroCapacitors0603_C_10u_0603
 #
-DEF ~antmicroCapacitors0603_C_10u_0603 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0603_C_10u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0603_C_10u_0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -133,7 +133,7 @@ ENDDEF
 #
 # antmicroCapacitors0603_C_22u_0603
 #
-DEF ~antmicroCapacitors0603_C_22u_0603 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0603_C_22u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0603_C_22u_0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -151,7 +151,7 @@ ENDDEF
 #
 # antmicroCapacitors0603_C_4u7_0603
 #
-DEF ~antmicroCapacitors0603_C_4u7_0603 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0603_C_4u7_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0603_C_4u7_0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -312,26 +312,9 @@ X PROG 5 -400 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# antmicroResistors0402_R_0R_0402
-#
-DEF ~antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0402_R_0R_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
-F6 "0R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # antmicroResistors0402_R_100k_0402
 #
-DEF ~antmicroResistors0402_R_100k_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_100k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_100k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -348,7 +331,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_10k_0402
 #
-DEF ~antmicroResistors0402_R_10k_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_10k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_10k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -365,7 +348,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_1k_0402
 #
-DEF ~antmicroResistors0402_R_1k_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_1k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_1k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -382,7 +365,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_453k_0402
 #
-DEF ~antmicroResistors0402_R_453k_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_453k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_453k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -399,7 +382,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_5k11_0402
 #
-DEF ~antmicroResistors0402_R_5k11_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_5k11_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_5k11_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -416,7 +399,7 @@ ENDDEF
 #
 # antmicroTestPoints_TP_SMD1MM
 #
-DEF ~antmicroTestPoints_TP_SMD1MM TP 0 0 N Y 1 F N
+DEF antmicroTestPoints_TP_SMD1MM TP 0 0 N Y 1 F N
 F0 "TP" -100 50 50 H V R CNN
 F1 "antmicroTestPoints_TP_SMD1MM" 0 -100 50 H I C CNN
 F2 "antmicro-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
