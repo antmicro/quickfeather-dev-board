@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.4+dfsg1-1~bpo9+1*
-G04 #@! TF.CreationDate,2019-11-13T15:03:19+01:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.4+dfsg1-1~bpo10+1*
+G04 #@! TF.CreationDate,2019-11-15T17:22:20+01:00*
 G04 #@! TF.ProjectId,quicklogic-quick-feather-board,71756963-6b6c-46f6-9769-632d71756963,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L1,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.4+dfsg1-1~bpo9+1) date 2019-11-13 15:03:19*
+G04 Created by KiCad (PCBNEW 5.1.4+dfsg1-1~bpo10+1) date 2019-11-15 17:22:20*
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*
@@ -1082,6 +1082,8 @@ X144691100Y-94843600D03*
 X142151100Y-94843600D03*
 X139611100Y-94843600D03*
 D10*
+X142420600Y-104065600D03*
+X142417800Y-103354400D03*
 X142065000Y-103710000D03*
 X142065000Y-103360000D03*
 X142065000Y-103010000D03*
