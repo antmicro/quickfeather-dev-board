@@ -5,7 +5,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "zGlue Demo Board"
+Title "Quick Feather Development Kit"
 Date ""
 Rev "1.0"
 Comp "Antmicro"
@@ -814,8 +814,6 @@ F 5 "Macronix" H 10350 4500 60  0001 L CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	2450 4350 2850 4350
-Text Notes 6250 4550 0    50   ~ 0
-TODO: do not connect for routing purposes
 Wire Wire Line
 	4900 5000 5950 5000
 Wire Wire Line
