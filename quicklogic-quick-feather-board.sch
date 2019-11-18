@@ -69,7 +69,7 @@ F 3 "" H 12050 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroBGAchips:EOS-S3 IC1
+L quicklogic-quick-feather-board-rescue:EOS-S3-antmicroBGAchips IC1
 U 1 1 5DCF18DD
 P 2950 2750
 F 0 "IC1" H 3875 2915 50  0000 C CNN
@@ -602,7 +602,7 @@ Text Label 9100 3700 0    50   ~ 0
 SPI_MASTER_SCK
 Text Label 10600 3600 0    50   ~ 0
 SPI_MASTER_MISO
-Text Notes 5050 5200 0    50   ~ 0
+Text Notes 5050 5900 0    50   ~ 0
 TODO: connect SPI flash, add voltage level shifting if necessary (and pullups)
 Wire Wire Line
 	2450 4350 2450 4450
@@ -800,7 +800,7 @@ F 3 "" H 1050 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMemory:MX25U6435FZNI-10G U3
+L quicklogic-quick-feather-board-rescue:MX25U6435FZNI-10G-antmicroMemory U3
 U 1 1 5DC87C5B
 P 10150 3400
 F 0 "U3" H 10400 2800 60  0000 L CNN
@@ -814,8 +814,78 @@ F 5 "Macronix" H 10350 4500 60  0001 L CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	2450 4350 2850 4350
-NoConn ~ 4900 4400
-NoConn ~ 4900 4500
-Text Notes 5050 4500 0    50   ~ 0
+Text Notes 6250 4550 0    50   ~ 0
 TODO: do not connect for routing purposes
+Wire Wire Line
+	4900 5000 5950 5000
+Wire Wire Line
+	4900 5100 5950 5100
+Wire Wire Line
+	4900 5200 5950 5200
+Wire Wire Line
+	4900 5300 5950 5300
+Wire Wire Line
+	4900 5400 5950 5400
+Wire Wire Line
+	4900 5500 5950 5500
+Wire Wire Line
+	4900 5600 5950 5600
+Text Label 5150 5600 0    50   ~ 0
+SWD_CLK
+Text Label 5150 5500 0    50   ~ 0
+SDW_IO
+Text Label 5150 5400 0    50   ~ 0
+INT
+Text Label 5150 5300 0    50   ~ 0
+SPI_MST_SS
+Text Label 5150 5200 0    50   ~ 0
+SPI_MST_MOSI
+Text Label 5150 5100 0    50   ~ 0
+SPI_MST_MISO
+Text Label 5150 5000 0    50   ~ 0
+SPI_MST_CLK
+Wire Wire Line
+	4900 4900 5950 4900
+Wire Wire Line
+	4900 4800 5950 4800
+Wire Wire Line
+	4900 4700 5950 4700
+Wire Wire Line
+	4900 4600 5950 4600
+Wire Wire Line
+	4900 4500 5950 4500
+Wire Wire Line
+	4900 4400 5950 4400
+Wire Wire Line
+	4900 4300 5950 4300
+Wire Wire Line
+	4900 4200 5950 4200
+Wire Wire Line
+	4900 4100 5950 4100
+Wire Wire Line
+	4900 4000 5950 4000
+Wire Wire Line
+	4900 3900 5950 3900
+Text Label 5150 4900 0    50   ~ 0
+IO31
+Text Label 5150 4800 0    50   ~ 0
+IO30
+Text Label 5150 4700 0    50   ~ 0
+IO29
+Text Label 5150 4600 0    50   ~ 0
+IO28
+Text Label 5150 4500 0    50   ~ 0
+IO25
+Text Label 5150 4400 0    50   ~ 0
+IO24
+Text Label 5150 4300 0    50   ~ 0
+IO23
+Text Label 5150 4200 0    50   ~ 0
+SPI_SLV_MOSI
+Text Label 5150 4100 0    50   ~ 0
+SPI_SLV_SS
+Text Label 5150 4000 0    50   ~ 0
+SPI_SLV_MISO
+Text Label 5150 3900 0    50   ~ 0
+SPI_SLV_CLK
 $EndSCHEMATC
