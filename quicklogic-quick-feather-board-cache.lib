@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.4
 #
 # antmicroCapacitors0402_C_100n_0402_6V3
 #
-DEF antmicroCapacitors0402_C_100n_0402_6V3 C 0 0 Y Y 1 F N
+DEF ~antmicroCapacitors0402_C_100n_0402_6V3 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0402_C_100n_0402_6V3" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -21,7 +21,7 @@ ENDDEF
 #
 # antmicroCapacitors0402_C_100p_0402
 #
-DEF antmicroCapacitors0402_C_100p_0402 C 0 0 Y Y 1 F N
+DEF ~antmicroCapacitors0402_C_100p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0402_C_100p_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -39,7 +39,7 @@ ENDDEF
 #
 # antmicroCapacitors0402_C_12p_0402
 #
-DEF antmicroCapacitors0402_C_12p_0402 C 0 0 Y Y 1 F N
+DEF ~antmicroCapacitors0402_C_12p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0402_C_12p_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -57,7 +57,7 @@ ENDDEF
 #
 # antmicroCapacitors0603_C_10u_0603
 #
-DEF antmicroCapacitors0603_C_10u_0603 C 0 0 Y Y 1 F N
+DEF ~antmicroCapacitors0603_C_10u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0603_C_10u_0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -75,7 +75,7 @@ ENDDEF
 #
 # antmicroCapacitors0603_C_22u_0603
 #
-DEF antmicroCapacitors0603_C_22u_0603 C 0 0 Y Y 1 F N
+DEF ~antmicroCapacitors0603_C_22u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0603_C_22u_0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -93,7 +93,7 @@ ENDDEF
 #
 # antmicroCapacitors0603_C_4u7_0603
 #
-DEF antmicroCapacitors0603_C_4u7_0603 C 0 0 Y Y 1 F N
+DEF ~antmicroCapacitors0603_C_4u7_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0603_C_4u7_0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -213,6 +213,26 @@ X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroMemory_GD25Q16CWIGR
+#
+DEF antmicroMemory_GD25Q16CWIGR U 0 40 Y Y 1 F N
+F0 "U" 50 50 50 H V C CNN
+F1 "antmicroMemory_GD25Q16CWIGR" 200 150 50 H V C CNN
+F2 "antmicro-footprints:GD25Q16CWIG" -50 -50 50 H I C CNN
+F3 "http://www.gigadevice.com/datasheet/gd25q16c/" 50 50 50 H I C CNN
+DRAW
+S 0 0 750 -800 1 1 0 f
+X ~CS 1 -100 -600 100 R 50 50 1 1 I
+X SO(IO1) 2 850 -250 100 L 50 50 1 1 I
+X ~WP(IO2) 3 -100 -400 100 R 50 50 1 1 I
+X VSS 4 850 -700 100 L 50 50 1 1 I
+X SI(IO0) 5 -100 -250 100 R 50 50 1 1 I
+X SCLK 6 -100 -700 100 R 50 50 1 1 I
+X ~HOLD(IO3) 7 -100 -500 100 R 50 50 1 1 I
+X VCC 8 -100 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # antmicroPMICBatteryChargers_MCP73831T-2ACI_OT
 #
 DEF antmicroPMICBatteryChargers_MCP73831T-2ACI_OT U 0 40 Y Y 1 F N
@@ -234,7 +254,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_100k_0402
 #
-DEF antmicroResistors0402_R_100k_0402 R 0 0 Y Y 1 F N
+DEF ~antmicroResistors0402_R_100k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_100k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -251,7 +271,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_10k_0402
 #
-DEF antmicroResistors0402_R_10k_0402 R 0 0 Y Y 1 F N
+DEF ~antmicroResistors0402_R_10k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_10k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -266,9 +286,26 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroResistors0402_R_1k5_0402
+#
+DEF ~antmicroResistors0402_R_1k5_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_1k5_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2RKF1501X" 200 300 60 H I L CNN "MPN"
+F6 "1k5" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_1k_0402
 #
-DEF antmicroResistors0402_R_1k_0402 R 0 0 Y Y 1 F N
+DEF ~antmicroResistors0402_R_1k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_1k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -283,12 +320,29 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroResistors0402_R_22R_0402
+#
+DEF ~antmicroResistors0402_R_22R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_22R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040222R0FKED" 200 300 60 H I L CNN "MPN"
+F6 "22R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_453k_0402
 #
-DEF antmicroResistors0402_R_453k_0402 R 0 0 Y Y 1 F N
+DEF ~antmicroResistors0402_R_453k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_453k_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402" 200 200 60 H I L CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW0402453KFKED" 200 300 60 H I L CNN "MPN"
@@ -302,7 +356,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_5k11_0402
 #
-DEF antmicroResistors0402_R_5k11_0402 R 0 0 Y Y 1 F N
+DEF ~antmicroResistors0402_R_5k11_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_5k11_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -319,7 +373,7 @@ ENDDEF
 #
 # antmicroTestPoints_TP_SMD1MM
 #
-DEF antmicroTestPoints_TP_SMD1MM TP 0 0 N Y 1 F N
+DEF ~antmicroTestPoints_TP_SMD1MM TP 0 0 N Y 1 F N
 F0 "TP" -100 50 50 H V R CNN
 F1 "antmicroTestPoints_TP_SMD1MM" 0 -100 50 H I C CNN
 F2 "antmicro-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
@@ -432,28 +486,6 @@ X FBIO_30 F4 1950 -2050 100 L 50 50 1 1 I
 X FBIO_36/SPI_MASTER_MISO F5 1950 -2350 100 L 50 50 1 1 I
 X FBIO_39/SPI_MASTER_SSn1 F6 1950 -2550 100 L 50 50 1 1 I
 X FBIO_45/SW_DP_CLK F7 1950 -2850 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# quicklogic-quick-feather-board-rescue_MX25U6435FZNI-10G-antmicroMemory
-#
-DEF quicklogic-quick-feather-board-rescue_MX25U6435FZNI-10G-antmicroMemory U 0 40 Y Y 1 F N
-F0 "U" -100 150 60 H V C CNN
-F1 "quicklogic-quick-feather-board-rescue_MX25U6435FZNI-10G-antmicroMemory" 200 -600 60 H V L CNN
-F2 "antmicro-footprints:DFN-8-1EP_6x5mm_P1.27mm_EP4x3.4mm" 200 200 60 H I L CNN
-F3 "https://www.macronix.com/Lists/Datasheet/Attachments/7411/MX25U6435F,%201.8V,%2064Mb,%20v1.5.pdf" 200 300 60 H I L CNN
-F4 "MR25H256CDC" 200 500 60 H I L CNN "MPN"
-F5 "Macronix" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-S -200 100 300 -500 0 1 0 f
-X ~CS 1 -300 0 100 R 50 50 1 1 I
-X MISO 2 400 -200 100 L 50 50 1 1 O
-X ~WP 3 -300 -100 100 R 50 50 1 1 I
-X VSS 4 150 -600 100 U 50 50 1 1 W
-X MOSI 5 -300 -200 100 R 50 50 1 1 I
-X SCK 6 -300 -300 100 R 50 50 1 1 I
-X ~HOLD 7 -300 -400 100 R 50 50 1 1 I
-X VDD 8 150 200 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
