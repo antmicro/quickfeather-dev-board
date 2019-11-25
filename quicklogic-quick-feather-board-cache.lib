@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.4
 #
 # antmicroCapacitors0402_C_100n_0402_6V3
 #
-DEF ~antmicroCapacitors0402_C_100n_0402_6V3 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0402_C_100n_0402_6V3 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0402_C_100n_0402_6V3" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -21,7 +21,7 @@ ENDDEF
 #
 # antmicroCapacitors0402_C_100p_0402
 #
-DEF ~antmicroCapacitors0402_C_100p_0402 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0402_C_100p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0402_C_100p_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -39,7 +39,7 @@ ENDDEF
 #
 # antmicroCapacitors0402_C_12p_0402
 #
-DEF ~antmicroCapacitors0402_C_12p_0402 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0402_C_12p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0402_C_12p_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
@@ -57,7 +57,7 @@ ENDDEF
 #
 # antmicroCapacitors0603_C_10u_0603
 #
-DEF ~antmicroCapacitors0603_C_10u_0603 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0603_C_10u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0603_C_10u_0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -75,7 +75,7 @@ ENDDEF
 #
 # antmicroCapacitors0603_C_22u_0603
 #
-DEF ~antmicroCapacitors0603_C_22u_0603 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0603_C_22u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0603_C_22u_0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -93,7 +93,7 @@ ENDDEF
 #
 # antmicroCapacitors0603_C_4u7_0603
 #
-DEF ~antmicroCapacitors0603_C_4u7_0603 C 0 0 Y Y 1 F N
+DEF antmicroCapacitors0603_C_4u7_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "antmicroCapacitors0603_C_4u7_0603" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
@@ -213,26 +213,6 @@ X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicroMemory_GD25Q16CWIGR
-#
-DEF antmicroMemory_GD25Q16CWIGR U 0 40 Y Y 1 F N
-F0 "U" 50 50 50 H V C CNN
-F1 "antmicroMemory_GD25Q16CWIGR" 200 150 50 H V C CNN
-F2 "antmicro-footprints:GD25Q16CWIG" -50 -50 50 H I C CNN
-F3 "http://www.gigadevice.com/datasheet/gd25q16c/" 50 50 50 H I C CNN
-DRAW
-S 0 0 750 -800 1 1 0 f
-X ~CS 1 -100 -600 100 R 50 50 1 1 I
-X SO(IO1) 2 850 -250 100 L 50 50 1 1 I
-X ~WP(IO2) 3 -100 -400 100 R 50 50 1 1 I
-X VSS 4 850 -700 100 L 50 50 1 1 I
-X SI(IO0) 5 -100 -250 100 R 50 50 1 1 I
-X SCLK 6 -100 -700 100 R 50 50 1 1 I
-X ~HOLD(IO3) 7 -100 -500 100 R 50 50 1 1 I
-X VCC 8 -100 -100 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # antmicroMicrophones_IM69D130
 #
 DEF antmicroMicrophones_IM69D130 MIC 0 40 Y Y 1 F N
@@ -271,7 +251,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_100R_0402
 #
-DEF ~antmicroResistors0402_R_100R_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_100R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_100R_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -288,7 +268,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_100k_0402
 #
-DEF ~antmicroResistors0402_R_100k_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_100k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_100k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -305,7 +285,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_10k_0402
 #
-DEF ~antmicroResistors0402_R_10k_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_10k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_10k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -322,7 +302,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_1k5_0402
 #
-DEF ~antmicroResistors0402_R_1k5_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_1k5_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_1k5_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -339,7 +319,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_1k_0402
 #
-DEF ~antmicroResistors0402_R_1k_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_1k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_1k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -356,7 +336,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_22R_0402
 #
-DEF ~antmicroResistors0402_R_22R_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_22R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_22R_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -373,7 +353,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_453k_0402
 #
-DEF ~antmicroResistors0402_R_453k_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_453k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_453k_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -390,7 +370,7 @@ ENDDEF
 #
 # antmicroResistors0402_R_5k11_0402
 #
-DEF ~antmicroResistors0402_R_5k11_0402 R 0 0 Y Y 1 F N
+DEF antmicroResistors0402_R_5k11_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "antmicroResistors0402_R_5k11_0402" 0 -150 60 H I C CNN
 F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
@@ -405,9 +385,52 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroTVSDiodes_TPD2EUSB30DRTR
+#
+DEF antmicroTVSDiodes_TPD2EUSB30DRTR D 0 0 Y Y 1 F N
+F0 "D" -210 205 60 H V L CNN
+F1 "antmicroTVSDiodes_TPD2EUSB30DRTR" 70 -220 60 H V L CNN
+F2 "antmicro-footprints:SOT-3" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd2eusb30" 200 300 60 H I L CNN
+F4 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F5 "TPD2EUSB30DRTR" 200 500 60 H I L CNN "MPN"
+DRAW
+C -110 0 5 1 1 0 N
+C 0 -135 5 1 1 0 N
+C 0 135 5 1 1 0 N
+C 110 0 5 1 1 0 N
+S -200 170 200 -175 1 1 0 f
+P 2 1 1 0 -200 0 -110 0 N
+P 2 1 1 0 -110 -60 -150 -60 N
+P 2 1 1 0 -110 -60 -70 -60 N
+P 2 1 1 0 -110 120 -150 120 N
+P 2 1 1 0 -110 120 -70 120 N
+P 2 1 1 0 0 -200 0 -100 N
+P 2 1 1 0 0 -30 0 -155 N
+P 2 1 1 0 0 30 0 135 N
+P 2 1 1 0 110 -60 70 -60 N
+P 2 1 1 0 110 -60 150 -60 N
+P 2 1 1 0 110 120 70 120 N
+P 2 1 1 0 110 120 150 120 N
+P 2 1 1 0 200 0 110 0 N
+P 3 1 1 0 0 30 -30 30 -40 20 N
+P 3 1 1 0 0 30 30 30 40 40 N
+P 4 1 1 0 -110 -60 -150 -120 -70 -120 -110 -60 F
+P 4 1 1 0 -110 120 -150 60 -70 60 -110 120 F
+P 4 1 1 0 -110 120 -110 135 110 135 110 120 N
+P 4 1 1 0 0 30 -40 -30 40 -30 0 30 F
+P 4 1 1 0 110 -60 70 -120 150 -120 110 -60 F
+P 4 1 1 0 110 120 70 60 150 60 110 120 F
+P 4 1 1 0 110 120 110 -135 -110 -135 -110 120 N
+X D+ 1 300 0 100 L 50 50 1 1 P
+X D- 2 -300 0 100 R 50 50 1 1 P
+X GND 3 0 -300 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # antmicroTestPoints_TP_SMD1MM
 #
-DEF ~antmicroTestPoints_TP_SMD1MM TP 0 0 N Y 1 F N
+DEF antmicroTestPoints_TP_SMD1MM TP 0 0 N Y 1 F N
 F0 "TP" -100 50 50 H V R CNN
 F1 "antmicroTestPoints_TP_SMD1MM" 0 -100 50 H I C CNN
 F2 "antmicro-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
@@ -520,6 +543,26 @@ X FBIO_30 F4 1950 -2050 100 L 50 50 1 1 I
 X FBIO_36/SPI_MASTER_MISO F5 1950 -2350 100 L 50 50 1 1 I
 X FBIO_39/SPI_MASTER_SSn1 F6 1950 -2550 100 L 50 50 1 1 I
 X FBIO_45/SW_DP_CLK F7 1950 -2850 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# quicklogic-quick-feather-board-rescue_GD25Q16CWIGR-antmicroMemory
+#
+DEF quicklogic-quick-feather-board-rescue_GD25Q16CWIGR-antmicroMemory U 0 40 Y Y 1 F N
+F0 "U" 50 50 50 H V C CNN
+F1 "quicklogic-quick-feather-board-rescue_GD25Q16CWIGR-antmicroMemory" 200 150 50 H V C CNN
+F2 "antmicro-footprints:GD25Q16CWIG" -50 -50 50 H I C CNN
+F3 "http://www.gigadevice.com/datasheet/gd25q16c/" 50 50 50 H I C CNN
+DRAW
+S 0 0 750 -800 1 1 0 f
+X ~CS 1 -100 -600 100 R 50 50 1 1 I
+X SO(IO1) 2 850 -250 100 L 50 50 1 1 I
+X ~WP(IO2) 3 -100 -400 100 R 50 50 1 1 I
+X VSS 4 850 -700 100 L 50 50 1 1 I
+X SI(IO0) 5 -100 -250 100 R 50 50 1 1 I
+X SCLK 6 -100 -700 100 R 50 50 1 1 I
+X ~HOLD(IO3) 7 -100 -500 100 R 50 50 1 1 I
+X VCC 8 -100 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
