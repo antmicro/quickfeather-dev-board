@@ -65,7 +65,7 @@ F 3 "" H 8900 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board-rescue:EOS-S3-antmicroBGAchips IC1
+L antmicroBGAchips:EOS-S3 IC1
 U 1 1 5DCF18DD
 P 3300 1400
 F 0 "IC1" H 4225 1565 50  0000 C CNN
@@ -1587,7 +1587,7 @@ SPI_MST_SS
 Text Label 11250 3150 0    50   ~ 0
 SPI_MST_CLK
 $Comp
-L quicklogic-quick-feather-board-rescue:GD25Q16CWIGR-antmicroMemory U3
+L antmicroMemory:GD25Q16CWIGR U3
 U 1 1 5DDDF93D
 P 12100 2450
 F 0 "U3" H 12475 2615 50  0000 C CNN
