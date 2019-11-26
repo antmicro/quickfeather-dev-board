@@ -1671,7 +1671,7 @@ Connection ~ 2550 1550
 Wire Wire Line
 	2550 1550 2900 1550
 Text Notes 800  5100 0    91   ~ 0
-EOS S3 FPGA
+EOS S3
 Text Notes 800  7700 0    91   ~ 0
 Battery charger and battery voltage measurement
 Text Notes 800  10100 0    91   ~ 0
@@ -2423,7 +2423,7 @@ Wire Notes Line
 Wire Notes Line
 	11850 8100 11850 9900
 Text Notes 12050 9850 0    91   ~ 0
-IMU
+Accelerometer
 Text Label 5500 3550 0    50   ~ 0
 ADC0_EN
 $Comp
