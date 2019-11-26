@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name quicklogic-quick-feather-board-rescue)(type Legacy)(uri ${KIPRJMOD}/quicklogic-quick-feather-board-rescue.lib)(options "")(descr ""))
+  (lib (name quicklogic-quick-feather-board)(type Legacy)(uri ${KIPRJMOD}/lib/quicklogic-quick-feather-board.lib)(options "")(descr ""))
 )

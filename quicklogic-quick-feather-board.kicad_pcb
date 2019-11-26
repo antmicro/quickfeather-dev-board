@@ -336,7 +336,7 @@
     (add_net ~RESET)
   )
 
-  (module antmicro-footprints:0402-cap (layer Top) (tedit 5D5E9295) (tstamp 5DD8581D)
+  (module quicklogic-quick-feather-board-footprints:0402-cap (layer Top) (tedit 5D5E9295) (tstamp 5DD8581D)
     (at 136.605001 90.385001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -370,7 +370,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD856DA)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD856DA)
     (at 136.605001 89.395001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -404,7 +404,7 @@
     )
   )
 
-  (module antmicro-footprints:IM69D130 (layer Top) (tedit 5DD7F8DB) (tstamp 5DD85543)
+  (module quicklogic-quick-feather-board-footprints:IM69D130 (layer Top) (tedit 5DD7F8DB) (tstamp 5DD85543)
     (at 134.075001 90.295001)
     (path /5DDA20C5)
     (fp_text reference MIC1 (at 0.41 -3.29) (layer F.SilkS)
@@ -438,7 +438,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD8A811)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD8A811)
     (at 134.365001 95.195001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -472,7 +472,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD8A802)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD8A802)
     (at 132.455001 96.185001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -506,7 +506,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD8A7BB)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD8A7BB)
     (at 132.455001 95.195001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -540,7 +540,7 @@
     )
   )
 
-  (module antmicro-footprints:GD25Q16CWIG (layer Top) (tedit 5DD7B13F) (tstamp 5DD8A5A4)
+  (module quicklogic-quick-feather-board-footprints:GD25Q16CWIG (layer Top) (tedit 5DD7B13F) (tstamp 5DD8A5A4)
     (at 149.05 100.73)
     (path /5DDDF93D)
     (attr smd)
@@ -586,7 +586,7 @@
       (solder_paste_margin -0.1))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer Top) (tedit 5DB97F75) (tstamp 5DD2624B)
+  (module quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm (layer Top) (tedit 5DB97F75) (tstamp 5DD2624B)
     (at 125.186799 88.089199)
     (path /5DC6A90F)
     (fp_text reference TP2 (at -1.91 -0.08) (layer F.SilkS)
@@ -599,7 +599,7 @@
       (net 72 "Net-(IC1-PadA3)"))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer Top) (tedit 5DB97F75) (tstamp 5DD26246)
+  (module quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm (layer Top) (tedit 5DB97F75) (tstamp 5DD26246)
     (at 122.276799 90.079199)
     (path /5DC6A7F5)
     (fp_text reference TP1 (at -1.91 -0.08) (layer F.SilkS)
@@ -612,7 +612,7 @@
       (net 70 "Net-(IC1-PadA2)"))
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD26241)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD26241)
     (at 119.8218 92.0134)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -646,7 +646,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD26232)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD26232)
     (at 122.7318 88.0334)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -680,7 +680,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD26223)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD26223)
     (at 119.8218 90.0234)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -714,7 +714,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD26214)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DD26214)
     (at 116.9118 92.0134)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -748,7 +748,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer Top) (tedit 5D5E9295) (tstamp 5DD26037)
+  (module quicklogic-quick-feather-board-footprints:0402-cap (layer Top) (tedit 5D5E9295) (tstamp 5DD26037)
     (at 119.8218 88.0334)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -782,7 +782,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer Top) (tedit 5D5E9295) (tstamp 5DD26028)
+  (module quicklogic-quick-feather-board-footprints:0402-cap (layer Top) (tedit 5D5E9295) (tstamp 5DD26028)
     (at 116.9118 90.0234)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -816,7 +816,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer Top) (tedit 5D5E9295) (tstamp 5DD26019)
+  (module quicklogic-quick-feather-board-footprints:0402-cap (layer Top) (tedit 5D5E9295) (tstamp 5DD26019)
     (at 116.9118 88.0334)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -850,7 +850,7 @@
     )
   )
 
-  (module antmicro-footprints:42-WLCSP (layer Top) (tedit 5DC14F02) (tstamp 5DC192DF)
+  (module quicklogic-quick-feather-board-footprints:42-WLCSP (layer Top) (tedit 5DC14F02) (tstamp 5DC192DF)
     (at 142.24 103.36 90)
     (path /5DCF18DD)
     (attr smd)
@@ -972,7 +972,7 @@
     )
   )
 
-  (module antmicro-footprints:SMD-2_3.2x1.5mm (layer Top) (tedit 5DC40621) (tstamp 5DC41B08)
+  (module quicklogic-quick-feather-board-footprints:SMD-2_3.2x1.5mm (layer Top) (tedit 5DC40621) (tstamp 5DC41B08)
     (at 138.6078 97.5741)
     (descr http://www.ecsxtal.com/store/pdf/ecx-31b.pdf)
     (path /5DC7219A)
@@ -1010,7 +1010,7 @@
     )
   )
 
-  (module antmicro-footprints:QFN-8_2x1mm (layer Top) (tedit 5DC1A3A6) (tstamp 5DC25289)
+  (module quicklogic-quick-feather-board-footprints:QFN-8_2x1mm (layer Top) (tedit 5DC1A3A6) (tstamp 5DC25289)
     (at 143.74 110.68)
     (descr "DFN8 2x2, 0.5P; No exposed pad - Ref http://pdfserv.maximintegrated.com/land_patterns/90-0349.PDF")
     (tags "DFN 0.5")
@@ -1058,7 +1058,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer Top) (tedit 5D5E9295) (tstamp 5DCC81D4)
+  (module quicklogic-quick-feather-board-footprints:0402-cap (layer Top) (tedit 5D5E9295) (tstamp 5DCC81D4)
     (at 141.41 108.5 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1092,7 +1092,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DCC81FE)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DCC81FE)
     (at 139.09 108.5 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1126,7 +1126,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DCC8228)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DCC8228)
     (at 140.22 108.5 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1160,7 +1160,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DC1EB7F)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DC1EB7F)
     (at 134.2 111.44)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1194,7 +1194,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DC1EB70)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DC1EB70)
     (at 132.09 101.22 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1228,7 +1228,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DC1EB61)
+  (module quicklogic-quick-feather-board-footprints:0402-res (layer Top) (tedit 5D5E98EC) (tstamp 5DC1EB61)
     (at 143.84 108.52)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1262,7 +1262,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer Top) (tedit 5D5E94D2) (tstamp 5DC1EB52)
+  (module quicklogic-quick-feather-board-footprints:0603-cap (layer Top) (tedit 5D5E94D2) (tstamp 5DC1EB52)
     (at 147.11 109.19 180)
     (path /5DC1A777)
     (attr smd)
@@ -1297,7 +1297,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer Top) (tedit 5D5E94D2) (tstamp 5DC1EB3E)
+  (module quicklogic-quick-feather-board-footprints:0603-cap (layer Top) (tedit 5D5E94D2) (tstamp 5DC1EB3E)
     (at 136.64 105.01)
     (path /5DC20C6B)
     (attr smd)
@@ -1332,7 +1332,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer Top) (tedit 5D5E94D2) (tstamp 5DC1EB2A)
+  (module quicklogic-quick-feather-board-footprints:0603-cap (layer Top) (tedit 5D5E94D2) (tstamp 5DC1EB2A)
     (at 141.29 111.33 270)
     (path /5DC1A5E0)
     (attr smd)
@@ -1367,7 +1367,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer Top) (tedit 5D5E94D2) (tstamp 5DC1EB16)
+  (module quicklogic-quick-feather-board-footprints:0603-cap (layer Top) (tedit 5D5E94D2) (tstamp 5DC1EB16)
     (at 129.33 102.98 90)
     (path /5DC240D8)
     (attr smd)
@@ -1402,7 +1402,7 @@
     )
   )
 
-  (module antmicro-footprints:0805-res (layer Top) (tedit 5D5D3F54) (tstamp 5DC1EB02)
+  (module quicklogic-quick-feather-board-footprints:0805-res (layer Top) (tedit 5D5D3F54) (tstamp 5DC1EB02)
     (at 147.37 110.91)
     (path /5DC19811)
     (attr smd)
@@ -1433,7 +1433,7 @@
     )
   )
 
-  (module antmicro-footprints:LED_0603 (layer Top) (tedit 5D5D41B0) (tstamp 5DC25FC0)
+  (module quicklogic-quick-feather-board-footprints:LED_0603 (layer Top) (tedit 5D5D41B0) (tstamp 5DC25FC0)
     (at 131.48 111.45)
     (path /5DC22D40)
     (attr smd)
@@ -1475,7 +1475,7 @@
     )
   )
 
-  (module antmicro-footprints:SOD-123 (layer Top) (tedit 5DA5B65B) (tstamp 5DC1EA53)
+  (module quicklogic-quick-feather-board-footprints:SOD-123 (layer Top) (tedit 5DA5B65B) (tstamp 5DC1EA53)
     (at 126.37 98.26 180)
     (path /5DC254C9)
     (attr smd)
@@ -1516,7 +1516,7 @@
     )
   )
 
-  (module antmicro-footprints:SOT-753 (layer Top) (tedit 5DBAC6C7) (tstamp 5DC1EA3B)
+  (module quicklogic-quick-feather-board-footprints:SOT-753 (layer Top) (tedit 5DBAC6C7) (tstamp 5DC1EA3B)
     (at 134.8 101.94)
     (path /5DC1E64E)
     (attr smd)
@@ -1565,7 +1565,7 @@
     )
   )
 
-  (module antmicro-footprints:USB_Micro_B_Female_0473460001 (layer Top) (tedit 5D5E8368) (tstamp 5DC1929C)
+  (module quicklogic-quick-feather-board-footprints:USB_Micro_B_Female_0473460001 (layer Top) (tedit 5D5E8368) (tstamp 5DC1929C)
     (at 124.82 105.01 90)
     (descr http://www.molex.com/pdm_docs/sd/473460001_sd.pdf)
     (path /5DB1F3A2)
