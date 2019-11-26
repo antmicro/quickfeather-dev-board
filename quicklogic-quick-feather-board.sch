@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:quicklogic-quick-feather-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -45,8 +46,6 @@ F 3 "" H 9350 6950 50  0001 C CNN
 	1    9350 6950
 	1    0    0    -1  
 $EndComp
-Text Label 9400 6350 0    50   ~ 0
-VBUS
 Text Label 9400 6550 0    50   ~ 0
 USB_D_P
 Text Label 9400 6450 0    50   ~ 0
@@ -202,12 +201,8 @@ F 3 "" H 5950 9550 50  0001 C CNN
 	1    5950 9550
 	1    0    0    -1  
 $EndComp
-Text Label 6550 8900 0    50   ~ 0
-3V3_SYS
 Wire Wire Line
 	3700 8900 3450 8900
-Text Label 2050 8900 0    50   ~ 0
-VBUS
 Wire Wire Line
 	2450 8950 2450 8900
 Connection ~ 2450 8900
@@ -299,14 +294,8 @@ Wire Wire Line
 	4150 6850 4150 6950
 Text Notes 2350 6750 0    50   ~ 0
 200mA charge current
-Text Label 3300 6150 0    50   ~ 0
-VBUS
 Wire Wire Line
 	4150 6250 4150 6150
-Wire Wire Line
-	4150 6150 3300 6150
-Text Label 4950 6450 0    50   ~ 0
-VBAT
 $Comp
 L quicklogic-quick-feather-board:GND #PWR0108
 U 1 1 5DC20CD6
@@ -382,10 +371,6 @@ F 5 "ON Semiconductor" H 2650 9800 60  0001 L CNN "Manufacturer"
 	1    2450 8700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2450 8500 1950 8500
-Text Label 2050 8500 0    50   ~ 0
-VBAT
 $Comp
 L quicklogic-quick-feather-board:TPS62821DLCR U1
 U 1 1 5DC2B18E
@@ -1501,28 +1486,23 @@ Wire Wire Line
 	12000 2950 10950 2950
 Wire Wire Line
 	12000 2550 10650 2550
-Text Label 10650 2450 1    50   ~ 0
-3V3_SYS
-Wire Wire Line
-	10650 2150 10650 2550
 Wire Wire Line
 	10650 2550 10650 2850
-Connection ~ 10650 2550
 Connection ~ 10650 2850
 Wire Wire Line
 	10650 2850 10650 2950
 $Comp
 L quicklogic-quick-feather-board:C_100n_0402_6V3 C8
 U 1 1 5DDB4C4D
-P 13200 3000
-F 0 "C8" V 12942 3000 60  0000 C CNN
-F 1 "C_100n_0402_6V3" H 13200 2850 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 13400 3200 60  0001 L CNN
-F 3 "" H 13200 3000 50  0001 C CNN
-F 4 "Walsin" H 13400 3400 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 13400 3300 60  0001 L CNN "MPN"
-F 6 "100n" V 13040 3000 50  0000 C CNN "Val"
-	1    13200 3000
+P 14150 2950
+F 0 "C8" V 13892 2950 60  0000 C CNN
+F 1 "C_100n_0402_6V3" H 14150 2800 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 14350 3150 60  0001 L CNN
+F 3 "" H 14150 2950 50  0001 C CNN
+F 4 "Walsin" H 14350 3350 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 14350 3250 60  0001 L CNN "MPN"
+F 6 "100n" V 13990 2950 50  0000 C CNN "Val"
+	1    14150 2950
 	1    0    0    -1  
 $EndComp
 Connection ~ 10650 2950
@@ -1550,10 +1530,6 @@ F 3 "" H 13200 3400 50  0001 C CNN
 	1    13200 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12950 3150 13200 3150
-Wire Wire Line
-	13200 3150 13200 3400
 $Comp
 L quicklogic-quick-feather-board:R_10k_0402 R12
 U 1 1 5DDC2D4F
@@ -1568,11 +1544,6 @@ F 6 "10k" V 10703 3320 50  0000 L CNN "Val"
 	1    10650 3250
 	0    1    1    0   
 $EndComp
-Connection ~ 13200 3150
-Wire Wire Line
-	13200 2850 13700 2850
-Text Label 13350 2850 0    50   ~ 0
-3V3_SYS
 Text Label 11250 2850 0    50   ~ 0
 SPI_WP
 Text Label 11250 2950 0    50   ~ 0
@@ -1636,9 +1607,6 @@ Wire Wire Line
 Connection ~ 5950 9550
 Wire Wire Line
 	6350 9050 6350 8900
-Connection ~ 6350 8900
-Wire Wire Line
-	6350 8900 6850 8900
 Text Label 7000 3250 0    50   ~ 0
 USB_D_N
 Text Label 7000 3350 0    50   ~ 0
@@ -1738,11 +1706,7 @@ Wire Notes Line
 	11500 7800 11500 5500
 Wire Notes Line
 	11500 5500 8600 5500
-Text Label 2200 1550 0    50   ~ 0
-3V3_SYS
 Connection ~ 2550 2400
-Wire Wire Line
-	2200 1550 2550 1550
 Wire Wire Line
 	2550 2150 2550 2400
 Wire Wire Line
@@ -1781,8 +1745,6 @@ F 3 "https://www.infineon.com/dgdl/Infineon-IM69D130-DS-v01_00-EN.pdf?fileId=554
 $EndComp
 Wire Wire Line
 	13450 6350 13250 6350
-Wire Wire Line
-	13250 6350 13250 5900
 Wire Wire Line
 	13450 6750 13250 6750
 Wire Wire Line
@@ -1823,8 +1785,6 @@ Wire Wire Line
 Wire Wire Line
 	13250 6650 13250 6750
 Connection ~ 13250 6750
-Text Label 13250 6200 1    50   ~ 0
-3V3_SYS
 Text Label 12550 6450 0    50   ~ 0
 MIC_DATA
 Text Label 12550 6550 0    50   ~ 0
@@ -1845,10 +1805,6 @@ F 6 "100n" V 14440 6550 50  0000 C CNN "Val"
 	1    14600 6550
 	-1   0    0    1   
 $EndComp
-Text Label 14550 6400 1    50   ~ 0
-3V3_SYS
-Wire Wire Line
-	14600 6100 14600 6400
 Wire Wire Line
 	14600 6700 14600 6850
 $Comp
@@ -1917,4 +1873,158 @@ Wire Wire Line
 Wire Wire Line
 	10800 7000 10050 7000
 Connection ~ 10050 7000
+$Comp
+L quicklogic-quick-feather-board:+3V3 #PWR0112
+U 1 1 5DE2E29D
+P 2550 1500
+F 0 "#PWR0112" H 2550 1500 50  0001 C CNN
+F 1 "+3V3" H 2535 1623 50  0000 C CNN
+F 2 "" H 2550 1500 50  0001 C CNN
+F 3 "" H 2550 1500 50  0001 C CNN
+	1    2550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:+3V3 #PWR0113
+U 1 1 5DE33E97
+P 10650 2500
+F 0 "#PWR0113" H 10650 2500 50  0001 C CNN
+F 1 "+3V3" H 10635 2623 50  0000 C CNN
+F 2 "" H 10650 2500 50  0001 C CNN
+F 3 "" H 10650 2500 50  0001 C CNN
+	1    10650 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10650 2550
+$Comp
+L quicklogic-quick-feather-board:+3V3 #PWR0114
+U 1 1 5DE34948
+P 14150 2650
+F 0 "#PWR0114" H 14150 2650 50  0001 C CNN
+F 1 "+3V3" H 14135 2773 50  0000 C CNN
+F 2 "" H 14150 2650 50  0001 C CNN
+F 3 "" H 14150 2650 50  0001 C CNN
+	1    14150 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12950 3150 13200 3150
+Wire Wire Line
+	13200 3150 13200 3400
+Wire Wire Line
+	14150 3100 14150 3400
+$Comp
+L quicklogic-quick-feather-board:GND #PWR0115
+U 1 1 5DE3FA98
+P 14150 3400
+F 0 "#PWR0115" H 14150 3150 50  0001 C CNN
+F 1 "GND" H 14155 3227 50  0000 C CNN
+F 2 "" H 14150 3400 50  0001 C CNN
+F 3 "" H 14150 3400 50  0001 C CNN
+	1    14150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 2700 14150 2800
+$Comp
+L quicklogic-quick-feather-board:+3V3 #PWR0116
+U 1 1 5DE4A7B8
+P 14600 6100
+F 0 "#PWR0116" H 14600 6100 50  0001 C CNN
+F 1 "+3V3" H 14585 6223 50  0000 C CNN
+F 2 "" H 14600 6100 50  0001 C CNN
+F 3 "" H 14600 6100 50  0001 C CNN
+	1    14600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:+3V3 #PWR0117
+U 1 1 5DE50B3C
+P 13250 6100
+F 0 "#PWR0117" H 13250 6100 50  0001 C CNN
+F 1 "+3V3" H 13235 6223 50  0000 C CNN
+F 2 "" H 13250 6100 50  0001 C CNN
+F 3 "" H 13250 6100 50  0001 C CNN
+	1    13250 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 6150 13250 6350
+Wire Wire Line
+	14600 6150 14600 6400
+$Comp
+L quicklogic-quick-feather-board:+3V3 #PWR0118
+U 1 1 5DE5BFA1
+P 6350 8450
+F 0 "#PWR0118" H 6350 8450 50  0001 C CNN
+F 1 "+3V3" H 6335 8573 50  0000 C CNN
+F 2 "" H 6350 8450 50  0001 C CNN
+F 3 "" H 6350 8450 50  0001 C CNN
+	1    6350 8450
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 8900
+$Comp
+L quicklogic-quick-feather-board:+VBUS #PWR0119
+U 1 1 5DE69BB0
+P 4150 6100
+F 0 "#PWR0119" H 4150 6100 50  0001 C CNN
+F 1 "+VBUS" H 4135 6223 50  0000 C CNN
+F 2 "" H 4150 6100 50  0001 C CNN
+F 3 "" H 4150 6100 50  0001 C CNN
+	1    4150 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:+VBAT #PWR0120
+U 1 1 5DE6A679
+P 5800 6400
+F 0 "#PWR0120" H 5800 6400 50  0001 C CNN
+F 1 "+VBAT" H 5785 6523 50  0000 C CNN
+F 2 "" H 5800 6400 50  0001 C CNN
+F 3 "" H 5800 6400 50  0001 C CNN
+	1    5800 6400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 6450
+$Comp
+L quicklogic-quick-feather-board:+VBAT #PWR0121
+U 1 1 5DE6ABAC
+P 2450 8450
+F 0 "#PWR0121" H 2450 8450 50  0001 C CNN
+F 1 "+VBAT" H 2435 8573 50  0000 C CNN
+F 2 "" H 2450 8450 50  0001 C CNN
+F 3 "" H 2450 8450 50  0001 C CNN
+	1    2450 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:+VBUS #PWR0122
+U 1 1 5DE6B20E
+P 1950 8450
+F 0 "#PWR0122" H 1950 8450 50  0001 C CNN
+F 1 "+VBUS" H 1935 8573 50  0000 C CNN
+F 2 "" H 1950 8450 50  0001 C CNN
+F 3 "" H 1950 8450 50  0001 C CNN
+	1    1950 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 8900 1950 8500
+Wire Wire Line
+	6350 8500 6350 8900
+$Comp
+L quicklogic-quick-feather-board:+VBUS #PWR0123
+U 1 1 5DE7906C
+P 10050 6100
+F 0 "#PWR0123" H 10050 6100 50  0001 C CNN
+F 1 "+VBUS" H 10035 6223 50  0000 C CNN
+F 2 "" H 10050 6100 50  0001 C CNN
+F 3 "" H 10050 6100 50  0001 C CNN
+	1    10050 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 6150 10050 6350
+Connection ~ 10050 6350
 $EndSCHEMATC

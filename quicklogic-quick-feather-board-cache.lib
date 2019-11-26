@@ -1,6 +1,51 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# quicklogic-quick-feather-board_+3V3
+#
+DEF quicklogic-quick-feather-board_+3V3 #PWR 0 40 Y Y 1 F P
+F0 "#PWR" 0 0 50 H I C CNN
+F1 "quicklogic-quick-feather-board_+3V3" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 -30 0 0 50 N
+P 2 1 1 0 0 -50 0 50 N
+P 2 1 1 0 0 50 30 0 N
+X +3V3 1 0 -50 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# quicklogic-quick-feather-board_+VBAT
+#
+DEF quicklogic-quick-feather-board_+VBAT #PWR 0 40 Y Y 1 F P
+F0 "#PWR" 0 0 50 H I C CNN
+F1 "quicklogic-quick-feather-board_+VBAT" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 -30 0 0 50 N
+P 2 1 1 0 0 -50 0 50 N
+P 2 1 1 0 0 50 30 0 N
+X +3V3 1 0 -50 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# quicklogic-quick-feather-board_+VBUS
+#
+DEF quicklogic-quick-feather-board_+VBUS #PWR 0 40 Y Y 1 F P
+F0 "#PWR" 0 0 50 H I C CNN
+F1 "quicklogic-quick-feather-board_+VBUS" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 -30 0 0 50 N
+P 2 1 1 0 0 -50 0 50 N
+P 2 1 1 0 0 50 30 0 N
+X +3V3 1 0 -50 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # quicklogic-quick-feather-board_0473460001
 #
 DEF quicklogic-quick-feather-board_0473460001 J 0 40 Y Y 1 F N
