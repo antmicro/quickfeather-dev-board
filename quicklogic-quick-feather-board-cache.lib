@@ -1,26 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# antmicroSensorsTransducersAccessories_DPS310
-#
-DEF antmicroSensorsTransducersAccessories_DPS310 U 0 40 Y Y 1 F N
-F0 "U" 30 -50 50 H V C CNN
-F1 "antmicroSensorsTransducersAccessories_DPS310" 550 -50 50 H V C CNN
-F2 "antmicro-footprints:PG-VLGA-8-2" 0 50 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S 0 -100 700 -1100 0 1 0 f
-X GND 1 -100 -900 100 R 50 50 1 1 I
-X CSB 2 -100 -750 100 R 50 50 1 1 I
-X SDI 3 -100 -450 100 R 50 50 1 1 I
-X SCK 4 -100 -650 100 R 50 50 1 1 I
-X SDO 5 -100 -550 100 R 50 50 1 1 I
-X VDDIO 6 -100 -200 100 R 50 50 1 1 I
-X GND 7 -100 -1000 100 R 50 50 1 1 I
-X VDD 8 -100 -300 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # quicklogic-quick-feather-board_+3V3
 #
 DEF quicklogic-quick-feather-board_+3V3 #PWR 0 40 Y Y 1 F P
@@ -97,6 +77,72 @@ X ~ 3 300 0 110 L 50 50 1 1 P
 X ~ 4 300 -100 110 L 50 50 1 1 P
 X ~ 5 300 -200 110 L 50 50 1 1 P
 X ~ SH -100 -600 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# quicklogic-quick-feather-board_BSS138AKA
+#
+DEF quicklogic-quick-feather-board_BSS138AKA Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "quicklogic-quick-feather-board_BSS138AKA" 136 0 60 V V C CNN
+F2 "quicklogic-quick-feather-board-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" 200 300 60 H I L CNN
+F4 "BSS138AKA" 200 500 60 H I L CNN "MPN"
+F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# quicklogic-quick-feather-board_BSS84
+#
+DEF quicklogic-quick-feather-board_BSS84 Q 0 0 Y Y 1 F N
+F0 "Q" -64 201 60 H V R CNN
+F1 "quicklogic-quick-feather-board_BSS84" 186 0 60 V V C CNN
+F2 "quicklogic-quick-feather-board-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" 200 300 60 H I L CNN
+F4 "BSS84" 200 500 60 H I L CNN "MPN"
+F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 -8 20 -8 N
+P 4 1 1 0 -15 0 -45 20 -45 -20 -15 0 F
+P 4 1 1 0 40 -10 60 20 20 20 40 -10 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X D 2 0 200 100 D 50 50 1 1 B
+X S 3 0 -200 100 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -232,6 +278,26 @@ A 83 14 20 -113 1633 0 1 0 N 103 10 63 20
 A 102 9 40 -130 1687 0 1 0 N 141 0 62 17
 X ~ 1 -200 0 59 R 50 50 1 1 P
 X ~ 2 200 0 59 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# quicklogic-quick-feather-board_DPS310
+#
+DEF quicklogic-quick-feather-board_DPS310 U 0 40 Y Y 1 F N
+F0 "U" 30 -50 50 H V C CNN
+F1 "quicklogic-quick-feather-board_DPS310" 550 -50 50 H V C CNN
+F2 "quicklogic-quick-feather-board-footprints:PG-VLGA-8-2" 0 50 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 -100 700 -1100 0 1 0 f
+X GND 1 -100 -900 100 R 50 50 1 1 I
+X CSB 2 -100 -750 100 R 50 50 1 1 I
+X SDI 3 -100 -450 100 R 50 50 1 1 I
+X SCK 4 -100 -650 100 R 50 50 1 1 I
+X SDO 5 -100 -550 100 R 50 50 1 1 I
+X VDDIO 6 -100 -200 100 R 50 50 1 1 I
+X GND 7 -100 -1000 100 R 50 50 1 1 I
+X VDD 8 -100 -300 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -401,6 +467,27 @@ X ~ K 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# quicklogic-quick-feather-board_MC3635
+#
+DEF quicklogic-quick-feather-board_MC3635 U 0 40 Y Y 1 F N
+F0 "U" 100 -50 50 H V C CNN
+F1 "quicklogic-quick-feather-board_MC3635" 200 50 50 H V C CNN
+F2 "quicklogic-quick-feather-board-footprints:MC3635" 0 -150 50 H I C CNN
+F3 "https://mcubemems.com/wp-content/uploads/2019/06/MC3635-Datasheet-APS-048-0044v1.6.pdf" 450 -1100 50 H I C CNN
+DRAW
+S 0 -100 650 -1050 0 1 0 f
+X DOUT_A1 1 -100 -550 100 R 50 50 1 1 I
+X SCK_SCL 10 -100 -950 100 R 50 50 1 1 I
+X DIN_SDA 2 -100 -650 100 R 50 50 1 1 I
+X VPP 4 750 -950 100 L 50 50 1 1 I
+X INTN 5 -100 -750 100 R 50 50 1 1 I
+X VDDIO 6 -100 -300 100 R 50 50 1 1 I
+X VDD 7 -100 -200 100 R 50 50 1 1 I
+X GND 8 750 -850 100 L 50 50 1 1 I
+X CSN 9 -100 -850 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # quicklogic-quick-feather-board_MCP73831T-2ACI_OT
 #
 DEF quicklogic-quick-feather-board_MCP73831T-2ACI_OT U 0 40 Y Y 1 F N
@@ -454,6 +541,23 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# quicklogic-quick-feather-board_R_100k_1%_0402
+#
+DEF quicklogic-quick-feather-board_R_100k_1%_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "quicklogic-quick-feather-board_R_100k_1%_0402" 0 -150 60 H I C CNN
+F2 "quicklogic-quick-feather-board-footprints:0402" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERA-6AEB104V" 200 300 60 H I L CNN "MPN"
+F6 "100k_1%" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # quicklogic-quick-feather-board_R_10k_0402
 #
 DEF quicklogic-quick-feather-board_R_10k_0402 R 0 0 Y Y 1 F N
@@ -498,6 +602,23 @@ F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0402-FX-1001GLF" 200 300 60 H I L CNN "MPN"
 F6 "1k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# quicklogic-quick-feather-board_R_200k_0402
+#
+DEF quicklogic-quick-feather-board_R_200k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "quicklogic-quick-feather-board_R_200k_0402" 0 -150 60 H I C CNN
+F2 "quicklogic-quick-feather-board-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "YAGEO_(PHYCOMP)" 200 400 60 H I L CNN "Manufacturer"
+F5 "RC0402FR-07200KL" 200 300 60 H I L CNN "MPN"
+F6 "200k" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
