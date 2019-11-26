@@ -399,39 +399,39 @@ $EndComp
 $Comp
 L quicklogic-quick-feather-board:R_10k_0402 R8
 U 1 1 5DC453B0
-P 10800 2950
-F 0 "R8" V 10755 3020 60  0000 L CNN
-F 1 "R_10k_0402" H 10800 2800 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 11000 3150 60  0001 L CNN
-F 3 "" H 10800 2950 50  0001 C CNN
-F 4 "VISHAY" H 11000 3350 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 11000 3250 60  0001 L CNN "MPN"
-F 6 "10k" V 10853 3020 50  0000 L CNN "Val"
-	1    10800 2950
-	-1   0    0    1   
+P 11000 2600
+F 0 "R8" V 10955 2670 60  0000 L CNN
+F 1 "R_10k_0402" H 11000 2450 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 11200 2800 60  0001 L CNN
+F 3 "" H 11000 2600 50  0001 C CNN
+F 4 "VISHAY" H 11200 3000 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 11200 2900 60  0001 L CNN "MPN"
+F 6 "10k" V 11053 2670 50  0000 L CNN "Val"
+	1    11000 2600
+	0    1    1    0   
 $EndComp
 $Comp
 L quicklogic-quick-feather-board:R_10k_0402 R10
 U 1 1 5DC484F8
-P 10800 2850
-F 0 "R10" V 10755 2920 60  0000 L CNN
-F 1 "R_10k_0402" H 10800 2700 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 11000 3050 60  0001 L CNN
-F 3 "" H 10800 2850 50  0001 C CNN
-F 4 "VISHAY" H 11000 3250 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 11000 3150 60  0001 L CNN "MPN"
-F 6 "10k" V 10853 2920 50  0000 L CNN "Val"
-	1    10800 2850
-	1    0    0    -1  
+P 10700 2600
+F 0 "R10" V 10655 2670 60  0000 L CNN
+F 1 "R_10k_0402" H 10700 2450 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10900 2800 60  0001 L CNN
+F 3 "" H 10700 2600 50  0001 C CNN
+F 4 "VISHAY" H 10900 3000 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 10900 2900 60  0001 L CNN "MPN"
+F 6 "10k" V 10753 2670 50  0000 L CNN "Val"
+	1    10700 2600
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	12950 2700 13700 2700
 Wire Wire Line
-	11000 2700 12000 2700
+	11250 2700 12000 2700
 Wire Wire Line
-	11000 3150 12000 3150
+	11250 3150 12000 3150
 Wire Wire Line
-	11000 3050 12000 3050
+	11250 3050 12000 3050
 Text Notes 10850 3600 0    50   ~ 0
 Within same package this Flash can be replaced with \n64Mb one (GD25Q64CWIGR)
 Wire Wire Line
@@ -1481,16 +1481,7 @@ E5 1E 64 EE CA 20 E8 76 32 77 33 64 DD D7 64 ED 35 33 CC 0D A6 76 A5 33 6B 35 4D
 EndData
 $EndBitmap
 Wire Wire Line
-	12000 2850 10950 2850
-Wire Wire Line
-	12000 2950 10950 2950
-Wire Wire Line
-	12000 2550 10650 2550
-Wire Wire Line
-	10650 2550 10650 2850
-Connection ~ 10650 2850
-Wire Wire Line
-	10650 2850 10650 2950
+	12000 2550 11450 2550
 $Comp
 L quicklogic-quick-feather-board:C_100n_0402_6V3 C8
 U 1 1 5DDB4C4D
@@ -1505,20 +1496,6 @@ F 6 "100n" V 13990 2950 50  0000 C CNN "Val"
 	1    14150 2950
 	1    0    0    -1  
 $EndComp
-Connection ~ 10650 2950
-$Comp
-L quicklogic-quick-feather-board:GND #PWR0110
-U 1 1 5DDB4DE8
-P 10650 3400
-F 0 "#PWR0110" H 10650 3150 50  0001 C CNN
-F 1 "GND" H 10655 3227 50  0000 C CNN
-F 2 "" H 10650 3400 50  0001 C CNN
-F 3 "" H 10650 3400 50  0001 C CNN
-	1    10650 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 2950 10650 3100
 $Comp
 L quicklogic-quick-feather-board:GND #PWR0111
 U 1 1 5DDBDD77
@@ -1529,20 +1506,6 @@ F 2 "" H 13200 3400 50  0001 C CNN
 F 3 "" H 13200 3400 50  0001 C CNN
 	1    13200 3400
 	1    0    0    -1  
-$EndComp
-$Comp
-L quicklogic-quick-feather-board:R_10k_0402 R12
-U 1 1 5DDC2D4F
-P 10650 3250
-F 0 "R12" V 10605 3320 60  0000 L CNN
-F 1 "R_10k_0402" H 10650 3100 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10850 3450 60  0001 L CNN
-F 3 "" H 10650 3250 50  0001 C CNN
-F 4 "VISHAY" H 10850 3650 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 10850 3550 60  0001 L CNN "MPN"
-F 6 "10k" V 10703 3320 50  0000 L CNN "Val"
-	1    10650 3250
-	0    1    1    0   
 $EndComp
 Text Label 11250 2850 0    50   ~ 0
 SPI_WP
@@ -1887,15 +1850,14 @@ $EndComp
 $Comp
 L quicklogic-quick-feather-board:+3V3 #PWR0113
 U 1 1 5DE33E97
-P 10650 2500
-F 0 "#PWR0113" H 10650 2500 50  0001 C CNN
-F 1 "+3V3" H 10635 2623 50  0000 C CNN
-F 2 "" H 10650 2500 50  0001 C CNN
-F 3 "" H 10650 2500 50  0001 C CNN
-	1    10650 2500
+P 11450 2250
+F 0 "#PWR0113" H 11450 2250 50  0001 C CNN
+F 1 "+3V3" H 11435 2373 50  0000 C CNN
+F 2 "" H 11450 2250 50  0001 C CNN
+F 3 "" H 11450 2250 50  0001 C CNN
+	1    11450 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 10650 2550
 $Comp
 L quicklogic-quick-feather-board:+3V3 #PWR0114
 U 1 1 5DE34948
@@ -2027,4 +1989,147 @@ $EndComp
 Wire Wire Line
 	10050 6150 10050 6350
 Connection ~ 10050 6350
+$Comp
+L antmicroSensorsTransducersAccessories:DPS310 U4
+U 1 1 5DDD6E59
+P 9700 8450
+F 0 "U4" H 10428 7896 50  0000 L CNN
+F 1 "DPS310" H 10428 7805 50  0000 L CNN
+F 2 "antmicro-footprints:PG-VLGA-8-2" H 9700 8500 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-DPS310-DataSheet-v01_01-EN.pdf?fileId=5546d462576f34750157750826c42242" H 9700 8450 50  0001 C CNN
+	1    9700 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:+3V3 #PWR06
+U 1 1 5DDDD85D
+P 9500 8500
+F 0 "#PWR06" H 9500 8500 50  0001 C CNN
+F 1 "+3V3" H 9485 8623 50  0000 C CNN
+F 2 "" H 9500 8500 50  0001 C CNN
+F 3 "" H 9500 8500 50  0001 C CNN
+	1    9500 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 8650 9500 8650
+Wire Wire Line
+	9500 8650 9500 8550
+Wire Wire Line
+	9600 8750 9500 8750
+Wire Wire Line
+	9500 8750 9500 8650
+Connection ~ 9500 8650
+Wire Wire Line
+	9500 9350 9600 9350
+$Comp
+L quicklogic-quick-feather-board:GND #PWR07
+U 1 1 5DDEF120
+P 9500 9600
+F 0 "#PWR07" H 9500 9350 50  0001 C CNN
+F 1 "GND" H 9505 9427 50  0000 C CNN
+F 2 "" H 9500 9600 50  0001 C CNN
+F 3 "" H 9500 9600 50  0001 C CNN
+	1    9500 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 9350 9500 9450
+Wire Wire Line
+	9600 9450 9500 9450
+Connection ~ 9500 9450
+Wire Wire Line
+	9500 9450 9500 9600
+Text Label 9000 8900 0    50   ~ 0
+SPI_MST_MOSI
+Text Label 9000 9000 0    50   ~ 0
+SPI_MST_MISO
+Text Label 9000 9100 0    50   ~ 0
+SPI_MST_CLK
+Text Label 9000 9200 0    50   ~ 0
+SPI_MST_SS
+Wire Wire Line
+	9600 8900 9000 8900
+Wire Wire Line
+	9600 9000 9000 9000
+Wire Wire Line
+	9600 9100 9000 9100
+Wire Wire Line
+	9600 9200 9000 9200
+Wire Notes Line
+	8600 8100 11500 8100
+Wire Notes Line
+	11500 8100 11500 10200
+Wire Notes Line
+	11500 10200 8600 10200
+Wire Notes Line
+	8600 10200 8600 8100
+Text Notes 8700 10100 0    91   ~ 0
+Pressure sensor
+$Comp
+L quicklogic-quick-feather-board:C_100n_0402_6V3 C10
+U 1 1 5DE4CA75
+P 10900 8650
+F 0 "C10" V 10642 8650 60  0000 C CNN
+F 1 "C_100n_0402_6V3" H 10900 8500 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 11100 8850 60  0001 L CNN
+F 3 "" H 10900 8650 50  0001 C CNN
+F 4 "Walsin" H 11100 9050 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 11100 8950 60  0001 L CNN "MPN"
+F 6 "100n" V 10740 8650 50  0000 C CNN "Val"
+	1    10900 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:+3V3 #PWR08
+U 1 1 5DE5478B
+P 10900 8450
+F 0 "#PWR08" H 10900 8450 50  0001 C CNN
+F 1 "+3V3" H 10885 8573 50  0000 C CNN
+F 2 "" H 10900 8450 50  0001 C CNN
+F 3 "" H 10900 8450 50  0001 C CNN
+	1    10900 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:GND #PWR09
+U 1 1 5DE54D9B
+P 10900 8800
+F 0 "#PWR09" H 10900 8550 50  0001 C CNN
+F 1 "GND" H 10905 8627 50  0000 C CNN
+F 2 "" H 10900 8800 50  0001 C CNN
+F 3 "" H 10900 8800 50  0001 C CNN
+	1    10900 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:+3V3 #PWR?
+U 1 1 5DE86C59
+P 10850 2250
+F 0 "#PWR?" H 10850 2250 50  0001 C CNN
+F 1 "+3V3" H 10835 2373 50  0000 C CNN
+F 2 "" H 10850 2250 50  0001 C CNN
+F 3 "" H 10850 2250 50  0001 C CNN
+	1    10850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 2450 11000 2300
+Wire Wire Line
+	11000 2300 10850 2300
+Wire Wire Line
+	10700 2450 10700 2300
+Wire Wire Line
+	10700 2300 10850 2300
+Connection ~ 10850 2300
+Wire Wire Line
+	11000 2850 11000 2750
+Wire Wire Line
+	11000 2850 12000 2850
+Wire Wire Line
+	10700 2950 10700 2750
+Wire Wire Line
+	10700 2950 12000 2950
+Wire Wire Line
+	11450 2300 11450 2550
 $EndSCHEMATC

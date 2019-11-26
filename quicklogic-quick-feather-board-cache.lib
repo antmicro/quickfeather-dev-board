@@ -1,6 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroSensorsTransducersAccessories_DPS310
+#
+DEF antmicroSensorsTransducersAccessories_DPS310 U 0 40 Y Y 1 F N
+F0 "U" 30 -50 50 H V C CNN
+F1 "antmicroSensorsTransducersAccessories_DPS310" 550 -50 50 H V C CNN
+F2 "antmicro-footprints:PG-VLGA-8-2" 0 50 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 -100 700 -1100 0 1 0 f
+X GND 1 -100 -900 100 R 50 50 1 1 I
+X CSB 2 -100 -750 100 R 50 50 1 1 I
+X SDI 3 -100 -450 100 R 50 50 1 1 I
+X SCK 4 -100 -650 100 R 50 50 1 1 I
+X SDO 5 -100 -550 100 R 50 50 1 1 I
+X VDDIO 6 -100 -200 100 R 50 50 1 1 I
+X GND 7 -100 -1000 100 R 50 50 1 1 I
+X VDD 8 -100 -300 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # quicklogic-quick-feather-board_+3V3
 #
 DEF quicklogic-quick-feather-board_+3V3 #PWR 0 40 Y Y 1 F P
