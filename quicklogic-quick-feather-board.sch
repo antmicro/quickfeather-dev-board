@@ -432,7 +432,7 @@ Wire Wire Line
 	11250 3150 12000 3150
 Wire Wire Line
 	11250 3050 12000 3050
-Text Notes 10850 3600 0    50   ~ 0
+Text Notes 10850 3700 0    50   ~ 0
 Within same package this Flash can be replaced with \n64Mb one (GD25Q64CWIGR)
 Wire Wire Line
 	2800 3000 2800 3100
@@ -2482,7 +2482,7 @@ Text Notes 6850 2600 0    50   ~ 0
 FBIO_19 and FPIO_20 are bootstrap\npins for SPI flash boot.\nThey must be pulled low
 Wire Wire Line
 	9600 9100 9000 9100
-Text Notes 13450 7000 0    50   ~ 0
+Text Notes 13900 9450 0    50   ~ 0
 I2C slave addr: 0x4C
 Text Notes 9700 9700 0    50   ~ 0
 I2C slave addr: 0x77
@@ -2563,4 +2563,128 @@ F 3 "" H 4400 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4400 6450
+Text Notes 3300 4650 0    50   ~ 0
+Maximum power consumption for A and B rails:\nLDO mode: 65mA (VCCIOA) 114mA (VCCIOB)\nLDO bypass mode: 77mA (VCCIOA) 269mA (VCCIOB) 
+$Comp
+L antmicroCapacitors0402:C_100n_0402_6V3 C?
+U 1 1 5DDEA3A8
+P 950 4250
+F 0 "C?" H 1065 4295 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 950 4100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1150 4450 60  0001 L CNN
+F 3 "" H 950 4250 50  0001 C CNN
+F 4 "Walsin" H 1150 4650 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 1150 4550 60  0001 L CNN "MPN"
+F 6 "100n" H 1065 4197 50  0000 L CNN "Val"
+	1    950  4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402_6V3 C?
+U 1 1 5DDEA7E7
+P 1400 4250
+F 0 "C?" H 1515 4295 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 1400 4100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1600 4450 60  0001 L CNN
+F 3 "" H 1400 4250 50  0001 C CNN
+F 4 "Walsin" H 1600 4650 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 1600 4550 60  0001 L CNN "MPN"
+F 6 "100n" H 1515 4197 50  0000 L CNN "Val"
+	1    1400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402_6V3 C?
+U 1 1 5DDEACD8
+P 1850 4250
+F 0 "C?" H 1965 4295 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 1850 4100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2050 4450 60  0001 L CNN
+F 3 "" H 1850 4250 50  0001 C CNN
+F 4 "Walsin" H 2050 4650 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 2050 4550 60  0001 L CNN "MPN"
+F 6 "100n" H 1965 4197 50  0000 L CNN "Val"
+	1    1850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402_6V3 C?
+U 1 1 5DDEB04F
+P 2250 4250
+F 0 "C?" H 2365 4295 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 2250 4100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2450 4450 60  0001 L CNN
+F 3 "" H 2250 4250 50  0001 C CNN
+F 4 "Walsin" H 2450 4650 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 2450 4550 60  0001 L CNN "MPN"
+F 6 "100n" H 2365 4197 50  0000 L CNN "Val"
+	1    2250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:GND #PWR?
+U 1 1 5DDEB6DD
+P 1600 4500
+F 0 "#PWR?" H 1600 4250 50  0001 C CNN
+F 1 "GND" H 1605 4327 50  0000 C CNN
+F 2 "" H 1600 4500 50  0001 C CNN
+F 3 "" H 1600 4500 50  0001 C CNN
+	1    1600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:+3V3 #PWR?
+U 1 1 5DDEBD0E
+P 1600 3900
+F 0 "#PWR?" H 1600 3900 50  0001 C CNN
+F 1 "+3V3" H 1585 4023 50  0000 C CNN
+F 2 "" H 1600 3900 50  0001 C CNN
+F 3 "" H 1600 3900 50  0001 C CNN
+	1    1600 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4100 2250 3950
+Wire Wire Line
+	2250 3950 1850 3950
+Wire Wire Line
+	1850 4100 1850 3950
+Connection ~ 1850 3950
+Wire Wire Line
+	1850 3950 1600 3950
+Wire Wire Line
+	1600 3950 1400 3950
+Wire Wire Line
+	1400 3950 1400 4100
+Connection ~ 1600 3950
+Wire Wire Line
+	1400 3950 950  3950
+Wire Wire Line
+	950  3950 950  4100
+Connection ~ 1400 3950
+Wire Wire Line
+	950  4400 950  4500
+Wire Wire Line
+	950  4500 1400 4500
+Wire Wire Line
+	2250 4500 2250 4400
+Wire Wire Line
+	1850 4400 1850 4500
+Connection ~ 1850 4500
+Wire Wire Line
+	1850 4500 2250 4500
+Wire Wire Line
+	1400 4400 1400 4500
+Connection ~ 1400 4500
+Wire Wire Line
+	1400 4500 1600 4500
+Connection ~ 1600 4500
+Wire Wire Line
+	1600 4500 1850 4500
+Text Notes 3300 5000 0    50   ~ 0
+The multi-functional IOs have four programmable drive \nstrength states: 2 mA, 4 mA, 8 mA, 12 mA \n(refer to datasheet page 92)
+Text Notes 11900 3350 0    50   ~ 0
+operating current max. 20 mA
+Text Notes 12350 9550 0    50   ~ 0
+operating current  for 1V8 supply\nmax. 36mA\nlow-power mode: max. 2.8mA
 $EndSCHEMATC
