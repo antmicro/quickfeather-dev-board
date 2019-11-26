@@ -399,40 +399,40 @@ $EndComp
 $Comp
 L quicklogic-quick-feather-board:R_10k_0402 R8
 U 1 1 5DC453B0
-P 11000 2600
-F 0 "R8" V 10955 2670 60  0000 L CNN
-F 1 "R_10k_0402" H 11000 2450 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 11200 2800 60  0001 L CNN
-F 3 "" H 11000 2600 50  0001 C CNN
-F 4 "VISHAY" H 11200 3000 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 11200 2900 60  0001 L CNN "MPN"
-F 6 "10k" V 11053 2670 50  0000 L CNN "Val"
-	1    11000 2600
+P 10750 1650
+F 0 "R8" V 10705 1720 60  0000 L CNN
+F 1 "R_10k_0402" H 10750 1500 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10950 1850 60  0001 L CNN
+F 3 "" H 10750 1650 50  0001 C CNN
+F 4 "VISHAY" H 10950 2050 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 10950 1950 60  0001 L CNN "MPN"
+F 6 "10k" V 10803 1720 50  0000 L CNN "Val"
+	1    10750 1650
 	0    1    1    0   
 $EndComp
 $Comp
 L quicklogic-quick-feather-board:R_10k_0402 R10
 U 1 1 5DC484F8
-P 10700 2600
-F 0 "R10" V 10655 2670 60  0000 L CNN
-F 1 "R_10k_0402" H 10700 2450 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10900 2800 60  0001 L CNN
-F 3 "" H 10700 2600 50  0001 C CNN
-F 4 "VISHAY" H 10900 3000 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 10900 2900 60  0001 L CNN "MPN"
-F 6 "10k" V 10753 2670 50  0000 L CNN "Val"
-	1    10700 2600
+P 10450 1650
+F 0 "R10" V 10405 1720 60  0000 L CNN
+F 1 "R_10k_0402" H 10450 1500 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10650 1850 60  0001 L CNN
+F 3 "" H 10450 1650 50  0001 C CNN
+F 4 "VISHAY" H 10650 2050 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 10650 1950 60  0001 L CNN "MPN"
+F 6 "10k" V 10503 1720 50  0000 L CNN "Val"
+	1    10450 1650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12950 2700 13700 2700
+	12700 1750 13450 1750
 Wire Wire Line
-	11250 2700 12000 2700
+	11000 1750 11750 1750
 Wire Wire Line
-	11250 3150 12000 3150
+	11000 2200 11750 2200
 Wire Wire Line
-	11250 3050 12000 3050
-Text Notes 10850 3700 0    50   ~ 0
+	11000 2100 11750 2100
+Text Notes 10600 2750 0    50   ~ 0
 Within same package this Flash can be replaced with \n64Mb one (GD25Q64CWIGR)
 Wire Wire Line
 	2800 3000 2800 3100
@@ -1475,53 +1475,53 @@ E5 1E 64 EE CA 20 E8 76 32 77 33 64 DD D7 64 ED 35 33 CC 0D A6 76 A5 33 6B 35 4D
 EndData
 $EndBitmap
 Wire Wire Line
-	12000 2550 11450 2550
+	11750 1600 11200 1600
 $Comp
 L quicklogic-quick-feather-board:C_100n_0402_6V3 C8
 U 1 1 5DDB4C4D
-P 14200 2700
-F 0 "C8" V 13942 2700 60  0000 C CNN
-F 1 "C_100n_0402_6V3" H 14200 2550 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 14400 2900 60  0001 L CNN
-F 3 "" H 14200 2700 50  0001 C CNN
-F 4 "Walsin" H 14400 3100 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 14400 3000 60  0001 L CNN "MPN"
-F 6 "100n" V 14040 2700 50  0000 C CNN "Val"
-	1    14200 2700
+P 13950 1750
+F 0 "C8" V 13692 1750 60  0000 C CNN
+F 1 "C_100n_0402_6V3" H 13950 1600 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 14150 1950 60  0001 L CNN
+F 3 "" H 13950 1750 50  0001 C CNN
+F 4 "Walsin" H 14150 2150 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 14150 2050 60  0001 L CNN "MPN"
+F 6 "100n" V 13790 1750 50  0000 C CNN "Val"
+	1    13950 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L quicklogic-quick-feather-board:GND #PWR0111
 U 1 1 5DDBDD77
-P 13200 3400
-F 0 "#PWR0111" H 13200 3150 50  0001 C CNN
-F 1 "GND" H 13205 3227 50  0000 C CNN
-F 2 "" H 13200 3400 50  0001 C CNN
-F 3 "" H 13200 3400 50  0001 C CNN
-	1    13200 3400
+P 12950 2450
+F 0 "#PWR0111" H 12950 2200 50  0001 C CNN
+F 1 "GND" H 12955 2277 50  0000 C CNN
+F 2 "" H 12950 2450 50  0001 C CNN
+F 3 "" H 12950 2450 50  0001 C CNN
+	1    12950 2450
 	1    0    0    -1  
 $EndComp
-Text Label 11250 2850 0    50   ~ 0
+Text Label 11000 1900 0    50   ~ 0
 SPI_WP
-Text Label 11250 2950 0    50   ~ 0
+Text Label 11000 2000 0    50   ~ 0
 SPI_HOLD
-Text Label 13150 2700 0    50   ~ 0
+Text Label 12900 1750 0    50   ~ 0
 SPI_MST_MISO
-Text Label 11250 2700 0    50   ~ 0
+Text Label 11000 1750 0    50   ~ 0
 SPI_MST_MOSI
-Text Label 11250 3050 0    50   ~ 0
+Text Label 11000 2100 0    50   ~ 0
 SPI_MST_SS
-Text Label 11250 3150 0    50   ~ 0
+Text Label 11000 2200 0    50   ~ 0
 SPI_MST_CLK
 $Comp
 L quicklogic-quick-feather-board:GD25Q16CWIGR U3
 U 1 1 5DDDF93D
-P 12100 2450
-F 0 "U3" H 12475 2615 50  0000 C CNN
-F 1 "GD25Q16CWIGR" H 12475 2524 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:GD25Q16CWIG" H 12050 2400 50  0001 C CNN
-F 3 "http://www.gigadevice.com/datasheet/gd25q16c/" H 12150 2500 50  0001 C CNN
-	1    12100 2450
+P 11850 1500
+F 0 "U3" H 12225 1665 50  0000 C CNN
+F 1 "GD25Q16CWIGR" H 12225 1574 50  0000 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:GD25Q16CWIG" H 11800 1450 50  0001 C CNN
+F 3 "http://www.gigadevice.com/datasheet/gd25q16c/" H 11900 1550 50  0001 C CNN
+	1    11850 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1633,11 +1633,11 @@ Wire Notes Line
 Wire Notes Line
 	8250 700  8250 5200
 Wire Notes Line
-	8600 700  8600 5200
+	8600 700  8600 3450
 Wire Notes Line
-	8600 5200 15800 5200
+	8600 3450 15800 3450
 Wire Notes Line
-	15800 5200 15800 700 
+	15800 3450 15800 700 
 Wire Notes Line
 	15800 700  8600 700 
 Wire Notes Line
@@ -1676,7 +1676,7 @@ Text Notes 800  7700 0    91   ~ 0
 Battery charger and battery voltage measurement
 Text Notes 800  10100 0    91   ~ 0
 Supply
-Text Notes 8700 5100 0    91   ~ 0
+Text Notes 8700 3300 0    91   ~ 0
 Flash memory
 Text Notes 8700 7700 0    91   ~ 0
 USB
@@ -1841,44 +1841,44 @@ $EndComp
 $Comp
 L quicklogic-quick-feather-board:+3V3 #PWR0113
 U 1 1 5DE33E97
-P 11450 2250
-F 0 "#PWR0113" H 11450 2250 50  0001 C CNN
-F 1 "+3V3" H 11435 2373 50  0000 C CNN
-F 2 "" H 11450 2250 50  0001 C CNN
-F 3 "" H 11450 2250 50  0001 C CNN
-	1    11450 2250
+P 11200 1300
+F 0 "#PWR0113" H 11200 1300 50  0001 C CNN
+F 1 "+3V3" H 11185 1423 50  0000 C CNN
+F 2 "" H 11200 1300 50  0001 C CNN
+F 3 "" H 11200 1300 50  0001 C CNN
+	1    11200 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L quicklogic-quick-feather-board:+3V3 #PWR0114
 U 1 1 5DE34948
-P 14200 2400
-F 0 "#PWR0114" H 14200 2400 50  0001 C CNN
-F 1 "+3V3" H 14185 2523 50  0000 C CNN
-F 2 "" H 14200 2400 50  0001 C CNN
-F 3 "" H 14200 2400 50  0001 C CNN
-	1    14200 2400
+P 13950 1450
+F 0 "#PWR0114" H 13950 1450 50  0001 C CNN
+F 1 "+3V3" H 13935 1573 50  0000 C CNN
+F 2 "" H 13950 1450 50  0001 C CNN
+F 3 "" H 13950 1450 50  0001 C CNN
+	1    13950 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12950 3150 13200 3150
+	12700 2200 12950 2200
 Wire Wire Line
-	13200 3150 13200 3400
+	12950 2200 12950 2450
 Wire Wire Line
-	14200 2850 14200 3150
+	13950 1900 13950 2200
 $Comp
 L quicklogic-quick-feather-board:GND #PWR0115
 U 1 1 5DE3FA98
-P 14200 3150
-F 0 "#PWR0115" H 14200 2900 50  0001 C CNN
-F 1 "GND" H 14205 2977 50  0000 C CNN
-F 2 "" H 14200 3150 50  0001 C CNN
-F 3 "" H 14200 3150 50  0001 C CNN
-	1    14200 3150
+P 13950 2200
+F 0 "#PWR0115" H 13950 1950 50  0001 C CNN
+F 1 "GND" H 13955 2027 50  0000 C CNN
+F 2 "" H 13950 2200 50  0001 C CNN
+F 3 "" H 13950 2200 50  0001 C CNN
+	1    13950 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14200 2450 14200 2550
+	13950 1500 13950 1600
 $Comp
 L quicklogic-quick-feather-board:+3V3 #PWR0116
 U 1 1 5DE4A7B8
@@ -2015,33 +2015,33 @@ $EndComp
 $Comp
 L quicklogic-quick-feather-board:+3V3 #PWR0110
 U 1 1 5DE86C59
-P 10850 2250
-F 0 "#PWR0110" H 10850 2250 50  0001 C CNN
-F 1 "+3V3" H 10835 2373 50  0000 C CNN
-F 2 "" H 10850 2250 50  0001 C CNN
-F 3 "" H 10850 2250 50  0001 C CNN
-	1    10850 2250
+P 10600 1300
+F 0 "#PWR0110" H 10600 1300 50  0001 C CNN
+F 1 "+3V3" H 10585 1423 50  0000 C CNN
+F 2 "" H 10600 1300 50  0001 C CNN
+F 3 "" H 10600 1300 50  0001 C CNN
+	1    10600 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11000 2450 11000 2300
+	10750 1500 10750 1350
 Wire Wire Line
-	11000 2300 10850 2300
+	10750 1350 10600 1350
 Wire Wire Line
-	10700 2450 10700 2300
+	10450 1500 10450 1350
 Wire Wire Line
-	10700 2300 10850 2300
-Connection ~ 10850 2300
+	10450 1350 10600 1350
+Connection ~ 10600 1350
 Wire Wire Line
-	11000 2850 11000 2750
+	10750 1900 10750 1800
 Wire Wire Line
-	11000 2850 12000 2850
+	10750 1900 11750 1900
 Wire Wire Line
-	10700 2950 10700 2750
+	10450 2000 10450 1800
 Wire Wire Line
-	10700 2950 12000 2950
+	10450 2000 11750 2000
 Wire Wire Line
-	11450 2300 11450 2550
+	11200 1350 11200 1600
 $Comp
 L quicklogic-quick-feather-board:DPS310 U4
 U 1 1 5DDF0238
@@ -2683,8 +2683,20 @@ Wire Wire Line
 	1600 4500 1850 4500
 Text Notes 3300 5000 0    50   ~ 0
 The multi-functional IOs have four programmable drive \nstrength states: 2 mA, 4 mA, 8 mA, 12 mA \n(refer to datasheet page 92)
-Text Notes 11900 3350 0    50   ~ 0
+Text Notes 11650 2400 0    50   ~ 0
 operating current max. 20 mA
 Text Notes 12350 9550 0    50   ~ 0
 operating current  for 1V8 supply\nmax. 36mA\nlow-power mode: max. 2.8mA
+Wire Notes Line
+	8600 3550 15800 3550
+Wire Notes Line
+	15800 3550 15800 5200
+Wire Notes Line
+	15800 5200 8600 5200
+Wire Notes Line
+	8600 5200 8600 3550
+Text Notes 8750 5100 0    91   ~ 0
+Buttons, LEDs
+Text Notes 8800 4200 0    91   ~ 0
+TODO add 1 reset button, add 1 user button and RGB LED
 $EndSCHEMATC
