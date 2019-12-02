@@ -4,6 +4,10 @@ $CMP DPS310
 F https://www.infineon.com/dgdl/Infineon-DPS310-DataSheet-v01_01-EN.pdf?fileId=5546d462576f34750157750826c42242
 $ENDCMP
 #
+$CMP EXB2HV220JV
+F http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf
+$ENDCMP
+#
 $CMP TL3365AF180QG
 F https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/218/TL3365.pdf
 $ENDCMP
