@@ -3177,10 +3177,10 @@ SWD, Feather header
 Wire Wire Line
 	13450 6350 13250 6350
 $Comp
-L quicklogic-quick-feather-board:GND #PWR?
+L quicklogic-quick-feather-board:GND #PWR027
 U 1 1 5DF37EEC
 P 10050 5100
-F 0 "#PWR?" H 10050 4850 50  0001 C CNN
+F 0 "#PWR027" H 10050 4850 50  0001 C CNN
 F 1 "GND" H 10055 4927 50  0000 C CNN
 F 2 "" H 10050 5100 50  0001 C CNN
 F 3 "" H 10050 5100 50  0001 C CNN
@@ -3188,10 +3188,10 @@ F 3 "" H 10050 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR?
+L quicklogic-quick-feather-board:GND #PWR026
 U 1 1 5DF38279
 P 9700 4650
-F 0 "#PWR?" H 9700 4400 50  0001 C CNN
+F 0 "#PWR026" H 9700 4400 50  0001 C CNN
 F 1 "GND" H 9705 4477 50  0000 C CNN
 F 2 "" H 9700 4650 50  0001 C CNN
 F 3 "" H 9700 4650 50  0001 C CNN
@@ -3199,10 +3199,10 @@ F 3 "" H 9700 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR?
+L quicklogic-quick-feather-board:GND #PWR025
 U 1 1 5DF3863F
 P 9400 4200
-F 0 "#PWR?" H 9400 3950 50  0001 C CNN
+F 0 "#PWR025" H 9400 3950 50  0001 C CNN
 F 1 "GND" H 9405 4027 50  0000 C CNN
 F 2 "" H 9400 4200 50  0001 C CNN
 F 3 "" H 9400 4200 50  0001 C CNN
@@ -3222,10 +3222,10 @@ LED_G
 Text Label 10400 4700 0    50   ~ 0
 LED_R
 $Comp
-L quicklogic-quick-feather-board:R_100R_0402 R?
+L quicklogic-quick-feather-board:R_100R_0402 R26
 U 1 1 5E02513F
 P 10200 4700
-F 0 "R?" H 10200 4487 60  0000 C CNN
+F 0 "R26" H 10200 4487 60  0000 C CNN
 F 1 "R_100R_0402" H 10200 4550 60  0001 C CNN
 F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10400 4900 60  0001 L CNN
 F 3 "" H 10200 4700 50  0001 C CNN
@@ -3236,10 +3236,10 @@ F 6 "100R" H 10200 4585 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_100R_0402 R?
+L quicklogic-quick-feather-board:R_100R_0402 R25
 U 1 1 5E0259C0
 P 9850 4250
-F 0 "R?" H 9850 4037 60  0000 C CNN
+F 0 "R25" H 9850 4037 60  0000 C CNN
 F 1 "R_100R_0402" H 9850 4100 60  0001 C CNN
 F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10050 4450 60  0001 L CNN
 F 3 "" H 9850 4250 50  0001 C CNN
@@ -3250,10 +3250,10 @@ F 6 "100R" H 9850 4135 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_100R_0402 R?
+L quicklogic-quick-feather-board:R_100R_0402 R24
 U 1 1 5E026C5D
 P 9550 3800
-F 0 "R?" H 9550 3587 60  0000 C CNN
+F 0 "R24" H 9550 3587 60  0000 C CNN
 F 1 "R_100R_0402" H 9550 3650 60  0001 C CNN
 F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 9750 4000 60  0001 L CNN
 F 3 "" H 9550 3800 50  0001 C CNN
@@ -3276,10 +3276,10 @@ Q_LED_G
 Text Label 8750 4100 0    50   ~ 0
 Q_LED_B
 $Comp
-L quicklogic-quick-feather-board:BSS138AKA Q?
+L quicklogic-quick-feather-board:BSS138AKA Q3
 U 1 1 5E1733EE
 P 9400 4000
-F 0 "Q?" H 9508 4053 60  0000 L CNN
+F 0 "Q3" H 9508 4053 60  0000 L CNN
 F 1 "BSS138AKA" H 9508 3947 60  0000 L CNN
 F 2 "quicklogic-quick-feather-board-footprints:SOT-23-3" H 9600 4200 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 9600 4300 60  0001 L CNN
@@ -3289,10 +3289,10 @@ F 5 "ON Semiconductor" H 9600 5100 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:BSS138AKA Q?
+L quicklogic-quick-feather-board:BSS138AKA Q4
 U 1 1 5E1749E3
 P 9700 4450
-F 0 "Q?" H 9808 4503 60  0000 L CNN
+F 0 "Q4" H 9808 4503 60  0000 L CNN
 F 1 "BSS138AKA" H 9808 4397 60  0000 L CNN
 F 2 "quicklogic-quick-feather-board-footprints:SOT-23-3" H 9900 4650 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 9900 4750 60  0001 L CNN
@@ -3302,10 +3302,10 @@ F 5 "ON Semiconductor" H 9900 5550 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:BSS138AKA Q?
+L quicklogic-quick-feather-board:BSS138AKA Q5
 U 1 1 5E174FE9
 P 10050 4900
-F 0 "Q?" H 10158 4953 60  0000 L CNN
+F 0 "Q5" H 10158 4953 60  0000 L CNN
 F 1 "BSS138AKA" H 10158 4847 60  0000 L CNN
 F 2 "quicklogic-quick-feather-board-footprints:SOT-23-3" H 10250 5100 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 10250 5200 60  0001 L CNN
@@ -3335,10 +3335,10 @@ HEADER_TX
 Wire Wire Line
 	5250 2050 6300 2050
 $Comp
-L quicklogic-quick-feather-board:TP_SMD1MM TP?
+L quicklogic-quick-feather-board:TP_SMD1MM TP3
 U 1 1 5E2DB6B4
 P 6100 4150
-F 0 "TP?" V 6100 4050 50  0000 C CNN
+F 0 "TP3" V 6100 4050 50  0000 C CNN
 F 1 "TP_SMD1MM" H 6100 4050 50  0001 C CNN
 F 2 "quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm" H 6300 4350 60  0001 L CNN
 F 3 "" H 6300 4450 60  0001 L CNN
@@ -3348,10 +3348,10 @@ $EndComp
 NoConn ~ 13200 3000
 NoConn ~ 13200 3200
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:S2B-PH-SM4-TB_LF__SN_ J?
+L antmicroRectangularConnectorsHeadersMalePins:S2B-PH-SM4-TB_LF__SN_ J4
 U 1 1 5E3F3FA2
 P 6800 8950
-F 0 "J?" V 6575 8958 50  0000 C CNN
+F 0 "J4" V 6575 8958 50  0000 C CNN
 F 1 "S2B-PH-SM4-TB_LF__SN_" V 6666 8958 50  0000 C CNN
 F 2 "antmicro-footprints:PinHeader_2x1mm_P2mm_SMD_RA" H 7000 9150 60  0001 L CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7000 9250 60  0001 L CNN
@@ -3361,10 +3361,10 @@ F 5 "JST Sales America Inc." H 7000 10050 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+VBAT #PWR?
+L quicklogic-quick-feather-board:+VBAT #PWR023
 U 1 1 5E3F5F39
 P 7450 8800
-F 0 "#PWR?" H 7450 8800 50  0001 C CNN
+F 0 "#PWR023" H 7450 8800 50  0001 C CNN
 F 1 "+VBAT" H 7435 8923 50  0000 C CNN
 F 2 "" H 7450 8800 50  0001 C CNN
 F 3 "" H 7450 8800 50  0001 C CNN
@@ -3372,10 +3372,10 @@ F 3 "" H 7450 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR?
+L quicklogic-quick-feather-board:GND #PWR024
 U 1 1 5E3F6565
 P 7450 9150
-F 0 "#PWR?" H 7450 8900 50  0001 C CNN
+F 0 "#PWR024" H 7450 8900 50  0001 C CNN
 F 1 "GND" H 7455 8977 50  0000 C CNN
 F 2 "" H 7450 9150 50  0001 C CNN
 F 3 "" H 7450 9150 50  0001 C CNN
@@ -3391,10 +3391,10 @@ Wire Wire Line
 Wire Wire Line
 	7450 8850 7450 8950
 $Comp
-L quicklogic-quick-feather-board:EXB2HV220JV R?
+L quicklogic-quick-feather-board:EXB2HV220JV R30
 U 1 1 5E56D4AE
 P 15000 3000
-F 0 "R?" H 14975 3647 60  0000 C CNN
+F 0 "R30" H 14975 3647 60  0000 C CNN
 F 1 "EXB2HV220JV" H 14975 3541 60  0000 C CNN
 F 2 "quicklogic-quick-feather-board-footprints:R_Array_Convex_8x0602" H 14800 3650 60  0001 L CNN
 F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 14800 3750 60  0001 L CNN
@@ -3432,10 +3432,10 @@ NoConn ~ 15150 2700
 NoConn ~ 14800 2600
 NoConn ~ 14800 2700
 $Comp
-L quicklogic-quick-feather-board:R_22R_0402 R?
+L quicklogic-quick-feather-board:R_22R_0402 R27
 U 1 1 5E71FDBA
 P 13350 3100
-F 0 "R?" H 13350 3313 60  0000 C CNN
+F 0 "R27" H 13350 3313 60  0000 C CNN
 F 1 "R_22R_0402" H 13350 2950 60  0001 C CNN
 F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 13550 3300 60  0001 L CNN
 F 3 "" H 13350 3100 50  0001 C CNN
@@ -3446,10 +3446,10 @@ F 6 "22R" H 13350 3215 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_22R_0402 R?
+L quicklogic-quick-feather-board:R_22R_0402 R28
 U 1 1 5E720B3F
 P 13350 3300
-F 0 "R?" H 13350 3513 60  0000 C CNN
+F 0 "R28" H 13350 3513 60  0000 C CNN
 F 1 "R_22R_0402" H 13350 3150 60  0001 C CNN
 F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 13550 3500 60  0001 L CNN
 F 3 "" H 13350 3300 50  0001 C CNN
@@ -3460,10 +3460,10 @@ F 6 "22R" H 13350 3415 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_22R_0402 R?
+L quicklogic-quick-feather-board:R_22R_0402 R29
 U 1 1 5E720ED0
 P 13350 3400
-F 0 "R?" H 13350 3613 60  0000 C CNN
+F 0 "R29" H 13350 3613 60  0000 C CNN
 F 1 "R_22R_0402" H 13350 3250 60  0001 C CNN
 F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 13550 3600 60  0001 L CNN
 F 3 "" H 13350 3400 50  0001 C CNN
