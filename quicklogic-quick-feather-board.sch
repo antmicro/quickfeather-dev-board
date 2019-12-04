@@ -3106,7 +3106,7 @@ SWD_SO
 Text Label 14400 4600 0    50   ~ 0
 SYS_RST
 Text Notes 12900 5200 0    91   ~ 0
-SWD, Feather header
+Headers
 Wire Wire Line
 	13450 6350 13250 6350
 Wire Wire Line
