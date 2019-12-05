@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name lib)(type KiCad)(uri ${KIPRJMOD}/lib)(options "")(descr ""))
+  (lib (name 825437-4)(type Legacy)(uri /home/user/anthw/antmicro-kicad-components/tmp/825437-4.mod)(options "")(descr ""))
   (lib (name quicklogic-quick-feather-board-footprints)(type KiCad)(uri ${KIPRJMOD}/lib/quicklogic-quick-feather-board-footprints)(options "")(descr ""))
 )
