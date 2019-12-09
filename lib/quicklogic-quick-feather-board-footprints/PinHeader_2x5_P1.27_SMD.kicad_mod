@@ -1,4 +1,4 @@
-(module PinHeader_2x5_P1.27_SMD (layer F.Cu) (tedit 5D289571)
+(module PinHeader_2x5_P1.27_SMD (layer F.Cu) (tedit 5DE93ED2)
   (descr http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-footprint.pdf)
   (attr smd)
   (fp_text reference REF** (at 0 -4.39) (layer F.SilkS)
@@ -36,4 +36,9 @@
   (pad 8 smd rect (at 1.27 -2.035) (size 0.74 2.79) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 2.54 2.035) (size 0.74 2.79) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd rect (at 2.54 -2.035) (size 0.74 2.79) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/lib/3d-models/FTSH-105-01-L-DV-K.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
