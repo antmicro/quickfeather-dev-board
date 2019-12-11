@@ -2892,28 +2892,6 @@ Wire Notes Line
 	15800 700  12800 700 
 Wire Notes Line
 	12800 700  12800 5450
-$Comp
-L quicklogic-quick-feather-board:1x12_pinhead J2
-U 1 1 5E0AEB42
-P 13250 4350
-F 0 "J2" H 13528 3696 50  0000 L CNN
-F 1 "1x12_pinhead" V 13550 3050 50  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:1x12_pinhead" H 13250 4350 50  0001 C CNN
-F 3 "" H 13250 4350 50  0001 C CNN
-	1    13250 4350
-	-1   0    0    1   
-$EndComp
-$Comp
-L quicklogic-quick-feather-board:1x16_pinhead J3
-U 1 1 5E0B046D
-P 15350 2400
-F 0 "J3" H 15628 1546 50  0000 L CNN
-F 1 "1x16_pinhead" V 15650 1800 50  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:1x16_pinhead" H 15350 2400 50  0001 C CNN
-F 3 "" H 15350 2400 50  0001 C CNN
-	1    15350 2400
-	1    0    0    -1  
-$EndComp
 Text Label 13300 3100 0    50   ~ 0
 HEADER_BAT
 Text Label 13600 3900 0    50   ~ 0
@@ -3672,5 +3650,27 @@ F 2 "" H 9750 4800 50  0001 C CNN
 F 3 "" H 9750 4800 50  0001 C CNN
 	1    9750 4800
 	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:1x16_pinhead J3
+U 1 1 5E0B046D
+P 15350 4200
+F 0 "J3" H 15628 3346 50  0000 L CNN
+F 1 "1x16_pinhead" V 15650 3600 50  0000 L CNN
+F 2 "quicklogic-quick-feather-board-footprints:1x16_pinhead" H 15350 4200 50  0001 C CNN
+F 3 "" H 15350 4200 50  0001 C CNN
+	1    15350 4200
+	1    0    0    1   
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:1x12_pinhead J2
+U 1 1 5E0AEB42
+P 13250 2950
+F 0 "J2" H 13528 2296 50  0000 L CNN
+F 1 "1x12_pinhead" V 13550 1650 50  0000 L CNN
+F 2 "quicklogic-quick-feather-board-footprints:1x12_pinhead" H 13250 2950 50  0001 C CNN
+F 3 "" H 13250 2950 50  0001 C CNN
+	1    13250 2950
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
