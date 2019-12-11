@@ -2677,18 +2677,18 @@ Q_LED_G
 Text Label 5500 3050 0    50   ~ 0
 Q_LED_R
 Wire Wire Line
-	9600 4000 9750 4000
+	9550 4000 9750 4000
 Wire Wire Line
 	9750 4000 9750 4400
 Wire Wire Line
-	9600 4400 9750 4400
+	9550 4400 9750 4400
 Connection ~ 9750 4400
 Wire Wire Line
 	9750 4400 9750 4800
 Wire Wire Line
-	9200 4000 8700 4000
+	9250 4000 8700 4000
 Wire Wire Line
-	9200 4400 8700 4400
+	9250 4400 8700 4400
 Text Label 8700 4000 0    50   ~ 0
 USR_BUTTON
 Text Label 8700 4400 0    50   ~ 0
@@ -2978,28 +2978,6 @@ Text Label 14850 2550 0    50   ~ 0
 SYS_RST
 Wire Wire Line
 	14850 2550 15350 2550
-$Comp
-L quicklogic-quick-feather-board:TL3365AF180QG S1
-U 1 1 5DE3B8AD
-P 9400 4100
-F 0 "S1" H 9400 4447 60  0000 C CNN
-F 1 "TL3365AF180QG" H 9400 4341 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:SW_SPST_4.2x3.2" H 9600 4300 60  0001 L CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/218/TL3365.pdf" H 9600 4400 60  0001 L CNN
-	1    9400 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L quicklogic-quick-feather-board:TL3365AF180QG S2
-U 1 1 5DE3C1B2
-P 9400 4500
-F 0 "S2" H 9400 4847 60  0000 C CNN
-F 1 "TL3365AF180QG" H 9400 4741 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:SW_SPST_4.2x3.2" H 9600 4700 60  0001 L CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/218/TL3365.pdf" H 9600 4800 60  0001 L CNN
-	1    9400 4500
-	1    0    0    -1  
-$EndComp
 $Comp
 L quicklogic-quick-feather-board:TPD2EUSB30DRTR D5
 U 1 1 5DE57DB4
@@ -3672,5 +3650,31 @@ F 2 "quicklogic-quick-feather-board-footprints:1x12_pinhead" H 13250 2950 50  00
 F 3 "" H 13250 2950 50  0001 C CNN
 	1    13250 2950
 	-1   0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:KMR2 S2
+U 1 1 5DFFAA20
+P 9400 4000
+F 0 "S2" H 9400 4275 50  0000 C CNN
+F 1 "KMR2" H 9400 4184 50  0000 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:SW_SPST_4.2x2.8" H 9600 4200 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 9600 4300 60  0001 L CNN
+F 4 "KMR211NGLFS" H 9596 4393 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 9600 4472 60  0001 L CNN "Manufacturer"
+	1    9400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:KMR2 S1
+U 1 1 5DFFBBE4
+P 9400 4400
+F 0 "S1" H 9400 4675 50  0000 C CNN
+F 1 "KMR2" H 9400 4584 50  0000 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:SW_SPST_4.2x2.8" H 9600 4600 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 9600 4700 60  0001 L CNN
+F 4 "KMR211NGLFS" H 9596 4793 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 9600 4872 60  0001 L CNN "Manufacturer"
+	1    9400 4400
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

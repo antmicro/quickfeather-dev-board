@@ -1,4 +1,4 @@
-(module GD25Q16CWIG (layer F.Cu) (tedit 5DD7B13F)
+(module GD25Q16CWIG (layer F.Cu) (tedit 5DF0CA2E)
   (attr smd)
   (fp_text reference REF** (at 0 -4.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -32,4 +32,9 @@
     (solder_paste_margin -0.1))
   (pad 9 smd rect (at 0.85 1) (size 1.7 2) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin -0.1))
+  (model ${KIPRJMOD}/lib/3d-models/WSON-8_6X5mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
