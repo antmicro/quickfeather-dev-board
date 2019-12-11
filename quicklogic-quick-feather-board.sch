@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:quicklogic-quick-feather-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -2085,19 +2086,6 @@ F 3 "" H 6800 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:BSS138AKA Q1
-U 1 1 5DDFCB38
-P 5850 7100
-F 0 "Q1" H 5958 7153 60  0000 L CNN
-F 1 "BSS138AKA" H 5958 7047 60  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:SOT-23-3" H 6050 7300 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 6050 7400 60  0001 L CNN
-F 4 "BSS138AKA" H 6050 7600 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 6050 8200 60  0001 L CNN "Manufacturer"
-	1    5850 7100
-	1    0    0    -1  
-$EndComp
-$Comp
 L quicklogic-quick-feather-board:GND #PWR0125
 U 1 1 5DDFDBB6
 P 5850 7350
@@ -2110,29 +2098,10 @@ F 3 "" H 5850 7350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5850 7300 5850 7350
-Wire Wire Line
-	5550 7200 5050 7200
 Text Label 5100 7200 0    50   ~ 0
 ADC0_EN
-$Comp
-L quicklogic-quick-feather-board:BSS84 Q2
-U 1 1 5DE0CA37
-P 6800 6100
-F 0 "Q2" H 6908 6153 60  0000 L CNN
-F 1 "BSS84" H 6908 6047 60  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:SOT-23-3" H 7000 6300 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" H 7000 6400 60  0001 L CNN
-F 4 "BSS84" H 7000 6600 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 7000 7200 60  0001 L CNN "Manufacturer"
-	1    6800 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6800 6300 6800 6450
-Wire Wire Line
-	5850 6900 5850 6200
-Wire Wire Line
-	5850 6200 6500 6200
 $Comp
 L quicklogic-quick-feather-board:R_100k_1%_0402 R12
 U 1 1 5DE263D9
@@ -2147,7 +2116,6 @@ F 6 "100k_1%" V 5903 6120 50  0000 L CNN "Val"
 	1    5850 6050
 	0    1    1    0   
 $EndComp
-Connection ~ 5850 6200
 Wire Wire Line
 	5850 5800 5850 5900
 Wire Wire Line
@@ -3675,5 +3643,44 @@ F 4 "S2B-PH-SM4-TB(LF)(SN)" H 7000 9550 60  0001 L CNN "MPN"
 F 5 "JST Sales America Inc." H 7000 10150 60  0001 L CNN "Manufacturer"
 	1    6800 9050
 	0    1    -1   0   
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:RV1C002UN Q1
+U 1 1 5DF5F8FE
+P 5750 7100
+F 0 "Q1" H 5650 7250 50  0000 L CNN
+F 1 "RV1C002UN" V 5950 6900 50  0000 L CNN
+F 2 "quicklogic-quick-feather-board-footprints:VML0806" H 5950 6700 50  0001 L BNN
+F 3 "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/discrete/transistor/mosfet/rv1c002un-e.pdf" H 5975 6925 50  0001 L BNN
+F 4 "RV1C002UN" H 5975 7075 50  0001 L BNN "Field4"
+F 5 "Nch 20V 180mA Small Signal MOSFET" H 5950 6850 50  0001 L BNN "Field5"
+F 6 "None" H 5950 6775 50  0001 L BNN "Field6"
+F 7 "Unavailable" H 5950 6925 50  0001 L BNN "Field7"
+F 8 "Rohm" H 5975 7000 50  0001 L BNN "Field8"
+	1    5750 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 7200 5650 7200
+Wire Wire Line
+	5850 6900 5850 6200
+Connection ~ 5850 6200
+Wire Wire Line
+	5850 6200 6600 6200
+$Comp
+L quicklogic-quick-feather-board:RV1C001ZP Q2
+U 1 1 5E09B71C
+P 6700 6100
+F 0 "Q2" H 6908 6146 50  0000 L CNN
+F 1 "RV1C001ZP" H 6908 6055 50  0000 L CNN
+F 2 "quicklogic-quick-feather-board-footprints:VML0806" H 6900 5700 50  0001 L BNN
+F 3 "" H 6925 5925 50  0001 L BNN
+F 4 "RV1C001ZP" H 6925 6075 50  0001 L BNN "Field4"
+F 5 "Pch 20V 100mA Small Signal MOSFET" H 6900 5850 50  0001 L BNN "Field5"
+F 6 "None" H 6900 5775 50  0001 L BNN "Field6"
+F 7 "Unavailable" H 6900 5925 50  0001 L BNN "Field7"
+F 8 "Rohm" H 6925 6000 50  0001 L BNN "Field8"
+	1    6700 6100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
