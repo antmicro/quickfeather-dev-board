@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:quicklogic-quick-feather-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -3089,19 +3088,6 @@ $EndComp
 NoConn ~ 13250 3800
 NoConn ~ 13250 4000
 $Comp
-L quicklogic-quick-feather-board:S2B-PH-SM4-TB_LF__SN_ J4
-U 1 1 5E3F3FA2
-P 6800 8950
-F 0 "J4" V 6575 8958 50  0000 C CNN
-F 1 "S2B-PH-SM4-TB_LF__SN_" V 6666 8958 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:PinHeader_2x1mm_P2mm_SMD_RA" H 7000 9150 60  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7000 9250 60  0001 L CNN
-F 4 "S2B-PH-SM4-TB(LF)(SN)" H 7000 9450 60  0001 L CNN "MPN"
-F 5 "JST Sales America Inc." H 7000 10050 60  0001 L CNN "Manufacturer"
-	1    6800 8950
-	0    1    1    0   
-$EndComp
-$Comp
 L quicklogic-quick-feather-board:+VBAT #PWR023
 U 1 1 5E3F5F39
 P 7450 8800
@@ -3676,5 +3662,18 @@ F 4 "KMR211NGLFS" H 9596 4793 60  0001 L CNN "MPN"
 F 5 "C&K Components" H 9600 4872 60  0001 L CNN "Manufacturer"
 	1    9400 4400
 	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:S2B-PH-SM4-TB_LF__SN_ J4
+U 1 1 5E3F3FA2
+P 6800 9050
+F 0 "J4" V 6575 9058 50  0000 C CNN
+F 1 "S2B-PH-SM4-TB_LF__SN_" V 6666 9058 50  0000 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:PinHeader_2x1mm_P2mm_SMD_RA" H 7000 9250 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7000 9350 60  0001 L CNN
+F 4 "S2B-PH-SM4-TB(LF)(SN)" H 7000 9550 60  0001 L CNN "MPN"
+F 5 "JST Sales America Inc." H 7000 10150 60  0001 L CNN "Manufacturer"
+	1    6800 9050
+	0    1    -1   0   
 $EndComp
 $EndSCHEMATC
