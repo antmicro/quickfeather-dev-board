@@ -8,6 +8,18 @@ $CMP EXB2HV220JV
 F https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/218/TL3365.pdf
 $ENDCMP
 #
+$CMP GD25Q16CWIGR
+F http://www.gigadevice.com/datasheet/gd25q16c/
+$ENDCMP
+#
+$CMP IM69D130
+F https://www.infineon.com/dgdl/Infineon-IM69D130-DS-v01_00-EN.pdf?fileId=5546d462602a9dc801607a0e46511a2e
+$ENDCMP
+#
+$CMP MC3635
+F https://mcubemems.com/wp-content/uploads/2019/06/MC3635-Datasheet-APS-048-0044v1.6.pdf
+$ENDCMP
+#
 $CMP UHD1110-FKA
 F https://www.cree.com/led-components/media/documents/ds-UHD1110-FKA.pdf
 $ENDCMP
