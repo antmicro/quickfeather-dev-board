@@ -28,9 +28,7 @@ F 5 "Molex" H 9200 7650 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 6650 9350 6650
-Wire Wire Line
-	9350 6650 9350 6750
+	9300 6650 9800 6650
 Wire Wire Line
 	9350 6750 9300 6750
 Wire Wire Line
@@ -50,7 +48,6 @@ Text Label 9400 6550 0    50   ~ 0
 USB_D_P
 Text Label 9400 6450 0    50   ~ 0
 USB_D_N
-Connection ~ 9350 6750
 $Comp
 L quicklogic-quick-feather-board:GND #PWR0101
 U 1 1 5DE8E3C8
@@ -3683,4 +3680,56 @@ F 8 "Rohm" H 6925 6000 50  0001 L BNN "Field8"
 	1    6700 6100
 	1    0    0    -1  
 $EndComp
+Text Label 9400 6650 0    50   ~ 0
+USB_ID
+$Comp
+L quicklogic-quick-feather-board:R_10k_0402 R36
+U 1 1 5DFEC333
+P 9800 6900
+F 0 "R36" V 9750 6650 60  0000 L CNN
+F 1 "R_10k_0402" H 9800 6750 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10000 7100 60  0001 L CNN
+F 3 "" H 9800 6900 50  0001 C CNN
+F 4 "VISHAY" H 10000 7300 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 10000 7200 60  0001 L CNN "MPN"
+F 6 "10k" V 9850 6650 50  0000 L CNN "Val"
+	1    9800 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:R_0R_0402 R35
+U 1 1 5DFEC345
+P 9800 6150
+F 0 "R35" V 9750 6000 60  0000 C CNN
+F 1 "R_0R_0402" H 9800 6000 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10000 6350 60  0001 L CNN
+F 3 "" H 9800 6150 50  0001 C CNN
+F 4 "PANASONIC" H 10000 6550 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 10000 6450 60  0001 L CNN "MPN"
+F 6 "0R" V 9850 6000 50  0000 C CNN "Val"
+	1    9800 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:GND #PWR018
+U 1 1 5E016CC8
+P 9800 7100
+F 0 "#PWR018" H 9800 6850 50  0001 C CNN
+F 1 "GND" H 9805 6927 50  0000 C CNN
+F 2 "" H 9800 7100 50  0001 C CNN
+F 3 "" H 9800 7100 50  0001 C CNN
+	1    9800 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 6750 9800 6650
+Connection ~ 9800 6650
+Wire Wire Line
+	9800 6650 9800 6300
+Wire Wire Line
+	9800 6000 9300 6000
+Text Label 9300 6000 0    50   ~ 0
+HEADER_A5
+Wire Wire Line
+	9800 7050 9800 7100
 $EndSCHEMATC
