@@ -633,8 +633,6 @@ Text Label 5500 1650 0    50   ~ 0
 SWD_CLK
 Text Label 5500 1550 0    50   ~ 0
 SWD_IO
-Text Label 5500 4050 0    50   ~ 0
-IMU_INT
 Text Label 5500 3950 0    50   ~ 0
 SPI_MST_SS
 Text Label 5500 3850 0    50   ~ 0
@@ -2905,7 +2903,7 @@ Text Label 5500 2550 0    50   ~ 0
 HEADER_SCK
 Text Label 5500 2750 0    50   ~ 0
 HEADER_A5
-Text Label 5500 2150 0    50   ~ 0
+Text Label 5500 4050 0    50   ~ 0
 HEADER_P6
 Wire Wire Line
 	14750 2650 14750 2450
@@ -3750,4 +3748,6 @@ NoConn ~ 14150 1550
 NoConn ~ 14150 1650
 NoConn ~ 9600 9100
 NoConn ~ 9600 8900
+Text Label 5500 2150 0    50   ~ 0
+IMU_INT
 $EndSCHEMATC
