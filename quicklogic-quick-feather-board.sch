@@ -2376,7 +2376,7 @@ F 3 "" H 7450 3000 50  0001 C CNN
 F 4 "VISHAY" H 7650 3400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 7650 3300 60  0001 L CNN "MPN"
 F 6 "10k" H 7350 2800 50  0000 L CNN "Val"
-F 7 "DNP" H 7450 3000 50  0001 C CNN "Populate"
+F 7 "1" H 7450 3000 50  0001 C CNN "DNP"
 	1    7450 3000
 	0    -1   -1   0   
 $EndComp
@@ -2804,15 +2804,15 @@ $EndComp
 $Comp
 L quicklogic-quick-feather-board:+3V3 #PWR016
 U 1 1 5DEB4A46
-P 7450 2350
-F 0 "#PWR016" H 7450 2350 50  0001 C CNN
-F 1 "+3V3" H 7435 2473 50  0000 C CNN
-F 2 "" H 7450 2350 50  0001 C CNN
-F 3 "" H 7450 2350 50  0001 C CNN
-	1    7450 2350
+P 7800 2200
+F 0 "#PWR016" H 7800 2200 50  0001 C CNN
+F 1 "+3V3" H 7785 2323 50  0000 C CNN
+F 2 "" H 7800 2200 50  0001 C CNN
+F 3 "" H 7800 2200 50  0001 C CNN
+	1    7800 2200
 	1    0    0    -1  
 $EndComp
-Text Notes 7100 2100 0    50   ~ 0
+Text Notes 7150 3650 0    50   ~ 0
 Mount R23 for debug mode, \notherwise R22
 Wire Wire Line
 	6300 1550 5250 1550
@@ -3753,4 +3753,23 @@ Text Label 5500 2150 0    50   ~ 0
 IMU_INT
 Text Notes 7500 3100 1    51   ~ 10
 DNP
+$Comp
+L quicklogic-quick-feather-board:S2B-PH-SM4-TB_LF__SN_ J7
+U 1 1 5DFAC16F
+P 7450 2050
+F 0 "J7" V 7225 2058 50  0000 C CNN
+F 1 "S2B-PH-SM4-TB_LF__SN_" V 7316 2058 50  0000 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:PinHeader_2x1mm_P2mm_SMD_RA" H 7650 2250 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7650 2350 60  0001 L CNN
+F 4 "S2B-PH-SM4-TB(LF)(SN)" H 7650 2550 60  0001 L CNN "MPN"
+F 5 "JST Sales America Inc." H 7650 3150 60  0001 L CNN "Manufacturer"
+	1    7450 2050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7450 2400 7450 2150
+Wire Wire Line
+	7550 2150 7550 2250
+Wire Wire Line
+	7550 2250 7800 2250
 $EndSCHEMATC
