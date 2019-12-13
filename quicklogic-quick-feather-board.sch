@@ -3244,20 +3244,6 @@ F 6 "10k" V 14953 1220 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R31
-U 1 1 5DF26A26
-P 14300 1150
-F 0 "R31" V 14255 1220 60  0000 L CNN
-F 1 "R_10k_0402" H 14300 1000 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 14500 1350 60  0001 L CNN
-F 3 "" H 14300 1150 50  0001 C CNN
-F 4 "VISHAY" H 14500 1550 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 14500 1450 60  0001 L CNN "MPN"
-F 6 "10k" V 14353 1220 50  0000 L CNN "Val"
-	1    14300 1150
-	0    1    1    0   
-$EndComp
-$Comp
 L quicklogic-quick-feather-board:R_10k_0402 R32
 U 1 1 5DF271A3
 P 14600 1150
@@ -3270,20 +3256,6 @@ F 5 "CRCW040210K0FKEDHP" H 14800 1450 60  0001 L CNN "MPN"
 F 6 "10k" V 14653 1220 50  0000 L CNN "Val"
 	1    14600 1150
 	0    1    1    0   
-$EndComp
-$Comp
-L quicklogic-quick-feather-board:R_0R_0402 R33
-U 1 1 5DF445C8
-P 14750 1550
-F 0 "R33" H 14550 1600 60  0000 C CNN
-F 1 "R_0R_0402" H 14750 1400 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 14950 1750 60  0001 L CNN
-F 3 "" H 14750 1550 50  0001 C CNN
-F 4 "PANASONIC" H 14950 1950 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 14950 1850 60  0001 L CNN "MPN"
-F 6 "0R" H 14550 1500 50  0000 C CNN "Val"
-	1    14750 1550
-	1    0    0    -1  
 $EndComp
 $Comp
 L quicklogic-quick-feather-board:+3V3 #PWR025
@@ -3396,28 +3368,15 @@ $EndComp
 Wire Wire Line
 	13100 1000 13100 1350
 Connection ~ 13100 1350
-Wire Wire Line
-	14300 1000 14600 1000
 Connection ~ 14600 1000
 Wire Wire Line
 	14600 1000 14900 1000
 Wire Wire Line
 	14150 1750 15600 1750
 Wire Wire Line
-	14150 1550 14300 1550
-Wire Wire Line
-	14900 1550 15600 1550
-Text Notes 14900 1550 0    50   ~ 10
-DNP
-Wire Wire Line
 	14150 1450 14600 1450
 Wire Wire Line
 	14150 1350 14900 1350
-Wire Wire Line
-	14300 1300 14300 1550
-Connection ~ 14300 1550
-Wire Wire Line
-	14300 1550 14600 1550
 Wire Wire Line
 	14600 1300 14600 1450
 Connection ~ 14600 1450
@@ -3434,8 +3393,6 @@ Text Label 15200 1450 0    50   ~ 0
 SWD_CLK
 Text Label 15200 1750 0    50   ~ 0
 SYS_RST
-Text Label 15200 1550 0    50   ~ 0
-HEADER_A5
 Wire Wire Line
 	14250 4750 13900 4750
 Wire Wire Line
@@ -3789,4 +3746,8 @@ F 3 "" H 5250 7350 50  0001 C CNN
 	1    5250 7350
 	1    0    0    -1  
 $EndComp
+NoConn ~ 14150 1550
+NoConn ~ 14150 1650
+NoConn ~ 9600 9100
+NoConn ~ 9600 8900
 $EndSCHEMATC
