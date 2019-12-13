@@ -3753,23 +3753,23 @@ Text Label 5500 2150 0    50   ~ 0
 IMU_INT
 Text Notes 7500 3100 1    51   ~ 10
 DNP
-$Comp
-L quicklogic-quick-feather-board:S2B-PH-SM4-TB_LF__SN_ J7
-U 1 1 5DFAC16F
-P 7450 2050
-F 0 "J7" V 7225 2058 50  0000 C CNN
-F 1 "S2B-PH-SM4-TB_LF__SN_" V 7316 2058 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:PinHeader_2x1mm_P2mm_SMD_RA" H 7650 2250 60  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7650 2350 60  0001 L CNN
-F 4 "S2B-PH-SM4-TB(LF)(SN)" H 7650 2550 60  0001 L CNN "MPN"
-F 5 "JST Sales America Inc." H 7650 3150 60  0001 L CNN "Manufacturer"
-	1    7450 2050
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	7450 2400 7450 2150
 Wire Wire Line
 	7550 2150 7550 2250
 Wire Wire Line
 	7550 2250 7800 2250
+$Comp
+L quicklogic-quick-feather-board:22-23-2021 J7
+U 1 1 5E0462F0
+P 7550 2050
+F 0 "J7" H 7700 1800 50  0000 R CNN
+F 1 "22-23-2021" H 7700 1900 50  0000 R CNN
+F 2 "antmicro-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 7750 2250 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 7750 2350 60  0001 L CNN
+F 4 "22-23-2021" H 7750 2550 60  0001 L CNN "MPN"
+F 5 "Molex" H 7750 3150 60  0001 L CNN "Manufacturer"
+	1    7550 2050
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
