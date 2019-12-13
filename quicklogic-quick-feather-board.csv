@@ -1,4 +1,4 @@
-Reference,Quantity,Value,Footprint,Manufacturer,MPN
+Reference,Quantity,Value,Footprint,Manufacturer,MPN,
 C1 C14 C16,3,C_4u7_0603,0603-cap,TDK,C1608X5R1V475M080AC,
 C10 C11 C12 C13 C15 C17 C18 C8 C9,9,C_100n_0402_6V3,0402-cap,Walsin,0402X104K6R3CT,
 C2 C5,2,C_10u_0603,0603-cap,AVX,06036D106MAT2A,
