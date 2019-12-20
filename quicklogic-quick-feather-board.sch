@@ -3691,24 +3691,11 @@ IMU_INT
 Text Notes 7500 3100 1    51   ~ 10
 DNP
 Wire Wire Line
-	7450 2400 7450 2150
+	7450 2400 7450 2250
 Wire Wire Line
 	7550 2150 7550 2250
 Wire Wire Line
 	7550 2250 7800 2250
-$Comp
-L quicklogic-quick-feather-board:22-23-2021 J7
-U 1 1 5E0462F0
-P 7550 2050
-F 0 "J7" H 7700 1800 50  0000 R CNN
-F 1 "22-23-2021" H 7700 1900 50  0000 R CNN
-F 2 "antmicro-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 7750 2250 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 7750 2350 60  0001 L CNN
-F 4 "22-23-2021" H 7750 2550 60  0001 L CNN "MPN"
-F 5 "Molex" H 7750 3150 60  0001 L CNN "Manufacturer"
-	1    7550 2050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2850 2250 3200 2250
 $Comp
@@ -3785,4 +3772,50 @@ Wire Wire Line
 	2900 1350 2900 1550
 Wire Wire Line
 	2800 3100 2800 3300
+$Comp
+L quicklogic-quick-feather-board:MC-HVT1-S02-G J7
+U 1 1 5E00A4C3
+P 7550 2000
+F 0 "J7" H 7450 1900 50  0000 R CNN
+F 1 "MC-HVT1-S02-G" H 7450 2000 50  0000 R CNN
+F 2 "quicklogic-quick-feather-board-footprints:PinHeader_1x2_P1.27mm_Drill.7mm_with_622002115121_plug" H 7750 2300 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 7750 2400 60  0001 L CNN
+F 4 "MC-HVT1-S02-G" H 7750 2500 60  0001 L CNN "MPN"
+F 5 "Multicomp" H 7750 2600 60  0001 L CNN "Manufacturer"
+	1    7550 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:MSS3-V-T_R S3
+U 1 1 5E00B30F
+P 7600 1600
+F 0 "S3" H 7600 1881 50  0000 C CNN
+F 1 "MSS3-V-T_R" H 7600 1790 50  0000 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:Switch_Slide_MSS3" H 7800 1800 50  0001 L CNN
+F 3 "https://pl.mouser.com/datasheet/2/910/605_MSS34-1571494.pdf" H 7800 1900 60  0001 L CNN
+F 4 "MSS3-V-T/R" H 7800 2100 60  0001 L CNN "MPN"
+F 5 "Diptronics" H 7800 2220 60  0001 L CNN "Manufacturer"
+	1    7600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:+3V3 #PWR0136
+U 1 1 5E01BEDD
+P 7850 1500
+F 0 "#PWR0136" H 7850 1500 50  0001 C CNN
+F 1 "+3V3" H 7835 1623 50  0000 C CNN
+F 2 "" H 7850 1500 50  0001 C CNN
+F 3 "" H 7850 1500 50  0001 C CNN
+	1    7850 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 2250 7250 2250
+Wire Wire Line
+	7250 2250 7250 1600
+Wire Wire Line
+	7250 1600 7400 1600
+Connection ~ 7450 2250
+Wire Wire Line
+	7450 2250 7450 2150
 $EndSCHEMATC

@@ -1,5 +1,5 @@
-(module Testpoint_smd_1mm (layer F.Cu) (tedit 5DB97F75)
-  (fp_text reference TP29 (at -1.91 -0.08) (layer F.SilkS)
+(module Testpoint_smd_1mm (layer F.Cu) (tedit 5DF7B0BA)
+  (fp_text reference REF** (at -1.91 -0.08) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
   (fp_text value TP_SMD1MM (at 0 -0.5) (layer F.Fab) hide
