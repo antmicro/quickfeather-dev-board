@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:quicklogic-quick-feather-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -56,17 +57,6 @@ F 1 "GND" H 8905 6977 50  0000 C CNN
 F 2 "" H 8900 7150 50  0001 C CNN
 F 3 "" H 8900 7150 50  0001 C CNN
 	1    8900 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L quicklogic-quick-feather-board:EOS-S3 IC1
-U 1 1 5DCF18DD
-P 3300 1400
-F 0 "IC1" H 4225 1565 50  0000 C CNN
-F 1 "EOS-S3" H 4225 1474 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:42-WLCSP" H 4950 -1700 50  0001 C CNN
-F 3 "" H 5050 -1600 50  0001 C CNN
-	1    3300 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -437,24 +427,17 @@ Wire Wire Line
 $Comp
 L quicklogic-quick-feather-board:GND #PWR03
 U 1 1 5DC5B39C
-P 2800 4300
-F 0 "#PWR03" H 2800 4050 50  0001 C CNN
-F 1 "GND" H 2805 4127 50  0000 C CNN
-F 2 "" H 2800 4300 50  0001 C CNN
-F 3 "" H 2800 4300 50  0001 C CNN
-	1    2800 4300
+P 2800 3400
+F 0 "#PWR03" H 2800 3150 50  0001 C CNN
+F 1 "GND" H 2805 3227 50  0000 C CNN
+F 2 "" H 2800 3400 50  0001 C CNN
+F 3 "" H 2800 3400 50  0001 C CNN
+	1    2800 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3200 3100 2800 3100
 Connection ~ 2800 3100
-Wire Wire Line
-	2800 3100 2800 3200
-Wire Wire Line
-	3200 3200 2800 3200
-Connection ~ 2800 3200
-Wire Wire Line
-	2800 3200 2800 3300
 Wire Wire Line
 	3200 3300 2800 3300
 Connection ~ 2800 3300
@@ -464,24 +447,12 @@ Wire Wire Line
 	3200 3400 2800 3400
 Connection ~ 2800 3400
 Wire Wire Line
-	2800 3400 2800 4300
-Wire Wire Line
 	3200 1550 2900 1550
 Wire Wire Line
 	3200 1700 2900 1700
 Wire Wire Line
 	2900 1700 2900 1550
 Connection ~ 2900 1550
-Wire Wire Line
-	3200 1850 2900 1850
-Wire Wire Line
-	2900 1850 2900 1700
-Connection ~ 2900 1700
-Wire Wire Line
-	3200 1950 2900 1950
-Wire Wire Line
-	2900 1950 2900 1850
-Connection ~ 2900 1850
 Wire Wire Line
 	3200 2400 2550 2400
 $Comp
@@ -498,36 +469,6 @@ F 6 "10k" V 2603 2070 50  0000 L CNN "Val"
 	1    2550 2000
 	0    1    1    0   
 $EndComp
-$Comp
-L quicklogic-quick-feather-board:TP_SMD1MM TP1
-U 1 1 5DC6A7F5
-P 2750 2150
-F 0 "TP1" V 2750 2050 50  0000 C CNN
-F 1 "TP_SMD1MM" H 2750 2050 50  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm" H 2950 2350 60  0001 L CNN
-F 3 "" H 2950 2450 60  0001 L CNN
-F 4 "N/A" H 0   0   50  0001 C CNN "MPN"
-F 5 "N/A" H 0   0   50  0001 C CNN "Manufacturer"
-	1    2750 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L quicklogic-quick-feather-board:TP_SMD1MM TP2
-U 1 1 5DC6A90F
-P 2750 2250
-F 0 "TP2" V 2750 2150 50  0000 C CNN
-F 1 "TP_SMD1MM" H 2750 2150 50  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm" H 2950 2450 60  0001 L CNN
-F 3 "" H 2950 2550 60  0001 L CNN
-F 4 "N/A" H 0   0   50  0001 C CNN "MPN"
-F 5 "N/A" H 0   0   50  0001 C CNN "Manufacturer"
-	1    2750 2250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3200 2150 2850 2150
-Wire Wire Line
-	2850 2250 3200 2250
 $Comp
 L quicklogic-quick-feather-board:ECS-_327-12_5-34B-TR X1
 U 1 1 5DC7219A
@@ -2043,7 +1984,7 @@ U 1 1 5DDDEFFD
 P 6800 7100
 F 0 "R17" V 6755 7170 60  0000 L CNN
 F 1 "R_100k_1%_0402" H 6800 6950 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402" H 7000 7300 60  0001 L CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 7000 7300 60  0001 L CNN
 F 3 "" H 6800 7100 50  0001 C CNN
 F 4 "PANASONIC" H 7000 7500 60  0001 L CNN "Manufacturer"
 F 5 "ERA-6AEB104V" H 7000 7400 60  0001 L CNN "MPN"
@@ -2114,7 +2055,7 @@ U 1 1 5DE263D9
 P 5850 6050
 F 0 "R12" V 5805 6120 60  0000 L CNN
 F 1 "R_100k_1%_0402" H 5850 5900 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402" H 6050 6250 60  0001 L CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 6050 6250 60  0001 L CNN
 F 3 "" H 5850 6050 50  0001 C CNN
 F 4 "PANASONIC" H 6050 6450 60  0001 L CNN "Manufacturer"
 F 5 "ERA-6AEB104V" H 6050 6350 60  0001 L CNN "MPN"
@@ -2478,7 +2419,7 @@ F 3 "" H 4400 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4400 6450
-Text Notes 3300 4650 0    50   ~ 0
+Text Notes 5950 4750 0    50   ~ 0
 Maximum power consumption for A and B rails:\nLDO mode: 65mA (VCCIOA) 114mA (VCCIOB)\nLDO bypass mode: 77mA (VCCIOA) 269mA (VCCIOB) 
 $Comp
 L quicklogic-quick-feather-board:C_100n_0402_6V3 C12
@@ -2596,7 +2537,7 @@ Wire Wire Line
 Connection ~ 1600 4500
 Wire Wire Line
 	1600 4500 1850 4500
-Text Notes 3300 5000 0    50   ~ 0
+Text Notes 5950 5100 0    50   ~ 0
 The multi-functional IOs have four programmable drive \nstrength states: 2 mA, 4 mA, 8 mA, 12 mA \n(refer to datasheet page 92)
 Text Notes 10150 2400 0    50   ~ 0
 operating current max. 20 mA
@@ -2735,11 +2676,7 @@ F 6 "4u7" H 1350 1500 50  0000 L CNN "Val"
 	1    1650 1550
 	1    0    0    -1  
 $EndComp
-Text Label 2850 2150 0    50   ~ 0
-VDD1
 Text Label 1650 1400 1    50   ~ 0
-VDD2
-Text Label 2850 2250 0    50   ~ 0
 VDD2
 Text Label 1950 1400 1    50   ~ 0
 VDD1
@@ -3772,4 +3709,80 @@ F 5 "Molex" H 7750 3150 60  0001 L CNN "Manufacturer"
 	1    7550 2050
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	2850 2250 3200 2250
+$Comp
+L quicklogic-quick-feather-board:TP_SMD1MM TP2
+U 1 1 5DC6A90F
+P 2750 2250
+F 0 "TP2" V 2750 2150 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2750 2150 50  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm" H 2950 2450 60  0001 L CNN
+F 3 "" H 2950 2550 60  0001 L CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "MPN"
+F 5 "N/A" H 0   0   50  0001 C CNN "Manufacturer"
+	1    2750 2250
+	0    1    1    0   
+$EndComp
+Text Label 2850 2250 0    50   ~ 0
+VDD2
+Text Label 2850 2150 0    50   ~ 0
+VDD1
+Wire Wire Line
+	3200 2150 2850 2150
+$Comp
+L quicklogic-quick-feather-board:TP_SMD1MM TP1
+U 1 1 5DC6A7F5
+P 2750 2150
+F 0 "TP1" V 2750 2050 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2750 2050 50  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm" H 2950 2350 60  0001 L CNN
+F 3 "" H 2950 2450 60  0001 L CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "MPN"
+F 5 "N/A" H 0   0   50  0001 C CNN "Manufacturer"
+	1    2750 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:EOS-S3-QFN IC1
+U 1 1 5E0610BF
+P 3300 1400
+F 0 "IC1" H 4225 2265 50  0000 C CNN
+F 1 "EOS-S3-QFN" H 4225 2174 50  0000 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:QFN-64_EP_8.5x8.5_EOS" H 4250 -1900 50  0001 C CNN
+F 3 "" H 5050 -1600 50  0001 C CNN
+	1    3300 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1800 2900 1800
+Wire Wire Line
+	2900 1800 2900 1700
+Connection ~ 2900 1700
+Wire Wire Line
+	2900 850  3200 850 
+Wire Wire Line
+	2900 950  3200 950 
+Connection ~ 2900 950 
+Wire Wire Line
+	2900 950  2900 850 
+Wire Wire Line
+	3200 1150 2900 1150
+Connection ~ 2900 1150
+Wire Wire Line
+	2900 1150 2900 950 
+Wire Wire Line
+	3200 1250 2900 1250
+Connection ~ 2900 1250
+Wire Wire Line
+	2900 1250 2900 1150
+Wire Wire Line
+	3200 1350 2900 1350
+Wire Wire Line
+	2900 1250 2900 1350
+Connection ~ 2900 1350
+Wire Wire Line
+	2900 1350 2900 1550
+Wire Wire Line
+	2800 3100 2800 3300
 $EndSCHEMATC
