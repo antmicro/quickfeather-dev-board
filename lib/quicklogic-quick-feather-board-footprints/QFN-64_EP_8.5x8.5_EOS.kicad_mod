@@ -114,7 +114,7 @@
   (pad 65 thru_hole circle (at 1.1 -1.1) (size 0.55 0.55) (drill 0.275) (layers *.Cu *.Mask))
   (pad 65 thru_hole circle (at 1.1 0) (size 0.55 0.55) (drill 0.275) (layers *.Cu *.Mask))
   (pad 65 thru_hole circle (at 1.1 1.1) (size 0.55 0.55) (drill 0.275) (layers *.Cu *.Mask))
-  (model ${ANT3DMDL}/QFN-64-1EP_8x8mm_P0.4mm_EP6.5x6.5mm.step
+  (model ${KIPRJMOD}/lib/3d-models/QFN-64-1EP_8x8mm_P0.4mm_EP6.5x6.5mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1.0625 1.0625 1))
     (rotate (xyz 0 0 0))
