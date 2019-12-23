@@ -1,4 +1,4 @@
-(module 1x16_pinhead (layer F.Cu) (tedit 5DF2481A)
+(module 1x16_pinhead (layer F.Cu) (tedit 5E00E299)
   (fp_text reference REF** (at -2.41 -0.07 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -56,9 +56,4 @@
     (solder_mask_margin 0.0508))
   (pad 15 thru_hole circle (at 35.584 -0.024 90) (size 1.6764 1.6764) (drill 1) (layers *.Cu *.Mask)
     (solder_mask_margin 0.0508))
-  (model ${KIPRJMOD}/lib/3d-models/70299216.stp
-    (offset (xyz 19 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 180 0 0))
-  )
 )
