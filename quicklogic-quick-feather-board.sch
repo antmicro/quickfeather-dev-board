@@ -2687,19 +2687,6 @@ F 5 "N/A" H -3600 1000 50  0001 C CNN "Manufacturer"
 	1    2500 3650
 	0    1    1    0   
 $EndComp
-$Comp
-L quicklogic-quick-feather-board:TP_SMD1MM TP7
-U 1 1 5DED6190
-P 6100 4250
-F 0 "TP7" V 6100 4150 50  0000 C CNN
-F 1 "TP_SMD1MM" H 6100 4150 50  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm" H 6300 4450 60  0001 L CNN
-F 3 "" H 6300 4550 60  0001 L CNN
-F 4 "N/A" H 0   0   50  0001 C CNN "MPN"
-F 5 "N/A" H 0   0   50  0001 C CNN "Manufacturer"
-	1    6100 4250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5250 2150 6000 2150
 Wire Notes Line
@@ -2807,19 +2794,6 @@ Text Label 5500 4150 0    50   ~ 0
 HEADER_TX
 Wire Wire Line
 	5250 2050 6300 2050
-$Comp
-L quicklogic-quick-feather-board:TP_SMD1MM TP3
-U 1 1 5E2DB6B4
-P 6100 4150
-F 0 "TP3" V 6100 4050 50  0000 C CNN
-F 1 "TP_SMD1MM" H 6100 4050 50  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm" H 6300 4350 60  0001 L CNN
-F 3 "" H 6300 4450 60  0001 L CNN
-F 4 "N/A" H 0   0   50  0001 C CNN "MPN"
-F 5 "N/A" H 0   0   50  0001 C CNN "Manufacturer"
-	1    6100 4150
-	0    -1   -1   0   
-$EndComp
 $Comp
 L quicklogic-quick-feather-board:+VBAT #PWR023
 U 1 1 5E3F5F39
