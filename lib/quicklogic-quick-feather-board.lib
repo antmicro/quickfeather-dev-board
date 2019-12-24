@@ -1185,6 +1185,21 @@ X ~ 1 0 100 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# TP_THT
+#
+DEF TP_THT TP 0 0 N Y 1 F N
+F0 "TP" -100 50 50 H V R CNN
+F1 "TP_THT" 0 -100 50 H I C CNN
+F2 "quicklogic-quick-feather-board-footprints:Testpoint_THT_Drill0.9mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "N/A" 0 0 50 H I C CNN "Manufacturer"
+F5 "N/A" 0 0 50 H I C CNN "MPN"
+DRAW
+C 0 0 22 0 1 15 N
+X ~ 1 0 100 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # mounting_pad
 #
 DEF mounting_pad M 0 40 Y Y 1 F N
