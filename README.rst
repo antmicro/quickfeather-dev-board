@@ -13,3 +13,8 @@ Key features
 * Battery charger
 * micro USB
 * supplied from USB 5V0
+
+Layout and dimensions
+---------------------
+
+.. figure:: Images/feather-layout.png
