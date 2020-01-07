@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:quicklogic-quick-feather-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -3631,9 +3630,9 @@ Text Label 5500 3150 0    50   ~ 0
 S3IO_25
 Text Label 5500 4450 0    50   ~ 0
 Q_LED_G
-Text Label 5500 3250 0    50   ~ 0
-SPI_MST_CS2
 Text Label 2600 3750 0    50   ~ 0
+SPI_MST_CS2
+Text Label 5500 3250 0    50   ~ 0
 PDM_DATA
 Text Label 5500 3350 0    50   ~ 0
 PDM_CKO

@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.4-e60b266~84~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5)
 
   (general
     (thickness 1.6)
@@ -1647,9 +1647,9 @@
     (pad 29 smd rect (at 2 4.1 45) (size 0.27 0.7) (layers Top F.Paste F.Mask)
       (net 1 GND))
     (pad 28 smd rect (at 1.5 4.1 45) (size 0.27 0.7) (layers Top F.Paste F.Mask)
-      (net 98 /PDM_DATA))
-    (pad 27 smd rect (at 1 4.1 45) (size 0.27 0.7) (layers Top F.Paste F.Mask)
       (net 99 /SPI_MST_CS2))
+    (pad 27 smd rect (at 1 4.1 45) (size 0.27 0.7) (layers Top F.Paste F.Mask)
+      (net 98 /PDM_DATA))
     (pad 26 smd rect (at 0.5 4.1 45) (size 0.27 0.7) (layers Top F.Paste F.Mask)
       (net 111 /PDM_CKO))
     (pad 25 smd rect (at 0 4.1 45) (size 0.27 0.7) (layers Top F.Paste F.Mask)
