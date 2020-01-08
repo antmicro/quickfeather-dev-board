@@ -4240,4 +4240,26 @@ F 5 "N/A" H 6850 1850 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 Connection ~ 6750 1850
+$Comp
+L quicklogic-quick-feather-board:ql_logo N2
+U 1 1 5E1FA52E
+P 8600 10650
+F 0 "N2" H 8794 10653 50  0000 L CNN
+F 1 "ql_logo" H 8794 10562 50  0000 L CNN
+F 2 "quicklogic-quick-feather-board-footprints:LOGO" H 8620 10410 50  0001 C CNN
+F 3 "" H 8600 10650 50  0001 C CNN
+	1    8600 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:oshw_logo N1
+U 1 1 5E1FD684
+P 7650 10650
+F 0 "N1" H 7844 10653 50  0000 L CNN
+F 1 "oshw_logo" H 7844 10562 50  0000 L CNN
+F 2 "quicklogic-quick-feather-board-footprints:oshw-logo" H 7670 10410 50  0001 C CNN
+F 3 "" H 7650 10650 50  0001 C CNN
+	1    7650 10650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

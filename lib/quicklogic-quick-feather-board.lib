@@ -1212,4 +1212,28 @@ X ~ 0 0 0 100 R 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
+# oshw_logo
+#
+DEF oshw_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "oshw_logo" 30 -150 50 H V C CNN
+F2 "quicklogic-quick-feather-board-footprints:oshw-logo" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# ql_logo
+#
+DEF ql_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "ql_logo" 30 -150 50 H V C CNN
+F2 "quicklogic-quick-feather-board-footprints:LOGO" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 #End Library
