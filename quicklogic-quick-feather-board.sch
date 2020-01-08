@@ -2949,7 +2949,7 @@ U 1 1 5DF53AFC
 P 13400 1600
 F 0 "D6" V 13500 1550 60  0000 R CNN
 F 1 "SD05C.TCT" H 13600 1750 60  0000 R CNN
-F 2 "quicklogic-quick-feather-board-footprints:SOD-323" H 13600 1800 60  0001 L CNN
+F 2 "quicklogic-quick-feather-board-footprints:SOD-323-SD05" H 13600 1800 60  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/761/sdxxc-1277747.pdf" H 13600 1900 60  0001 L CNN
 F 4 "Semtec" H 13600 2200 60  0001 L CNN "Manufacturer"
 F 5 "SD05C.TCT" H 13600 2100 60  0001 L CNN "MPN"
