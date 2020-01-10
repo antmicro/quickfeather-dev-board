@@ -3103,6 +3103,8 @@ F 0 "J3" H 14378 3296 50  0000 L CNN
 F 1 "1x16_pinhead" V 14400 3550 50  0000 L CNN
 F 2 "quicklogic-quick-feather-board-footprints:1x16_pinhead" H 14100 4150 50  0001 C CNN
 F 3 "" H 14100 4150 50  0001 C CNN
+F 4 "Wurth Elektronik" H 14100 4150 50  0001 C CNN "Manufacturer"
+F 5 "61301611121 " H 14100 4150 50  0001 C CNN "MPN"
 	1    14100 4150
 	1    0    0    1   
 $EndComp
@@ -3559,6 +3561,8 @@ F 0 "J8" H 15175 4990 50  0000 C CNN
 F 1 "2x8_pinhead" H 15175 4899 50  0000 C CNN
 F 2 "quicklogic-quick-feather-board-footprints:2x8_pinhead" H 15275 3875 50  0001 C CNN
 F 3 "" H 14950 4900 50  0001 C CNN
+F 4 "Multicomp" H 14950 4900 50  0001 C CNN "Manufacturer"
+F 5 "2213S-16G " H 14950 4900 50  0001 C CNN "MPN"
 	1    14950 4900
 	1    0    0    -1  
 $EndComp
@@ -3868,6 +3872,8 @@ F 0 "J2" H 14378 3846 50  0000 L CNN
 F 1 "1x12_pinhead" V 14400 3200 50  0000 L CNN
 F 2 "quicklogic-quick-feather-board-footprints:1x12_pinhead" H 14100 4500 50  0001 C CNN
 F 3 "" H 14100 4500 50  0001 C CNN
+F 4 "Multicomp" H 14100 4500 50  0001 C CNN "Manufaturer"
+F 5 "MC34733" H 14100 4500 50  0001 C CNN "MPN"
 	1    14100 4500
 	1    0    0    -1  
 $EndComp
