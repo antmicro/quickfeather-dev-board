@@ -1,7 +1,7 @@
 Quick Feather Development Board
 ===============================
 
-.. figure:: Images/feather-board.png
+.. figure:: img/feather-board.png
 
 This repository contains PCB design files for a Development Board showcasing Quicklogic EOS S3 SoC.
 
@@ -17,4 +17,4 @@ Key features
 Layout and dimensions
 ---------------------
 
-.. figure:: Images/feather-layout.png
+.. figure:: img/feather-layout.png
