@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:quicklogic-quick-feather-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -216,20 +217,6 @@ F 3 "" H 1250 9300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1250 9300 1250 9150
-$Comp
-L quicklogic-quick-feather-board:R_5k11_0402 R2
-U 1 1 5DC1E8D1
-P 1950 6700
-F 0 "R2" V 1905 6770 60  0000 L CNN
-F 1 "R_5k11_0402" H 1950 6550 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 2150 6900 60  0001 L CNN
-F 3 "" H 1950 6700 50  0001 C CNN
-F 4 "WALSIN" H 2150 7100 60  0001 L CNN "Manufacturer"
-F 5 "WR04X5111FTL" H 2150 7000 60  0001 L CNN "MPN"
-F 6 "5k11" V 2003 6770 50  0000 L CNN "Val"
-	1    1950 6700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2350 6550 1950 6550
 $Comp
@@ -259,7 +246,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 6850 2750 6950
 Text Notes 950  6750 0    50   ~ 0
-200mA charge current
+212mA charge current
 Wire Wire Line
 	2750 6250 2750 6150
 $Comp
@@ -278,20 +265,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 6450 4400 6450
 $Comp
-L quicklogic-quick-feather-board:R_1k_0402 R3
-U 1 1 5DC22B36
-P 3300 6550
-F 0 "R3" H 3250 6450 60  0000 C CNN
-F 1 "R_1k_0402" H 3300 6400 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 3500 6750 60  0001 L CNN
-F 3 "" H 3300 6550 50  0001 C CNN
-F 4 "BOURNS" H 3500 6950 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 3500 6850 60  0001 L CNN "MPN"
-F 6 "1k" H 3250 6350 50  0000 C CNN "Val"
-	1    3300 6550
-	1    0    0    -1  
-$EndComp
-$Comp
 L quicklogic-quick-feather-board:LG_L29K-G2J1-24-Z D2
 U 1 1 5DC22D40
 P 3850 6550
@@ -308,20 +281,6 @@ Wire Wire Line
 	3450 6550 3750 6550
 Wire Wire Line
 	4050 6550 4150 6550
-$Comp
-L quicklogic-quick-feather-board:C_10u_0603 C5
-U 1 1 5DC240D8
-P 10050 6850
-F 0 "C5" H 10165 6895 60  0000 L CNN
-F 1 "C_10u_0603" H 10050 6700 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0603-cap" H 10250 7050 60  0001 L CNN
-F 3 "" H 10050 6850 50  0001 C CNN
-F 4 "AVX" H 10250 7250 60  0001 L CNN "Manufacturer"
-F 5 "06036D106MAT2A" H 10250 7150 60  0001 L CNN "MPN"
-F 6 "10u" H 10165 6797 50  0000 L CNN "Val"
-	1    10050 6850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9300 6350 10050 6350
 $Comp
@@ -1422,20 +1381,6 @@ F 5 "GigaDevice" H 0   0   50  0001 C CNN "Manufacturer"
 	1    10350 1500
 	1    0    0    -1  
 $EndComp
-$Comp
-L quicklogic-quick-feather-board:C_10u_0603 C2
-U 1 1 5DC20C6B
-P 4400 6600
-F 0 "C2" H 4515 6645 60  0000 L CNN
-F 1 "C_10u_0603" H 4400 6450 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0603-cap" H 4600 6800 60  0001 L CNN
-F 3 "" H 4400 6600 50  0001 C CNN
-F 4 "AVX" H 4600 7000 60  0001 L CNN "Manufacturer"
-F 5 "06036D106MAT2A" H 4600 6900 60  0001 L CNN "MPN"
-F 6 "10u" H 4515 6547 50  0000 L CNN "Val"
-	1    4400 6600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2750 6150 4150 6150
 Wire Wire Line
@@ -1706,7 +1651,6 @@ Wire Wire Line
 	10800 6850 10800 7000
 Wire Wire Line
 	10800 7000 10050 7000
-Connection ~ 10050 7000
 $Comp
 L quicklogic-quick-feather-board:+3V3 #PWR0112
 U 1 1 5DE2E29D
@@ -1936,20 +1880,6 @@ F 5 "Infineon" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_100k_1%_0402 R17
-U 1 1 5DDDEFFD
-P 6800 7100
-F 0 "R17" V 6755 7170 60  0000 L CNN
-F 1 "R_100k_1%_0402" H 6800 6950 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 7000 7300 60  0001 L CNN
-F 3 "" H 6800 7100 50  0001 C CNN
-F 4 "PANASONIC" H 7000 7500 60  0001 L CNN "Manufacturer"
-F 5 "ERA-6AEB104V" H 7000 7400 60  0001 L CNN "MPN"
-F 6 "100k_1%" V 6853 7170 50  0000 L CNN "Val"
-	1    6800 7100
-	0    1    1    0   
-$EndComp
-$Comp
 L quicklogic-quick-feather-board:R_200k_0402 R16
 U 1 1 5DDDF534
 P 6550 6850
@@ -2002,20 +1932,6 @@ F 3 "" H 5850 7350 50  0001 C CNN
 $EndComp
 Text Label 5050 7050 0    50   ~ 0
 ADC0_EN
-$Comp
-L quicklogic-quick-feather-board:R_100k_1%_0402 R12
-U 1 1 5DE263D9
-P 5850 6050
-F 0 "R12" V 5805 6120 60  0000 L CNN
-F 1 "R_100k_1%_0402" H 5850 5900 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 6050 6250 60  0001 L CNN
-F 3 "" H 5850 6050 50  0001 C CNN
-F 4 "PANASONIC" H 6050 6450 60  0001 L CNN "Manufacturer"
-F 5 "ERA-6AEB104V" H 6050 6350 60  0001 L CNN "MPN"
-F 6 "100k_1%" V 5903 6120 50  0000 L CNN "Val"
-	1    5850 6050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5850 5800 5850 5900
 Text Notes 6500 950  0    50   ~ 0
@@ -2366,7 +2282,6 @@ F 3 "" H 4400 6400 50  0001 C CNN
 	1    4400 6400
 	1    0    0    -1  
 $EndComp
-Connection ~ 4400 6450
 Text Notes 3450 4900 0    50   ~ 0
 Maximum power consumption for A and B rails:\nLDO mode: 65mA (VCCIOA) 114mA (VCCIOB)\nLDO bypass mode: 77mA (VCCIOA) 269mA (VCCIOB) 
 $Comp
@@ -3166,20 +3081,6 @@ F 6 "10k" V 9850 6650 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_0R_0402 R35
-U 1 1 5DFEC345
-P 9800 6150
-F 0 "R35" V 9750 6000 60  0000 C CNN
-F 1 "R_0R_0402" H 9800 6000 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10000 6350 60  0001 L CNN
-F 3 "" H 9800 6150 50  0001 C CNN
-F 4 "PANASONIC" H 10000 6550 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 10000 6450 60  0001 L CNN "MPN"
-F 6 "0R" V 9850 6000 50  0000 C CNN "Val"
-	1    9800 6150
-	0    1    1    0   
-$EndComp
-$Comp
 L quicklogic-quick-feather-board:GND #PWR018
 U 1 1 5E016CC8
 P 9800 7100
@@ -3366,7 +3267,6 @@ Wire Wire Line
 	6050 6850 6050 7050
 Wire Wire Line
 	5850 6200 5850 6350
-Connection ~ 5850 6200
 Wire Wire Line
 	6050 6350 6050 6200
 Wire Wire Line
@@ -4268,4 +4168,109 @@ F 3 "" H 7650 10650 50  0001 C CNN
 	1    7650 10650
 	1    0    0    -1  
 $EndComp
+$Comp
+L quicklogic-quick-feather-board:C_4u7_0603 C5
+U 1 1 5E322A57
+P 10050 6850
+F 0 "C5" H 10165 6895 60  0000 L CNN
+F 1 "C_4u7_0603" H 10050 6700 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0603-cap" H 10250 7050 60  0001 L CNN
+F 3 "" H 10050 6850 50  0001 C CNN
+F 4 "TDK" H 10250 7250 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1V475M080AC" H 10250 7150 60  0001 L CNN "MPN"
+F 6 "4u7" H 10165 6797 50  0000 L CNN "Val"
+	1    10050 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:C_4u7_0603 C2
+U 1 1 5E32CA40
+P 4400 6600
+F 0 "C2" H 4515 6645 60  0000 L CNN
+F 1 "C_4u7_0603" H 4400 6450 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0603-cap" H 4600 6800 60  0001 L CNN
+F 3 "" H 4400 6600 50  0001 C CNN
+F 4 "TDK" H 4600 7000 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1V475M080AC" H 4600 6900 60  0001 L CNN "MPN"
+F 6 "4u7" H 4515 6547 50  0000 L CNN "Val"
+	1    4400 6600
+	1    0    0    -1  
+$EndComp
+Connection ~ 10050 7000
+Connection ~ 4400 6450
+$Comp
+L quicklogic-quick-feather-board:R_22R_0402 R35
+U 1 1 5E34140B
+P 9800 6150
+F 0 "R35" V 9850 6000 60  0000 C CNN
+F 1 "R_22R_0402" H 9800 6000 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10000 6350 60  0001 L CNN
+F 3 "" H 9800 6150 50  0001 C CNN
+F 4 "VISHAY" H 10000 6550 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 10000 6450 60  0001 L CNN "MPN"
+F 6 "22R" V 9750 6000 50  0000 C CNN "Val"
+	1    9800 6150
+	0    1    -1   0   
+$EndComp
+Text Notes 9400 6200 0    50   ~ 10
+DNP
+Text Notes 9400 6950 0    50   ~ 10
+DNP
+$Comp
+L quicklogic-quick-feather-board:R_4k7_0402 R2
+U 1 1 5E362883
+P 1950 6700
+F 0 "R2" V 1905 6770 60  0000 L CNN
+F 1 "R_4k7_0402" H 1950 6550 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 2150 6900 60  0001 L CNN
+F 3 "" H 1950 6700 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2150 7100 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 2150 7000 60  0001 L CNN "MPN"
+F 6 "4k7" V 2003 6770 50  0000 L CNN "Val"
+	1    1950 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:R_1k5_0402 R3
+U 1 1 5E37139E
+P 3300 6550
+F 0 "R3" H 3350 6450 60  0000 C CNN
+F 1 "R_1k5_0402" H 3300 6400 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 3500 6750 60  0001 L CNN
+F 3 "" H 3300 6550 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 3500 6950 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF1501X" H 3500 6850 60  0001 L CNN "MPN"
+F 6 "1k5" H 3350 6350 50  0000 C CNN "Val"
+	1    3300 6550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:R_100k_0402 R17
+U 1 1 5E37A479
+P 6800 7100
+F 0 "R17" V 6755 7170 60  0000 L CNN
+F 1 "R_100k_0402" H 6800 6950 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 7000 7300 60  0001 L CNN
+F 3 "" H 6800 7100 50  0001 C CNN
+F 4 "VISHAY" H 7000 7500 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 7000 7400 60  0001 L CNN "MPN"
+F 6 "100k" V 6853 7170 50  0000 L CNN "Val"
+	1    6800 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:R_100k_0402 R12
+U 1 1 5E37E000
+P 5850 6050
+F 0 "R12" V 5805 6120 60  0000 L CNN
+F 1 "R_100k_0402" H 5850 5900 60  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 6050 6250 60  0001 L CNN
+F 3 "" H 5850 6050 50  0001 C CNN
+F 4 "VISHAY" H 6050 6450 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 6050 6350 60  0001 L CNN "MPN"
+F 6 "100k" V 5903 6120 50  0000 L CNN "Val"
+	1    5850 6050
+	0    1    1    0   
+$EndComp
+Connection ~ 5850 6200
 $EndSCHEMATC
