@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Quick Feather Development Kit"
 Date ""
-Rev "1.0"
+Rev "1.0.1"
 Comp "Antmicro"
 Comment1 "www.antmicro.com"
 Comment2 ""
@@ -2437,10 +2437,8 @@ Text Label 11600 4100 0    50   ~ 0
 LED_G
 Text Label 11600 4200 0    50   ~ 0
 LED_R
-Text Label 2600 3550 0    50   ~ 0
-Q_LED_B
 Text Label 5500 4350 0    50   ~ 0
-Q_LED_R
+Q_LED_B
 Wire Wire Line
 	9550 4000 9750 4000
 Wire Wire Line
@@ -2699,7 +2697,7 @@ F 6 "100R" H 10950 3950 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 Text Label 11350 4800 0    50   ~ 0
-Q_LED_R
+Q_LED_B
 Text Label 12300 4800 0    50   ~ 0
 Q_LED_G
 Text Label 5500 4250 0    50   ~ 0
@@ -2789,7 +2787,7 @@ $EndComp
 Text Notes 8800 3100 0    50   ~ 0
 TBD:  Discuss on how to re-program the flash
 Text Label 9950 4800 0    50   ~ 0
-Q_LED_B
+Q_LED_R
 Text Notes 5450 7750 0    50   ~ 0
 TBD: check if we can fit in BOM with that
 $Comp
@@ -3385,18 +3383,18 @@ Wire Wire Line
 Wire Wire Line
 	12250 4600 12600 4600
 Text Label 10950 4600 0    50   ~ 0
-LED_B
+LED_R
 Text Label 11350 5000 0    50   ~ 0
 LED_G
 Text Label 12350 4600 0    50   ~ 0
-LED_R
+LED_B
 $Comp
 L quicklogic-quick-feather-board:ASMB-MTB1-0A3A2 D4
 U 1 1 5E5DD36B
 P 10150 3950
 F 0 "D4" H 10425 4125 50  0000 C CNN
 F 1 "ASMB-MTB1-0A3A2" H 10425 4034 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:LED-PLCC4_3.2x2.8mm" H 11200 3600 50  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:LED-PLCC4_3.2x2.8mm_B" H 11200 3600 50  0001 C CNN
 F 3 "https://docs.broadcom.com/docs/AV02-4194EN" H 10150 3950 50  0001 C CNN
 F 4 "Broadcom" H 10350 3400 50  0001 C CNN "Manufacturer"
 F 5 "UHD1110-FKA" H 10425 3500 50  0001 C CNN "MPN"
@@ -4273,4 +4271,6 @@ F 6 "100k" V 5903 6120 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Connection ~ 5850 6200
+Text Label 2600 3550 0    50   ~ 0
+Q_LED_R
 $EndSCHEMATC

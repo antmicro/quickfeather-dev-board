@@ -296,10 +296,10 @@ ENDDEF
 DEF ASMB-MTB1-0A3A2 D 0 40 Y Y 1 F N
 F0 "D" 50 150 50 H V C CNN
 F1 "ASMB-MTB1-0A3A2" 300 50 50 H V C CNN
-F2 "quicklogic-quick-feather-board-footprints:LED-PLCC4_3.2x2.8mm" 1050 -350 50 H I C CNN
+F2 "quicklogic-quick-feather-board-footprints:LED-PLCC4_3.2x2.8mm_B" 1050 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Broadcom" 200 -550 50 H I C CNN "Manufacturer"
-F5 "UHD1110-FKA" 275 -450 50 H I C CNN "MPN"
+F5 "ASMB-MTB1-0A3A2" 275 -450 50 H I C CNN "MPN"
 DRAW
 S 0 10 550 -300 0 1 0 f
 X Red 1 650 -250 100 L 50 50 1 1 I
