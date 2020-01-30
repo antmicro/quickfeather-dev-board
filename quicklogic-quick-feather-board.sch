@@ -2170,6 +2170,7 @@ F 3 "" H 7800 3000 50  0001 C CNN
 F 4 "VISHAY" H 8000 3400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8000 3300 60  0001 L CNN "MPN"
 F 6 "10k" H 7750 3200 50  0000 L CNN "Val"
+F 7 "1" H 7800 3000 50  0001 C CNN "DNP"
 	1    7800 3000
 	0    1    1    0   
 $EndComp
@@ -3075,6 +3076,7 @@ F 3 "" H 9800 6900 50  0001 C CNN
 F 4 "VISHAY" H 10000 7300 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 10000 7200 60  0001 L CNN "MPN"
 F 6 "10k" V 9850 6650 50  0000 L CNN "Val"
+F 7 "1" V 9800 6900 50  0001 C CNN "DNP"
 	1    9800 6900
 	0    1    1    0   
 $EndComp
@@ -3134,7 +3136,7 @@ NoConn ~ 9600 9100
 NoConn ~ 9600 8900
 Text Label 5500 2150 0    50   ~ 0
 IMU_INT
-Text Notes 7500 3100 1    51   ~ 10
+Text Notes 7375 3100 1    51   ~ 10
 DNP
 Wire Wire Line
 	7550 2150 7550 2250
@@ -3216,19 +3218,6 @@ Wire Wire Line
 	2900 1350 2900 1550
 Wire Wire Line
 	2800 3100 2800 3300
-$Comp
-L quicklogic-quick-feather-board:22-23-2021 J7
-U 1 1 5E0E1F21
-P 7550 2050
-F 0 "J7" H 7650 1900 50  0000 R CNN
-F 1 "22-23-2021" H 7700 1800 50  0000 R CNN
-F 2 "quicklogic-quick-feather-board-footprints:PinHeader_1x2_P2.54_Drill0.9mm" H 7750 2250 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 7750 2350 60  0001 L CNN
-F 4 "22-23-2021" H 7750 2550 60  0001 L CNN "MPN"
-F 5 "Molex" H 7750 3150 60  0001 L CNN "Manufacturer"
-	1    7550 2050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	7450 2150 7450 2400
 $Comp
@@ -3417,19 +3406,6 @@ F 6 "10k" H 7750 2400 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 7800 2750
 $Comp
-L quicklogic-quick-feather-board:22-23-2021 J1
-U 1 1 5E06D0A1
-P 7900 2050
-F 0 "J1" H 8000 1900 50  0000 R CNN
-F 1 "22-23-2021" V 7800 2300 50  0001 R CNN
-F 2 "quicklogic-quick-feather-board-footprints:PinHeader_1x2_P2.54_Drill0.9mm" H 8100 2250 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 8100 2350 60  0001 L CNN
-F 4 "22-23-2021" H 8100 2550 60  0001 L CNN "MPN"
-F 5 "Molex" H 8100 3150 60  0001 L CNN "Manufacturer"
-	1    7900 2050
-	-1   0    0    1   
-$EndComp
-$Comp
 L quicklogic-quick-feather-board:+3V3 #PWR016
 U 1 1 5DEB4A46
 P 8100 1850
@@ -3449,7 +3425,7 @@ Wire Wire Line
 	7900 2250 8100 2250
 Wire Wire Line
 	7800 2150 7800 2450
-Text Notes 7850 3100 1    51   ~ 10
+Text Notes 8125 3075 1    51   ~ 10
 DNP
 $Comp
 L quicklogic-quick-feather-board:2x8_pinhead J8
@@ -4207,6 +4183,7 @@ F 3 "" H 9800 6150 50  0001 C CNN
 F 4 "VISHAY" H 10000 6550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 10000 6450 60  0001 L CNN "MPN"
 F 6 "22R" V 9750 6000 50  0000 C CNN "Val"
+F 7 "1" V 9800 6150 50  0001 C CNN "DNP"
 	1    9800 6150
 	0    1    -1   0   
 $EndComp
@@ -4273,4 +4250,30 @@ $EndComp
 Connection ~ 5850 6200
 Text Label 2600 3550 0    50   ~ 0
 Q_LED_R
+$Comp
+L quicklogic-quick-feather-board:61300211121 J7
+U 1 1 5E5990C7
+P 7550 2050
+F 0 "J7" H 7700 1900 50  0000 R CNN
+F 1 "61300211121" H 7700 1825 50  0000 R CNN
+F 2 "quicklogic-quick-feather-board-footprints:PinHeader_1x2_P2.54_Drill0.9mm" H 7750 2250 60  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 7750 2350 60  0001 L CNN
+F 4 "61300211121" H 7750 2550 60  0001 L CNN "MPN"
+F 5 "Wurth Electronic" H 7750 3150 60  0001 L CNN "Manufacturer"
+	1    7550 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L quicklogic-quick-feather-board:61300211121 J1
+U 1 1 5E59A920
+P 7900 2050
+F 0 "J1" H 8050 1900 50  0000 R CNN
+F 1 "61300211121" H 8050 1825 50  0001 R CNN
+F 2 "quicklogic-quick-feather-board-footprints:PinHeader_1x2_P2.54_Drill0.9mm" H 8100 2250 60  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 8100 2350 60  0001 L CNN
+F 4 "61300211121" H 8100 2550 60  0001 L CNN "MPN"
+F 5 "Wurth Electronic" H 8100 3150 60  0001 L CNN "Manufacturer"
+	1    7900 2050
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
