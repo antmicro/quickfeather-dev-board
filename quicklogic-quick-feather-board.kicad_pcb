@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.4-e60b266~84~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.4+dfsg1-1~bpo10+1)
 
   (general
     (thickness 1.6)
@@ -14,14 +14,14 @@
     (0 Top signal)
     (1 In1.Cu signal hide)
     (2 In2.Cu mixed hide)
-    (31 Bottom signal)
+    (31 Bottom signal hide)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
-    (35 F.Paste user)
+    (35 F.Paste user hide)
     (36 B.SilkS user hide)
     (37 F.SilkS user hide)
-    (38 B.Mask user)
+    (38 B.Mask user hide)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
@@ -657,6 +657,7 @@
   (module quicklogic-quick-feather-board-footprints:oshw-logo (layer Bottom) (tedit 5DDBF245) (tstamp 5E3AA3D0)
     (at 131.26 109.68 180)
     (path /5E1FD684)
+    (attr virtual)
     (fp_text reference N1 (at -3.08 4.76) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -2092,6 +2093,7 @@
   (module quicklogic-quick-feather-board-footprints:LOGO (layer Bottom) (tedit 5E15F39F) (tstamp 5E3AA3EE)
     (at 132.6 98.3 180)
     (path /5E1FA52E)
+    (attr virtual)
     (fp_text reference N2 (at 0.25 -0.75) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -3422,6 +3424,7 @@
   (module quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm (layer Top) (tedit 5DF7B0BA) (tstamp 5DD26246)
     (at 148.2108 96.71 90)
     (path /5DC6A7F5)
+    (attr virtual)
     (fp_text reference TP1 (at -1.91 -0.08 90) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
@@ -3435,6 +3438,7 @@
   (module quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm (layer Top) (tedit 5DF7B0BA) (tstamp 5DD2624B)
     (at 147.1908 97.72 90)
     (path /5DC6A90F)
+    (attr virtual)
     (fp_text reference TP2 (at -1.91 -0.08 90) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
@@ -4232,6 +4236,7 @@
   (module quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm (layer Top) (tedit 5DF7B0BA) (tstamp 5E031883)
     (at 158.53 106.5408)
     (path /5DED568E)
+    (attr virtual)
     (fp_text reference TP6 (at -1.51 -0.32) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
@@ -5300,6 +5305,7 @@
   (module quicklogic-quick-feather-board-footprints:MPAD (layer Top) (tedit 5E00E610) (tstamp 5E019595)
     (at 125.6411 96.1136)
     (path /5E097291)
+    (attr virtual)
     (fp_text reference M1 (at -2.41 -0.07 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5314,6 +5320,7 @@
   (module quicklogic-quick-feather-board-footprints:MPAD (layer Top) (tedit 5E00E610) (tstamp 5E01959B)
     (at 125.6411 113.8936)
     (path /5E0976CB)
+    (attr virtual)
     (fp_text reference M2 (at -2.41 -0.07 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5328,6 +5335,7 @@
   (module quicklogic-quick-feather-board-footprints:MPAD (layer Top) (tedit 5E00E610) (tstamp 5E0195A1)
     (at 171.3611 113.8936)
     (path /5E09796A)
+    (attr virtual)
     (fp_text reference M3 (at -2.41 -0.07 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5342,6 +5350,7 @@
   (module quicklogic-quick-feather-board-footprints:MPAD (layer Top) (tedit 5E00E610) (tstamp 5E0195A7)
     (at 171.3611 96.1136)
     (path /5E097B7C)
+    (attr virtual)
     (fp_text reference M4 (at -2.41 -0.07 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5424,6 +5433,7 @@
   (module quicklogic-quick-feather-board-footprints:Testpoint_THT_Drill0.9mm (layer Top) (tedit 5E01FCBF) (tstamp 5E034753)
     (at 145.55 102.07)
     (path /5F04ECF4)
+    (attr virtual)
     (fp_text reference TP4 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5456,6 +5466,7 @@
   (module quicklogic-quick-feather-board-footprints:Testpoint_THT_Drill0.9mm (layer Top) (tedit 5E01FCBF) (tstamp 5E034769)
     (at 161.196 112.624)
     (path /5F03C1C3)
+    (attr virtual)
     (fp_text reference TP5 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )

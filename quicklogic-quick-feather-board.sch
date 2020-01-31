@@ -3019,6 +3019,7 @@ F 2 "quicklogic-quick-feather-board-footprints:1x16_pinhead" H 14100 4150 50  00
 F 3 "" H 14100 4150 50  0001 C CNN
 F 4 "Wurth Elektronik" H 14100 4150 50  0001 C CNN "Manufacturer"
 F 5 "61301611121 " H 14100 4150 50  0001 C CNN "MPN"
+F 6 "1" H 14100 4150 50  0001 C CNN "DNP"
 	1    14100 4150
 	1    0    0    1   
 $EndComp
@@ -3437,6 +3438,7 @@ F 2 "quicklogic-quick-feather-board-footprints:2x8_pinhead" H 15275 3875 50  000
 F 3 "" H 14950 4900 50  0001 C CNN
 F 4 "Multicomp" H 14950 4900 50  0001 C CNN "Manufacturer"
 F 5 "2213S-16G " H 14950 4900 50  0001 C CNN "MPN"
+F 6 "1" H 14950 4900 50  0001 C CNN "DNP"
 	1    14950 4900
 	1    0    0    -1  
 $EndComp
@@ -3556,6 +3558,7 @@ F 2 "quicklogic-quick-feather-board-footprints:R_Array_Convex_8x0602" H 15000 76
 F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/218/TL3365.pdf" H 15000 7700 60  0001 L CNN
 F 4 "EXB2HV220JV" H 15000 7900 60  0001 L CNN "MPN"
 F 5 "Panasonic" H 15000 7800 60  0001 L CNN "Manufacturer"
+F 6 "1" H 15200 6950 50  0001 C CNN "DNP"
 	1    15200 6950
 	1    0    0    -1  
 $EndComp
@@ -3748,6 +3751,7 @@ F 2 "quicklogic-quick-feather-board-footprints:1x12_pinhead" H 14100 4500 50  00
 F 3 "" H 14100 4500 50  0001 C CNN
 F 4 "Multicomp" H 14100 4500 50  0001 C CNN "Manufaturer"
 F 5 "MC34733" H 14100 4500 50  0001 C CNN "MPN"
+F 6 "1" H 14100 4500 50  0001 C CNN "DNP"
 	1    14100 4500
 	1    0    0    -1  
 $EndComp
@@ -4276,4 +4280,8 @@ F 5 "Wurth Electronic" H 8100 3150 60  0001 L CNN "Manufacturer"
 	1    7900 2050
 	-1   0    0    1   
 $EndComp
+Text Notes 14550 4050 1    51   ~ 10
+DNP
+Text Notes 14550 5800 1    51   ~ 10
+DNP
 $EndSCHEMATC
