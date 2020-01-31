@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-(kicad_pcb (version 20171130) (host pcbnew 5.1.5)
-=======
 (kicad_pcb (version 20171130) (host pcbnew 5.1.4+dfsg1-1~bpo10+1)
->>>>>>> 450fb23cb075b88f5137330c66c17190f47e0429
 
   (general
     (thickness 1.6)
@@ -17,26 +13,16 @@
   (layers
     (0 Top signal)
     (1 In1.Cu signal hide)
-<<<<<<< HEAD
-    (2 In2.Cu mixed)
-    (31 Bottom signal)
-=======
     (2 In2.Cu mixed hide)
     (31 Bottom signal hide)
->>>>>>> 450fb23cb075b88f5137330c66c17190f47e0429
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user hide)
     (37 F.SilkS user hide)
-<<<<<<< HEAD
-    (38 B.Mask user)
-    (39 F.Mask user)
-=======
     (38 B.Mask user hide)
     (39 F.Mask user hide)
->>>>>>> 450fb23cb075b88f5137330c66c17190f47e0429
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
