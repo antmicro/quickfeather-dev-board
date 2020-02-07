@@ -65,7 +65,7 @@ U 1 1 5DC19811
 P 3550 8800
 F 0 "L1" H 3550 9047 60  0000 C CNN
 F 1 "DFE201610E-R47M=P2" H 3550 8941 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0805-res" H 3750 9000 60  0001 L CNN
+F 2 "quicklogic-quick-feather-board-footprints:0806" H 3750 9000 60  0001 L CNN
 F 3 "" H 3750 9100 60  0001 L CNN
 F 4 "DFE201610E-R47M=P2" H 3750 9300 60  0001 L CNN "MPN"
 F 5 "Murata" H 3750 9900 60  0001 L CNN "Manufacturer"
