@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:quicklogic-quick-feather-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -3175,8 +3174,10 @@ U 1 1 5E0610BF
 P 3300 1400
 F 0 "IC1" H 3350 2230 50  0000 C CNN
 F 1 "EOS-S3-QFN" H 3540 2150 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:QFN-64_EP_8.5x8.5_EOS" H 4250 -1900 50  0001 C CNN
+F 2 "quicklogic-quick-feather-board-footprints:QFN-64_8.5x8.5_EOS" H 4250 -1900 50  0001 C CNN
 F 3 "" H 5050 -1600 50  0001 C CNN
+F 4 "EOSA1-S-PUN64" H 3300 1400 50  0001 C CNN "MPN"
+F 5 "QuickLogic" H 3300 1400 50  0001 C CNN "Manufacturer"
 	1    3300 1400
 	1    0    0    -1  
 $EndComp

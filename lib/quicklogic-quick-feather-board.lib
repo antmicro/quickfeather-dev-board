@@ -509,6 +509,8 @@ F0 "IC" 1700 -3300 50 H V C CNN
 F1 "EOS-S3-QFN" 1550 750 50 H V C CNN
 F2 "quicklogic-quick-feather-board-footprints:QFN-64_8.5x8.5_EOS" 950 -3300 50 H I C CNN
 F3 "" 1750 -3000 50 H I C CNN
+F4 "QuickLogic" 0 0 50 H V C CNN "Manufacturer"
+F5 "EOSA1-S-PUN64" 0 0 50 H V C CNN "MPN"
 DRAW
 T 900 650 -800 50 0 0 0 "BANK A" Normal 0 C C
 T 900 650 -2650 50 0 1 0 "BANK B" Normal 0 C C
