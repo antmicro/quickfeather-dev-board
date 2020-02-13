@@ -16,7 +16,7 @@ Key features
 ------------
 
 * EOS S3 Sensor Procssing Platform
-* Flash memory
+* 16Mbit of flash memory
 * Accelerometer
 * Pressure sensor
 * PDM digital microphone

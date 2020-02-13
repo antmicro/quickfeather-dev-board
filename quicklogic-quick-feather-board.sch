@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:quicklogic-quick-feather-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1465,8 +1466,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 3050 6300 3050
 Wire Notes Line
-	700  700  8350 700 
-Wire Notes Line
 	13520 750  13520 5350
 Wire Notes Line
 	700  5300 8350 5300
@@ -1517,7 +1516,7 @@ Battery charger and battery voltage measurement
 Text Notes 800  10000 0    91   ~ 0
 Supply
 Text Notes 8700 3350 0    91   ~ 0
-Flash memory
+Flash memory (16Mbit)
 Text Notes 8700 7700 0    91   ~ 0
 USB
 $Comp
@@ -4703,4 +4702,8 @@ D2 9F AD 14 0B 00 C0 95 08 CA 00 18 BC 93 AD CD 3B B9 5D 25 DC B8 A6 A1 5C D5 28
 B8 30 23 21 39 E1 93 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Wire Notes Line
+	690  5300 690  700 
+Wire Notes Line
+	690  700  8350 700 
 $EndSCHEMATC
