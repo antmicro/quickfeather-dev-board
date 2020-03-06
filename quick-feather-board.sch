@@ -192,7 +192,7 @@ F 1 "GND" H 1255 9127 50  0000 C CNN
 F 2 "" H 1250 9300 50  0001 C CNN
 F 3 "" H 1250 9300 50  0001 C CNN
 	1    1250 9300
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1250 9300 1250 9150
@@ -1388,20 +1388,6 @@ USB_D_N
 Text Label 1550 4450 2    50   ~ 0
 USB_D_P
 $Comp
-L quick-feather-board:R_22R_0402 R7
-U 1 1 5DE231E1
-P 2160 4350
-F 0 "R7" H 2160 4563 60  0000 C CNN
-F 1 "R_22R_0402" H 2160 4200 60  0001 C CNN
-F 2 "quick-feather-board-footprints:0402-res" H 2360 4550 60  0001 L CNN
-F 3 "" H 2160 4350 50  0001 C CNN
-F 4 "VISHAY" H 2360 4750 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040222R0FKED" H 2360 4650 60  0001 L CNN "MPN"
-F 6 "22R" H 2160 4465 50  0000 C CNN "Val"
-	1    2160 4350
-	-1   0    0    -1  
-$EndComp
-$Comp
 L quick-feather-board:R_22R_0402 R11
 U 1 1 5DE232D3
 P 1850 4450
@@ -1415,8 +1401,6 @@ F 6 "22R" H 1850 4350 50  0000 C CNN "Val"
 	1    1850 4450
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2000 4350 1250 4350
 Wire Wire Line
 	1700 4450 1600 4450
 $Comp
@@ -3061,13 +3045,6 @@ F 3 "" H 9800 7100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9800 6750 9800 6650
-Connection ~ 9800 6650
-Wire Wire Line
-	9800 6650 9800 6300
-Wire Wire Line
-	9800 6000 9300 6000
-Text Label 9300 6000 0    50   ~ 0
-HEADER_A5
 Wire Wire Line
 	9800 7050 9800 7100
 $Comp
@@ -4123,23 +4100,6 @@ F 6 "4u7" H 4515 6547 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 10050 7000
 Connection ~ 4400 6450
-$Comp
-L quick-feather-board:R_22R_0402 R35
-U 1 1 5E34140B
-P 9800 6150
-F 0 "R35" V 9850 6000 60  0000 C CNN
-F 1 "R_22R_0402" H 9800 6000 60  0001 C CNN
-F 2 "quick-feather-board-footprints:0402-res" H 10000 6350 60  0001 L CNN
-F 3 "" H 9800 6150 50  0001 C CNN
-F 4 "VISHAY" H 10000 6550 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040222R0FKED" H 10000 6450 60  0001 L CNN "MPN"
-F 6 "22R" V 9750 6000 50  0000 C CNN "Val"
-F 7 "1" V 9800 6150 50  0001 C CNN "DNP"
-	1    9800 6150
-	0    1    -1   0   
-$EndComp
-Text Notes 9400 6200 0    50   ~ 10
-DNP
 Text Notes 9400 6950 0    50   ~ 10
 DNP
 $Comp
@@ -4693,30 +4653,6 @@ F 5 "Diodes Incorporated" H 2150 8250 60  0001 L CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	2750 6850 2750 7325
-$Comp
-L quick-feather-board:R_1M8_0402 R1
-U 1 1 5EA0A68F
-P 1675 8950
-F 0 "R1" V 1630 9020 60  0000 L CNN
-F 1 "R_1M8_0402" H 1675 8800 60  0001 C CNN
-F 2 "quick-feather-board-footprints:0402-res" H 1875 9150 60  0001 L CNN
-F 3 "" H 1675 8950 50  0001 C CNN
-F 4 "Multicomp" H 1875 9350 60  0001 L CNN "Manufacturer"
-F 5 "MCMR04X185_JTL" H 1875 9250 60  0001 L CNN "MPN"
-F 6 "1M8" V 1728 9020 50  0000 L CNN "Val"
-	1    1675 8950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1250 8800 1675 8800
-Connection ~ 1675 8800
-Wire Wire Line
-	1675 8800 2000 8800
-Wire Wire Line
-	925  9100 1675 9100
-Connection ~ 1675 9100
-Wire Wire Line
-	1675 9100 2250 9100
 Text Label 975  9100 0    50   ~ 0
 PG
 Text Label 975  7050 0    50   ~ 0
@@ -4753,4 +4689,44 @@ $EndComp
 Wire Wire Line
 	1350 7050 925  7050
 Connection ~ 1350 7050
+$Comp
+L quick-feather-board:R_22R_0402 R7
+U 1 1 5DE231E1
+P 2160 4350
+F 0 "R7" H 2160 4563 60  0000 C CNN
+F 1 "R_22R_0402" H 2160 4200 60  0001 C CNN
+F 2 "quick-feather-board-footprints:0402-res" H 2360 4550 60  0001 L CNN
+F 3 "" H 2160 4350 50  0001 C CNN
+F 4 "VISHAY" H 2360 4750 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 2360 4650 60  0001 L CNN "MPN"
+F 6 "22R" H 2160 4465 50  0000 C CNN "Val"
+	1    2160 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2010 4350 1244 4350
+$Comp
+L antmicroResistors0402:R_1M5_0402 R1
+U 1 1 5E8E2484
+P 1650 8950
+F 0 "R1" V 1605 9020 60  0000 L CNN
+F 1 "R_1M5_0402" H 1650 8800 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1850 9150 60  0001 L CNN
+F 3 "" H 1650 8950 50  0001 C CNN
+F 4 "Multicomp" H 1850 9350 60  0001 L CNN "Manufacturer"
+F 5 "MCWR04W1504FTL" H 1850 9250 60  0001 L CNN "MPN"
+F 6 "1M5" V 1703 9020 50  0000 L CNN "Val"
+	1    1650 8950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 8800 1650 8800
+Wire Wire Line
+	925  9100 1650 9100
+Connection ~ 1650 8800
+Wire Wire Line
+	1650 8800 2000 8800
+Connection ~ 1650 9100
+Wire Wire Line
+	1650 9100 2250 9100
 $EndSCHEMATC
