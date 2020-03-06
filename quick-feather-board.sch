@@ -72,20 +72,6 @@ F 5 "Murata" H 3750 9900 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_100k_0402 R1
-U 1 1 5DC19E95
-P 1750 9100
-F 0 "R1" H 1750 9313 60  0000 C CNN
-F 1 "R_100k_0402" H 1750 8950 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 1950 9300 60  0001 L CNN
-F 3 "" H 1750 9100 50  0001 C CNN
-F 4 "VISHAY" H 1950 9500 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 1950 9400 60  0001 L CNN "MPN"
-F 6 "100k" H 1750 9215 50  0000 C CNN "Val"
-	1    1750 9100
-	1    0    0    -1  
-$EndComp
-$Comp
 L quicklogic-quick-feather-board:GND #PWR0102
 U 1 1 5DC19F48
 P 2050 9350
@@ -192,13 +178,7 @@ Wire Wire Line
 	1250 8850 1250 8800
 Connection ~ 1250 8800
 Wire Wire Line
-	1250 8800 950  8800
-Wire Wire Line
-	2250 9100 1900 9100
-Wire Wire Line
-	1600 9100 1550 9100
-Wire Wire Line
-	1550 9100 1550 8800
+	1250 8800 925  8800
 Wire Wire Line
 	2250 8950 2000 8950
 Wire Wire Line
@@ -221,29 +201,27 @@ Wire Wire Line
 $Comp
 L quicklogic-quick-feather-board:GND #PWR0106
 U 1 1 5DC1EFA0
-P 1950 6950
-F 0 "#PWR0106" H 1950 6700 50  0001 C CNN
-F 1 "GND" H 1955 6777 50  0000 C CNN
-F 2 "" H 1950 6950 50  0001 C CNN
-F 3 "" H 1950 6950 50  0001 C CNN
-	1    1950 6950
+P 1950 7350
+F 0 "#PWR0106" H 1950 7100 50  0001 C CNN
+F 1 "GND" H 1955 7177 50  0000 C CNN
+F 2 "" H 1950 7350 50  0001 C CNN
+F 3 "" H 1950 7350 50  0001 C CNN
+	1    1950 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L quicklogic-quick-feather-board:GND #PWR0107
 U 1 1 5DC1EFC3
-P 2750 6950
-F 0 "#PWR0107" H 2750 6700 50  0001 C CNN
-F 1 "GND" H 2755 6777 50  0000 C CNN
-F 2 "" H 2750 6950 50  0001 C CNN
-F 3 "" H 2750 6950 50  0001 C CNN
-	1    2750 6950
+P 2750 7325
+F 0 "#PWR0107" H 2750 7075 50  0001 C CNN
+F 1 "GND" H 2755 7152 50  0000 C CNN
+F 2 "" H 2750 7325 50  0001 C CNN
+F 3 "" H 2750 7325 50  0001 C CNN
+	1    2750 7325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1950 6850 1950 6950
-Wire Wire Line
-	2750 6850 2750 6950
 Text Notes 950  6750 0    50   ~ 0
 212mA charge current
 Wire Wire Line
@@ -1737,7 +1715,7 @@ F 3 "" H 4900 8350 50  0001 C CNN
 $EndComp
 Connection ~ 4900 8800
 Wire Wire Line
-	950  8800 950  8400
+	925  8800 925  8400
 Wire Wire Line
 	4900 8400 4900 8800
 Wire Wire Line
@@ -2248,12 +2226,12 @@ Wire Wire Line
 $Comp
 L quicklogic-quick-feather-board:+VBUS #PWR0123
 U 1 1 5E029AF7
-P 950 8350
-F 0 "#PWR0123" H 950 8350 50  0001 C CNN
-F 1 "+VBUS" H 935 8473 50  0000 C CNN
-F 2 "" H 950 8350 50  0001 C CNN
-F 3 "" H 950 8350 50  0001 C CNN
-	1    950  8350
+P 925 8350
+F 0 "#PWR0123" H 925 8350 50  0001 C CNN
+F 1 "+VBUS" H 910 8473 50  0000 C CNN
+F 2 "" H 925 8350 50  0001 C CNN
+F 3 "" H 925 8350 50  0001 C CNN
+	1    925  8350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3607,12 +3585,7 @@ Wire Wire Line
 	5000 3350 6300 3350
 Wire Wire Line
 	2000 4150 2950 4150
-Wire Wire Line
-	2000 8800 1550 8800
 Connection ~ 2000 8800
-Wire Wire Line
-	1550 8800 1250 8800
-Connection ~ 1550 8800
 Wire Notes Line
 	5450 8000 8350 8000
 Wire Notes Line
@@ -4705,4 +4678,79 @@ F 5 "N/A" H 2000 4050 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	2000 4450 2950 4450
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:DMG1012T-7 Q4
+U 1 1 5E9BD0BB
+P 1950 7150
+F 0 "Q4" H 2058 7203 60  0000 L CNN
+F 1 "DMG1012T-7" H 2058 7097 60  0000 L CNN
+F 2 "antmicro-footprints:SOT-523" H 2150 7350 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 2150 7450 60  0001 L CNN
+F 4 "DMG1012T-7" H 2150 7650 60  0001 L CNN "MPN"
+F 5 "Diodes Incorporated" H 2150 8250 60  0001 L CNN "Manufacturer"
+	1    1950 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 6850 2750 7325
+$Comp
+L antmicroResistors0402:R_1M8_0402 R1
+U 1 1 5EA0A68F
+P 1675 8950
+F 0 "R1" V 1630 9020 60  0000 L CNN
+F 1 "R_1M8_0402" H 1675 8800 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1875 9150 60  0001 L CNN
+F 3 "" H 1675 8950 50  0001 C CNN
+F 4 "Multicomp" H 1875 9350 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X185_JTL" H 1875 9250 60  0001 L CNN "MPN"
+F 6 "1M8" V 1728 9020 50  0000 L CNN "Val"
+	1    1675 8950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 8800 1675 8800
+Connection ~ 1675 8800
+Wire Wire Line
+	1675 8800 2000 8800
+Wire Wire Line
+	925  9100 1675 9100
+Connection ~ 1675 9100
+Wire Wire Line
+	1675 9100 2250 9100
+Text Label 975  9100 0    50   ~ 0
+PG
+Text Label 975  7050 0    50   ~ 0
+PG
+$Comp
+L quicklogic-quick-feather-board:GND #PWR028
+U 1 1 5EA7B915
+P 1350 7350
+F 0 "#PWR028" H 1350 7100 50  0001 C CNN
+F 1 "GND" H 1355 7177 50  0000 C CNN
+F 2 "" H 1350 7350 50  0001 C CNN
+F 3 "" H 1350 7350 50  0001 C CNN
+	1    1350 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 7250 1650 7050
+Wire Wire Line
+	1650 7050 1350 7050
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C19
+U 1 1 5EA747B1
+P 1350 7200
+F 0 "C19" H 1465 7245 60  0000 L CNN
+F 1 "C_1u_0402" H 1350 7050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1550 7400 60  0001 L CNN
+F 3 "" H 1350 7200 50  0001 C CNN
+F 4 "TDK" H 1550 7600 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 1550 7500 60  0001 L CNN "MPN"
+F 6 "1u" H 1465 7147 50  0000 L CNN "Val"
+	1    1350 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 7050 925  7050
+Connection ~ 1350 7050
 $EndSCHEMATC

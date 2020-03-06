@@ -1,4 +1,4 @@
-update=Thu Feb 13 15:23:42 2020
+update=śro, 4 mar 2020, 17:49:30
 version=1
 last_client=kicad
 [general]
@@ -250,7 +250,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=.
+PlotDirectoryName=/home/user/anthw/quicklogic-quick-feather-board-hw/doc
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
