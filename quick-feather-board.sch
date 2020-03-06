@@ -4706,12 +4706,12 @@ $EndComp
 Wire Wire Line
 	2010 4350 1244 4350
 $Comp
-L antmicroResistors0402:R_1M5_0402 R1
+L quick-feather-board:R_1M5_0402 R1
 U 1 1 5E8E2484
 P 1650 8950
 F 0 "R1" V 1605 9020 60  0000 L CNN
 F 1 "R_1M5_0402" H 1650 8800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1850 9150 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 1850 9150 60  0001 L CNN
 F 3 "" H 1650 8950 50  0001 C CNN
 F 4 "Multicomp" H 1850 9350 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04W1504FTL" H 1850 9250 60  0001 L CNN "MPN"
