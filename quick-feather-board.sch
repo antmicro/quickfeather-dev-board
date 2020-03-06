@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L quicklogic-quick-feather-board:0473460001 J5
+L quick-feather-board:0473460001 J5
 U 1 1 5DB1F3A2
 P 9000 6550
 F 0 "J5" H 9063 7273 50  0000 C CNN
 F 1 "0473460001" H 9063 7182 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:USB_Micro_B_Female_0473460001" H 9200 6750 60  0001 L CNN
+F 2 "quick-feather-board-footprints:USB_Micro_B_Female_0473460001" H 9200 6750 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 9200 6850 60  0001 L CNN
 F 4 "0473460001" H 9200 7050 60  0001 L CNN "MPN"
 F 5 "Molex" H 9200 7650 60  0001 L CNN "Manufacturer"
@@ -33,7 +33,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 6750 9350 6950
 $Comp
-L quicklogic-quick-feather-board:GND #PWR011
+L quick-feather-board:GND #PWR011
 U 1 1 5DCF0111
 P 9350 6950
 F 0 "#PWR011" H 9350 6700 50  0001 C CNN
@@ -48,7 +48,7 @@ USB_D_P
 Text Label 9400 6450 0    50   ~ 0
 USB_D_N
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0101
+L quick-feather-board:GND #PWR0101
 U 1 1 5DE8E3C8
 P 8900 7150
 F 0 "#PWR0101" H 8900 6900 50  0001 C CNN
@@ -59,12 +59,12 @@ F 3 "" H 8900 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:DFE201610E-R47M=P2 L1
+L quick-feather-board:DFE201610E-R47M=P2 L1
 U 1 1 5DC19811
 P 3550 8800
 F 0 "L1" H 3550 9047 60  0000 C CNN
 F 1 "DFE201610E-R47M=P2" H 3550 8941 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0806" H 3750 9000 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0806" H 3750 9000 60  0001 L CNN
 F 3 "" H 3750 9100 60  0001 L CNN
 F 4 "DFE201610E-R47M=P2" H 3750 9300 60  0001 L CNN "MPN"
 F 5 "Murata" H 3750 9900 60  0001 L CNN "Manufacturer"
@@ -72,7 +72,7 @@ F 5 "Murata" H 3750 9900 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0102
+L quick-feather-board:GND #PWR0102
 U 1 1 5DC19F48
 P 2050 9350
 F 0 "#PWR0102" H 2050 9100 50  0001 C CNN
@@ -87,7 +87,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 9250 2050 9350
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0103
+L quick-feather-board:GND #PWR0103
 U 1 1 5DC19FB9
 P 3300 9350
 F 0 "#PWR0103" H 3300 9100 50  0001 C CNN
@@ -104,12 +104,12 @@ Wire Wire Line
 Wire Wire Line
 	3350 8800 3050 8800
 $Comp
-L quicklogic-quick-feather-board:C_100p_0402 C3
+L quick-feather-board:C_100p_0402 C3
 U 1 1 5DC1A3A3
 P 4100 8950
 F 0 "C3" H 4215 8995 60  0000 L CNN
 F 1 "C_100p_0402" H 4100 8800 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 4300 9150 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 4300 9150 60  0001 L CNN
 F 3 "" H 4100 8950 50  0001 C CNN
 F 4 "WALSIN" H 4300 9350 60  0001 L CNN "Manufacturer"
 F 5 "0402N101J500CT" H 4300 9250 60  0001 L CNN "MPN"
@@ -118,12 +118,12 @@ F 6 "100p" H 4215 8897 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:C_4u7_0603 C1
+L quick-feather-board:C_4u7_0603 C1
 U 1 1 5DC1A5E0
 P 1250 9000
 F 0 "C1" H 1365 9045 60  0000 L CNN
 F 1 "C_4u7_0603" H 1250 8850 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0603-cap" H 1450 9200 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0603-cap" H 1450 9200 60  0001 L CNN
 F 3 "" H 1250 9000 50  0001 C CNN
 F 4 "TDK" H 1450 9400 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1V475M080AC" H 1450 9300 60  0001 L CNN "MPN"
@@ -132,12 +132,12 @@ F 6 "4u7" H 1365 8947 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:C_22u_0603 C4
+L quick-feather-board:C_22u_0603 C4
 U 1 1 5DC1A777
 P 4900 9100
 F 0 "C4" H 5015 9145 60  0000 L CNN
 F 1 "C_22u_0603" H 4900 8950 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0603-cap" H 5100 9300 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0603-cap" H 5100 9300 60  0001 L CNN
 F 3 "" H 4900 9100 50  0001 C CNN
 F 4 "MURATA" H 5100 9500 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 5100 9400 60  0001 L CNN "MPN"
@@ -146,12 +146,12 @@ F 6 "22u" H 5015 9047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_100k_0402 R5
+L quick-feather-board:R_100k_0402 R5
 U 1 1 5DC1ABAE
 P 4500 9300
 F 0 "R5" V 4455 9370 60  0000 L CNN
 F 1 "R_100k_0402" H 4500 9150 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 4700 9500 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 4700 9500 60  0001 L CNN
 F 3 "" H 4500 9300 50  0001 C CNN
 F 4 "VISHAY" H 4700 9700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4700 9600 60  0001 L CNN "MPN"
@@ -162,7 +162,7 @@ $EndComp
 Wire Wire Line
 	4500 9100 4500 9150
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0104
+L quick-feather-board:GND #PWR0104
 U 1 1 5DC1AF75
 P 4500 9450
 F 0 "#PWR0104" H 4500 9200 50  0001 C CNN
@@ -184,7 +184,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 8950 2000 8800
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0105
+L quick-feather-board:GND #PWR0105
 U 1 1 5DC1C94D
 P 1250 9300
 F 0 "#PWR0105" H 1250 9050 50  0001 C CNN
@@ -199,7 +199,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 6550 1950 6550
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0106
+L quick-feather-board:GND #PWR0106
 U 1 1 5DC1EFA0
 P 1950 7350
 F 0 "#PWR0106" H 1950 7100 50  0001 C CNN
@@ -210,7 +210,7 @@ F 3 "" H 1950 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0107
+L quick-feather-board:GND #PWR0107
 U 1 1 5DC1EFC3
 P 2750 7325
 F 0 "#PWR0107" H 2750 7075 50  0001 C CNN
@@ -227,7 +227,7 @@ Text Notes 950  6750 0    50   ~ 0
 Wire Wire Line
 	2750 6250 2750 6150
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0108
+L quick-feather-board:GND #PWR0108
 U 1 1 5DC20CD6
 P 4400 6950
 F 0 "#PWR0108" H 4400 6700 50  0001 C CNN
@@ -242,12 +242,12 @@ Wire Wire Line
 Wire Wire Line
 	3150 6450 4400 6450
 $Comp
-L quicklogic-quick-feather-board:LG_L29K-G2J1-24-Z D2
+L quick-feather-board:LG_L29K-G2J1-24-Z D2
 U 1 1 5DC22D40
 P 3850 6550
 F 0 "D2" H 3950 6750 60  0000 C CNN
 F 1 "LG_L29K-G2J1-24-Z" H 3850 6850 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:LED_0603" H 4050 6750 60  0001 L CNN
+F 2 "quick-feather-board-footprints:LED_0603" H 4050 6750 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 4050 6850 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 4050 7050 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 4050 7650 60  0001 L CNN "Manufacturer"
@@ -261,12 +261,12 @@ Wire Wire Line
 Wire Wire Line
 	9300 6350 10050 6350
 $Comp
-L quicklogic-quick-feather-board:MBR0520LT1G D1
+L quick-feather-board:MBR0520LT1G D1
 U 1 1 5DC254C9
 P 1250 8600
 F 0 "D1" V 1197 8703 60  0000 L CNN
 F 1 "MBR0520LT1G" V 1303 8703 60  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:SOD-123" H 1450 8800 60  0001 L CNN
+F 2 "quick-feather-board-footprints:SOD-123" H 1450 8800 60  0001 L CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 1450 8900 60  0001 L CNN
 F 4 "MBR0520LT1G" H 1450 9100 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 1450 9700 60  0001 L CNN "Manufacturer"
@@ -274,12 +274,12 @@ F 5 "ON Semiconductor" H 1450 9700 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:TPS62821DLCR U1
+L quick-feather-board:TPS62821DLCR U1
 U 1 1 5DC2B18E
 P 2600 9300
 F 0 "U1" H 2420 10060 50  0000 C CNN
 F 1 "TPS62821DLCR" H 2650 9974 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:QFN-8_2x1mm" H 2500 9100 50  0001 C CNN
+F 2 "quick-feather-board-footprints:QFN-8_2x1mm" H 2500 9100 50  0001 C CNN
 F 3 "" H 2600 9200 50  0001 C CNN
 F 4 "TPS62821DLCR" H -850 -100 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H -850 -100 50  0001 C CNN "Manufacturer"
@@ -287,12 +287,12 @@ F 5 "Texas Instruments" H -850 -100 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_453k_0402 R4
+L quick-feather-board:R_453k_0402 R4
 U 1 1 5DC1BB54
 P 4500 8950
 F 0 "R4" V 4455 9020 60  0000 L CNN
 F 1 "R_453k_0402" H 4500 8800 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 4700 9150 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 4700 9150 60  0001 L CNN
 F 3 "" H 4500 8950 50  0001 C CNN
 F 4 "VISHAY" H 4700 9350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402453KFKED" H 4700 9250 60  0001 L CNN "MPN"
@@ -301,12 +301,12 @@ F 6 "453k" V 4553 9020 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R8
+L quick-feather-board:R_10k_0402 R8
 U 1 1 5DC453B0
 P 9250 1650
 F 0 "R8" V 9205 1720 60  0000 L CNN
 F 1 "R_10k_0402" H 9250 1500 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 9450 1850 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 9450 1850 60  0001 L CNN
 F 3 "" H 9250 1650 50  0001 C CNN
 F 4 "VISHAY" H 9450 2050 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9450 1950 60  0001 L CNN "MPN"
@@ -315,12 +315,12 @@ F 6 "10k" V 9303 1720 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R10
+L quick-feather-board:R_10k_0402 R10
 U 1 1 5DC484F8
 P 8950 1650
 F 0 "R10" V 8905 1720 60  0000 L CNN
 F 1 "R_10k_0402" H 8950 1500 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 9150 1850 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 9150 1850 60  0001 L CNN
 F 3 "" H 8950 1650 50  0001 C CNN
 F 4 "VISHAY" H 9150 2050 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9150 1950 60  0001 L CNN "MPN"
@@ -341,7 +341,7 @@ This flash can be replaced with \na 64Mbit one (GD25Q64CWIGR)
 Wire Wire Line
 	2800 3000 2800 3100
 $Comp
-L quicklogic-quick-feather-board:GND #PWR03
+L quick-feather-board:GND #PWR03
 U 1 1 5DC5B39C
 P 2650 3100
 F 0 "#PWR03" H 2650 2850 50  0001 C CNN
@@ -371,12 +371,12 @@ Connection ~ 2900 1550
 Wire Wire Line
 	2950 2400 2550 2400
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R6
+L quick-feather-board:R_10k_0402 R6
 U 1 1 5DC687BB
 P 2550 2000
 F 0 "R6" V 2505 2070 60  0000 L CNN
 F 1 "R_10k_0402" H 2550 1850 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 2750 2200 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 2750 2200 60  0001 L CNN
 F 3 "" H 2550 2000 50  0001 C CNN
 F 4 "VISHAY" H 2750 2400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2750 2300 60  0001 L CNN "MPN"
@@ -385,12 +385,12 @@ F 6 "10k" V 2603 2070 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:ECS-_327-12_5-34B-TR X1
+L quick-feather-board:ECS-_327-12_5-34B-TR X1
 U 1 1 5DC7219A
 P 1750 2900
 F 0 "X1" H 1750 2660 50  0000 C CNN
 F 1 "ECS-_327-12_5-34B-TR" H 1750 2751 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:SMD-2_3.2x1.5mm" H 1950 3100 60  0001 L CNN
+F 2 "quick-feather-board-footprints:SMD-2_3.2x1.5mm" H 1950 3100 60  0001 L CNN
 F 3 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" H 1950 3200 60  0001 L CNN
 F 4 "ECS-.327-12.5-34B-TR" H 1950 3400 60  0001 L CNN "MPN"
 F 5 "ECS Inc." H 1950 4000 60  0001 L CNN "Manufacturer"
@@ -420,12 +420,12 @@ Connection ~ 1400 2900
 Wire Wire Line
 	1400 2900 1600 2900
 $Comp
-L quicklogic-quick-feather-board:C_12p_0402 C6
+L quick-feather-board:C_12p_0402 C6
 U 1 1 5DC7C95B
 P 1400 3200
 F 0 "C6" H 1515 3245 60  0000 L CNN
 F 1 "C_12p_0402" H 1400 3050 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 1600 3400 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 1600 3400 60  0001 L CNN
 F 3 "" H 1400 3200 50  0001 C CNN
 F 4 "TDK" H 1600 3600 60  0001 L CNN "Manufacturer"
 F 5 "CGA2B2C0G1H120J050BA" H 1600 3500 60  0001 L CNN "MPN"
@@ -434,12 +434,12 @@ F 6 "12p" H 1515 3147 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:C_12p_0402 C7
+L quick-feather-board:C_12p_0402 C7
 U 1 1 5DC7C9F1
 P 2050 3200
 F 0 "C7" H 2165 3245 60  0000 L CNN
 F 1 "C_12p_0402" H 2050 3050 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 2250 3400 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 2250 3400 60  0001 L CNN
 F 3 "" H 2050 3200 50  0001 C CNN
 F 4 "TDK" H 2250 3600 60  0001 L CNN "Manufacturer"
 F 5 "CGA2B2C0G1H120J050BA" H 2250 3500 60  0001 L CNN "MPN"
@@ -448,7 +448,7 @@ F 6 "12p" H 2165 3147 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR02
+L quick-feather-board:GND #PWR02
 U 1 1 5DC7CB3C
 P 2050 3350
 F 0 "#PWR02" H 2050 3100 50  0001 C CNN
@@ -459,7 +459,7 @@ F 3 "" H 2050 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR01
+L quick-feather-board:GND #PWR01
 U 1 1 5DC7CB81
 P 1400 3350
 F 0 "#PWR01" H 1400 3100 50  0001 C CNN
@@ -1309,12 +1309,12 @@ $EndBitmap
 Wire Wire Line
 	10250 1600 9700 1600
 $Comp
-L quicklogic-quick-feather-board:C_100n_0402_6V3 C8
+L quick-feather-board:C_100n_0402_6V3 C8
 U 1 1 5DDB4C4D
 P 12350 1850
 F 0 "C8" V 12092 1850 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 12350 1700 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 12550 2050 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 12550 2050 60  0001 L CNN
 F 3 "" H 12350 1850 50  0001 C CNN
 F 4 "Walsin" H 12550 2250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 12550 2150 60  0001 L CNN "MPN"
@@ -1323,7 +1323,7 @@ F 6 "100n" V 12190 1850 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0111
+L quick-feather-board:GND #PWR0111
 U 1 1 5DDBDD77
 P 11450 2450
 F 0 "#PWR0111" H 11450 2200 50  0001 C CNN
@@ -1346,12 +1346,12 @@ SPI_MST_SS
 Text Label 9500 2200 0    50   ~ 0
 SPI_MST_CLK
 $Comp
-L quicklogic-quick-feather-board:GD25Q16CWIGR U3
+L quick-feather-board:GD25Q16CWIGR U3
 U 1 1 5DDDF93D
 P 10350 1500
 F 0 "U3" H 10380 1660 50  0000 C CNN
 F 1 "GD25Q16CWIGR" H 10620 1570 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:GD25Q16CWIG" H 10300 1450 50  0001 C CNN
+F 2 "quick-feather-board-footprints:GD25Q16CWIG" H 10300 1450 50  0001 C CNN
 F 3 "http://www.gigadevice.com/datasheet/gd25q16c/" H 10400 1550 50  0001 C CNN
 F 4 "GD25Q16CWIGR" H 0   0   50  0001 C CNN "MPN"
 F 5 "GigaDevice" H 0   0   50  0001 C CNN "Manufacturer"
@@ -1388,12 +1388,12 @@ USB_D_N
 Text Label 1550 4450 2    50   ~ 0
 USB_D_P
 $Comp
-L quicklogic-quick-feather-board:R_22R_0402 R7
+L quick-feather-board:R_22R_0402 R7
 U 1 1 5DE231E1
 P 2160 4350
 F 0 "R7" H 2160 4563 60  0000 C CNN
 F 1 "R_22R_0402" H 2160 4200 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 2360 4550 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 2360 4550 60  0001 L CNN
 F 3 "" H 2160 4350 50  0001 C CNN
 F 4 "VISHAY" H 2360 4750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 2360 4650 60  0001 L CNN "MPN"
@@ -1402,12 +1402,12 @@ F 6 "22R" H 2160 4465 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_22R_0402 R11
+L quick-feather-board:R_22R_0402 R11
 U 1 1 5DE232D3
 P 1850 4450
 F 0 "R11" H 1850 4250 60  0000 C CNN
 F 1 "R_22R_0402" H 1850 4300 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 2050 4650 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 2050 4650 60  0001 L CNN
 F 3 "" H 1850 4450 50  0001 C CNN
 F 4 "VISHAY" H 2050 4850 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 2050 4750 60  0001 L CNN "MPN"
@@ -1420,12 +1420,12 @@ Wire Wire Line
 Wire Wire Line
 	1700 4450 1600 4450
 $Comp
-L quicklogic-quick-feather-board:R_1k5_0402 R9
+L quick-feather-board:R_1k5_0402 R9
 U 1 1 5DE457DE
 P 1850 4150
 F 0 "R9" H 2050 4200 60  0000 C CNN
 F 1 "R_1k5_0402" H 1850 4000 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 2050 4350 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 2050 4350 60  0001 L CNN
 F 3 "" H 1850 4150 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2050 4550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1501X" H 2050 4450 60  0001 L CNN "MPN"
@@ -1495,12 +1495,12 @@ Flash memory (16Mbit)
 Text Notes 8700 7700 0    91   ~ 0
 USB
 $Comp
-L quicklogic-quick-feather-board:IM69D130 MIC1
+L quick-feather-board:IM69D130 MIC1
 U 1 1 5DDA20C5
 P 6600 8750
 F 0 "MIC1" H 6590 8880 50  0000 L CNN
 F 1 "IM69D130" H 6600 8800 50  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:IM69D130" H 6600 8800 50  0001 C CNN
+F 2 "quick-feather-board-footprints:IM69D130" H 6600 8800 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-IM69D130-DS-v01_00-EN.pdf?fileId=5546d462602a9dc801607a0e46511a2e" H 7050 8100 50  0001 C CNN
 F 4 "IM69D130" H -6950 2500 50  0001 C CNN "MPN"
 F 5 "Infineon" H -6950 2500 50  0001 C CNN "Manufacturer"
@@ -1512,7 +1512,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 9250 6300 9500
 $Comp
-L quicklogic-quick-feather-board:GND #PWR04
+L quick-feather-board:GND #PWR04
 U 1 1 5DDAB4E6
 P 6300 9500
 F 0 "#PWR04" H 6300 9250 50  0001 C CNN
@@ -1529,12 +1529,12 @@ Wire Wire Line
 Wire Wire Line
 	6500 9150 6300 9150
 $Comp
-L quicklogic-quick-feather-board:R_100R_0402 R13
+L quick-feather-board:R_100R_0402 R13
 U 1 1 5DDB9D20
 P 6100 8950
 F 0 "R13" H 6100 8737 60  0000 C CNN
 F 1 "R_100R_0402" H 6100 8800 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 6300 9150 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 6300 9150 60  0001 L CNN
 F 3 "" H 6100 8950 50  0001 C CNN
 F 4 "BOURNS" H 6300 9350 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 6300 9250 60  0001 L CNN "MPN"
@@ -1550,12 +1550,12 @@ Connection ~ 6300 9250
 Text Notes 5500 10050 0    91   ~ 0
 Microphone
 $Comp
-L quicklogic-quick-feather-board:C_100n_0402_6V3 C9
+L quick-feather-board:C_100n_0402_6V3 C9
 U 1 1 5DDE16B2
 P 7850 9050
 F 0 "C9" V 7592 9050 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 7850 8900 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 8050 9250 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 8050 9250 60  0001 L CNN
 F 3 "" H 7850 9050 50  0001 C CNN
 F 4 "Walsin" H 8050 9450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8050 9350 60  0001 L CNN "MPN"
@@ -1566,7 +1566,7 @@ $EndComp
 Wire Wire Line
 	7850 9200 7850 9350
 $Comp
-L quicklogic-quick-feather-board:GND #PWR05
+L quick-feather-board:GND #PWR05
 U 1 1 5DDF05E4
 P 7850 9350
 F 0 "#PWR05" H 7850 9100 50  0001 C CNN
@@ -1581,12 +1581,12 @@ Wire Wire Line
 Wire Notes Line
 	8600 7800 11500 7800
 $Comp
-L quicklogic-quick-feather-board:TPD2EUSB30DRTR D3
+L quick-feather-board:TPD2EUSB30DRTR D3
 U 1 1 5DDCDC86
 P 10800 6550
 F 0 "D3" H 10800 6907 60  0000 C CNN
 F 1 "TPD2EUSB30DRTR" H 10800 6801 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:SOT-3" H 11000 6750 60  0001 L CNN
+F 2 "quick-feather-board-footprints:SOT-3" H 11000 6750 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd2eusb30" H 11000 6850 60  0001 L CNN
 F 4 "Texas Instruments" H 11000 7650 60  0001 L CNN "Manufacturer"
 F 5 "TPD2EUSB30DRTR" H 11000 7050 60  0001 L CNN "MPN"
@@ -1596,7 +1596,7 @@ $EndComp
 Wire Wire Line
 	10050 7000 10050 7100
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0109
+L quick-feather-board:GND #PWR0109
 U 1 1 5DC24A74
 P 10050 7100
 F 0 "#PWR0109" H 10050 6850 50  0001 C CNN
@@ -1625,7 +1625,7 @@ Wire Wire Line
 Wire Wire Line
 	10800 7000 10050 7000
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR0112
+L quick-feather-board:+3V3 #PWR0112
 U 1 1 5DE2E29D
 P 2550 1500
 F 0 "#PWR0112" H 2550 1500 50  0001 C CNN
@@ -1636,7 +1636,7 @@ F 3 "" H 2550 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR0113
+L quick-feather-board:+3V3 #PWR0113
 U 1 1 5DE33E97
 P 9700 1300
 F 0 "#PWR0113" H 9700 1300 50  0001 C CNN
@@ -1647,7 +1647,7 @@ F 3 "" H 9700 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR0114
+L quick-feather-board:+3V3 #PWR0114
 U 1 1 5DE34948
 P 12350 1550
 F 0 "#PWR0114" H 12350 1550 50  0001 C CNN
@@ -1664,7 +1664,7 @@ Wire Wire Line
 Wire Wire Line
 	12350 2000 12350 2300
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0115
+L quick-feather-board:GND #PWR0115
 U 1 1 5DE3FA98
 P 12350 2300
 F 0 "#PWR0115" H 12350 2050 50  0001 C CNN
@@ -1677,7 +1677,7 @@ $EndComp
 Wire Wire Line
 	12350 1600 12350 1700
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR0116
+L quick-feather-board:+3V3 #PWR0116
 U 1 1 5DE4A7B8
 P 7850 8600
 F 0 "#PWR0116" H 7850 8600 50  0001 C CNN
@@ -1688,7 +1688,7 @@ F 3 "" H 7850 8600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR0117
+L quick-feather-board:+3V3 #PWR0117
 U 1 1 5DE50B3C
 P 6300 8600
 F 0 "#PWR0117" H 6300 8600 50  0001 C CNN
@@ -1703,7 +1703,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 8650 7850 8900
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR0118
+L quick-feather-board:+3V3 #PWR0118
 U 1 1 5DE5BFA1
 P 4900 8350
 F 0 "#PWR0118" H 4900 8350 50  0001 C CNN
@@ -1722,7 +1722,7 @@ Wire Wire Line
 	10050 6150 10050 6350
 Connection ~ 10050 6350
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR06
+L quick-feather-board:+3V3 #PWR06
 U 1 1 5DDDD85D
 P 9500 8400
 F 0 "#PWR06" H 9500 8400 50  0001 C CNN
@@ -1744,7 +1744,7 @@ Connection ~ 9500 8550
 Wire Wire Line
 	9500 9250 9600 9250
 $Comp
-L quicklogic-quick-feather-board:GND #PWR07
+L quick-feather-board:GND #PWR07
 U 1 1 5DDEF120
 P 9500 9500
 F 0 "#PWR07" H 9500 9250 50  0001 C CNN
@@ -1774,12 +1774,12 @@ Wire Notes Line
 Text Notes 8700 10000 0    91   ~ 0
 Pressure sensor
 $Comp
-L quicklogic-quick-feather-board:C_100n_0402_6V3 C10
+L quick-feather-board:C_100n_0402_6V3 C10
 U 1 1 5DE4CA75
 P 10900 8550
 F 0 "C10" V 10642 8550 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 10900 8400 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 11100 8750 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 11100 8750 60  0001 L CNN
 F 3 "" H 10900 8550 50  0001 C CNN
 F 4 "Walsin" H 11100 8950 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 11100 8850 60  0001 L CNN "MPN"
@@ -1788,7 +1788,7 @@ F 6 "100n" V 10740 8550 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR08
+L quick-feather-board:+3V3 #PWR08
 U 1 1 5DE5478B
 P 10900 8350
 F 0 "#PWR08" H 10900 8350 50  0001 C CNN
@@ -1799,7 +1799,7 @@ F 3 "" H 10900 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR09
+L quick-feather-board:GND #PWR09
 U 1 1 5DE54D9B
 P 10900 8700
 F 0 "#PWR09" H 10900 8450 50  0001 C CNN
@@ -1810,7 +1810,7 @@ F 3 "" H 10900 8700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR0110
+L quick-feather-board:+3V3 #PWR0110
 U 1 1 5DE86C59
 P 9100 1300
 F 0 "#PWR0110" H 9100 1300 50  0001 C CNN
@@ -1840,12 +1840,12 @@ Wire Wire Line
 Wire Wire Line
 	9700 1350 9700 1600
 $Comp
-L quicklogic-quick-feather-board:DPS310 U4
+L quick-feather-board:DPS310 U4
 U 1 1 5DDF0238
 P 9700 8350
 F 0 "U4" H 9690 8390 50  0000 L CNN
 F 1 "DPS310" H 9690 8300 50  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:PG-VLGA-8-2" H 9700 8400 50  0001 C CNN
+F 2 "quick-feather-board-footprints:PG-VLGA-8-2" H 9700 8400 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-DPS310-DataSheet-v01_01-EN.pdf?fileId=5546d462576f34750157750826c42242" H 9700 8350 50  0001 C CNN
 F 4 "DPS310" H 0   0   50  0001 C CNN "MPN"
 F 5 "Infineon" H 0   0   50  0001 C CNN "Manufacturer"
@@ -1853,12 +1853,12 @@ F 5 "Infineon" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_200k_0402 R16
+L quick-feather-board:R_200k_0402 R16
 U 1 1 5DDDF534
 P 6550 6850
 F 0 "R16" H 6450 7050 60  0000 L CNN
 F 1 "R_200k_0402" H 6550 6700 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 6750 7050 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 6750 7050 60  0001 L CNN
 F 3 "" H 6550 6850 50  0001 C CNN
 F 4 "YAGEO_(PHYCOMP)" H 6750 7250 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-07200KL" H 6750 7150 60  0001 L CNN "MPN"
@@ -1882,7 +1882,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 7250 6800 7350
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0124
+L quick-feather-board:GND #PWR0124
 U 1 1 5DDFBE12
 P 6800 7350
 F 0 "#PWR0124" H 6800 7100 50  0001 C CNN
@@ -1893,7 +1893,7 @@ F 3 "" H 6800 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0125
+L quick-feather-board:GND #PWR0125
 U 1 1 5DDFDBB6
 P 5850 7350
 F 0 "#PWR0125" H 5850 7100 50  0001 C CNN
@@ -1910,12 +1910,12 @@ Wire Wire Line
 Text Notes 6500 950  0    50   ~ 0
 FBIO_8 and FBIO_9 are bootstrap pins for HS oscillator.\nThey should be pulled-down for internal HSO
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R15
+L quick-feather-board:R_10k_0402 R15
 U 1 1 5DE36627
 P 6750 2100
 F 0 "R15" V 6705 2170 60  0000 L CNN
 F 1 "R_10k_0402" H 6750 1950 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 6950 2300 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 6950 2300 60  0001 L CNN
 F 3 "" H 6750 2100 50  0001 C CNN
 F 4 "VISHAY" H 6950 2500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6950 2400 60  0001 L CNN "MPN"
@@ -1928,12 +1928,12 @@ Wire Wire Line
 Wire Wire Line
 	6750 1850 6750 1950
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R14
+L quick-feather-board:R_10k_0402 R14
 U 1 1 5DE3E89E
 P 6400 2100
 F 0 "R14" V 6355 2170 60  0000 L CNN
 F 1 "R_10k_0402" H 6400 1950 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 6600 2300 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 6600 2300 60  0001 L CNN
 F 3 "" H 6400 2100 50  0001 C CNN
 F 4 "VISHAY" H 6600 2500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6600 2400 60  0001 L CNN "MPN"
@@ -1942,7 +1942,7 @@ F 6 "10k" V 6453 2170 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0127
+L quick-feather-board:GND #PWR0127
 U 1 1 5DE3EC84
 P 6600 2300
 F 0 "#PWR0127" H 6600 2050 50  0001 C CNN
@@ -1964,12 +1964,12 @@ Connection ~ 6600 2300
 Wire Wire Line
 	5000 1950 6400 1950
 $Comp
-L quicklogic-quick-feather-board:MC3635 U5
+L quick-feather-board:MC3635 U5
 U 1 1 5DE6223F
 P 13900 8150
 F 0 "U5" H 13950 8190 50  0000 C CNN
 F 1 "MC3635" H 14050 8100 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:MC3635" H 13900 8000 50  0001 C CNN
+F 2 "quick-feather-board-footprints:MC3635" H 13900 8000 50  0001 C CNN
 F 3 "https://mcubemems.com/wp-content/uploads/2019/06/MC3635-Datasheet-APS-048-0044v1.6.pdf" H 14350 7050 50  0001 C CNN
 F 4 "MC3635" H 0   0   50  0001 C CNN "MPN"
 F 5 "mCube" H 0   0   50  0001 C CNN "Manufacturer"
@@ -1977,12 +1977,12 @@ F 5 "mCube" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:C_100n_0402_6V3 C11
+L quick-feather-board:C_100n_0402_6V3 C11
 U 1 1 5DE6446F
 P 15250 8550
 F 0 "C11" V 14992 8550 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 15250 8400 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 15450 8750 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 15450 8750 60  0001 L CNN
 F 3 "" H 15250 8550 50  0001 C CNN
 F 4 "Walsin" H 15450 8950 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 15450 8850 60  0001 L CNN "MPN"
@@ -1991,7 +1991,7 @@ F 6 "100n" V 15090 8550 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR0128
+L quick-feather-board:+3V3 #PWR0128
 U 1 1 5DE64475
 P 15250 8350
 F 0 "#PWR0128" H 15250 8350 50  0001 C CNN
@@ -2002,7 +2002,7 @@ F 3 "" H 15250 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0129
+L quick-feather-board:GND #PWR0129
 U 1 1 5DE6447B
 P 15250 8700
 F 0 "#PWR0129" H 15250 8450 50  0001 C CNN
@@ -2013,7 +2013,7 @@ F 3 "" H 15250 8700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR0130
+L quick-feather-board:+3V3 #PWR0130
 U 1 1 5DE6C26A
 P 12900 8200
 F 0 "#PWR0130" H 12900 8200 50  0001 C CNN
@@ -2028,7 +2028,7 @@ Wire Wire Line
 Wire Wire Line
 	13750 8700 13750 9400
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0131
+L quick-feather-board:GND #PWR0131
 U 1 1 5DEAA2AE
 P 13750 9400
 F 0 "#PWR0131" H 13750 9150 50  0001 C CNN
@@ -2039,7 +2039,7 @@ F 3 "" H 13750 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0132
+L quick-feather-board:GND #PWR0132
 U 1 1 5DEAA62B
 P 14750 9400
 F 0 "#PWR0132" H 14750 9150 50  0001 C CNN
@@ -2071,12 +2071,12 @@ Connection ~ 13550 8450
 Wire Wire Line
 	13550 8450 13550 8350
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R19
+L quick-feather-board:R_10k_0402 R19
 U 1 1 5DED15AF
 P 12600 8500
 F 0 "R19" V 12555 8570 60  0000 L CNN
 F 1 "R_10k_0402" H 12600 8350 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 12800 8700 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 12800 8700 60  0001 L CNN
 F 3 "" H 12600 8500 50  0001 C CNN
 F 4 "VISHAY" H 12800 8900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 12800 8800 60  0001 L CNN "MPN"
@@ -2133,12 +2133,12 @@ Accelerometer
 Text Label 2410 3650 0    50   ~ 0
 ADC0_EN
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R21
+L quick-feather-board:R_10k_0402 R21
 U 1 1 5DF80444
 P 7800 3000
 F 0 "R21" H 7700 3100 60  0000 L CNN
 F 1 "R_10k_0402" H 7800 2850 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 8000 3200 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 8000 3200 60  0001 L CNN
 F 3 "" H 7800 3000 50  0001 C CNN
 F 4 "VISHAY" H 8000 3400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8000 3300 60  0001 L CNN "MPN"
@@ -2148,12 +2148,12 @@ F 7 "1" H 7800 3000 50  0001 C CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R22
+L quick-feather-board:R_10k_0402 R22
 U 1 1 5DF80FDB
 P 7450 3000
 F 0 "R22" H 7350 2900 60  0000 L CNN
 F 1 "R_10k_0402" H 7450 2850 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 7650 3200 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 7650 3200 60  0001 L CNN
 F 3 "" H 7450 3000 50  0001 C CNN
 F 4 "VISHAY" H 7650 3400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 7650 3300 60  0001 L CNN "MPN"
@@ -2165,7 +2165,7 @@ $EndComp
 Wire Wire Line
 	5000 2850 7450 2850
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0133
+L quick-feather-board:GND #PWR0133
 U 1 1 5DFB6470
 P 7450 3150
 F 0 "#PWR0133" H 7450 2900 50  0001 C CNN
@@ -2188,7 +2188,7 @@ I2C_SCL
 Text Label 9050 8800 0    50   ~ 0
 I2C_SDA
 $Comp
-L quicklogic-quick-feather-board:+VBUS #PWR0119
+L quick-feather-board:+VBUS #PWR0119
 U 1 1 5E01B939
 P 2750 6100
 F 0 "#PWR0119" H 2750 6100 50  0001 C CNN
@@ -2200,7 +2200,7 @@ F 3 "" H 2750 6100 50  0001 C CNN
 $EndComp
 Connection ~ 2750 6150
 $Comp
-L quicklogic-quick-feather-board:+VBUS #PWR0120
+L quick-feather-board:+VBUS #PWR0120
 U 1 1 5E01C077
 P 10050 6100
 F 0 "#PWR0120" H 10050 6100 50  0001 C CNN
@@ -2211,7 +2211,7 @@ F 3 "" H 10050 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+VBAT #PWR0122
+L quick-feather-board:+VBAT #PWR0122
 U 1 1 5E029586
 P 6250 5750
 F 0 "#PWR0122" H 6250 5750 50  0001 C CNN
@@ -2224,7 +2224,7 @@ $EndComp
 Wire Wire Line
 	5850 5800 6250 5800
 $Comp
-L quicklogic-quick-feather-board:+VBUS #PWR0123
+L quick-feather-board:+VBUS #PWR0123
 U 1 1 5E029AF7
 P 925 8350
 F 0 "#PWR0123" H 925 8350 50  0001 C CNN
@@ -2235,7 +2235,7 @@ F 3 "" H 925 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+VBAT #PWR0126
+L quick-feather-board:+VBAT #PWR0126
 U 1 1 5E02A13E
 P 1250 8350
 F 0 "#PWR0126" H 1250 8350 50  0001 C CNN
@@ -2246,7 +2246,7 @@ F 3 "" H 1250 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+VBAT #PWR015
+L quick-feather-board:+VBAT #PWR015
 U 1 1 5E035BA1
 P 4400 6400
 F 0 "#PWR015" H 4400 6400 50  0001 C CNN
@@ -2259,12 +2259,12 @@ $EndComp
 Text Notes 3260 5210 0    50   ~ 0
 Maximum power consumption for A and B rails:\nLDO mode: 65mA (VCCIOA) 114mA (VCCIOB)\nLDO bypass mode: 77mA (VCCIOA) 269mA (VCCIOB) 
 $Comp
-L quicklogic-quick-feather-board:C_100n_0402_6V3 C12
+L quick-feather-board:C_100n_0402_6V3 C12
 U 1 1 5DDEA3A8
 P 6700 4800
 F 0 "C12" H 6815 4845 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 6700 4650 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 6900 5000 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 6900 5000 60  0001 L CNN
 F 3 "" H 6700 4800 50  0001 C CNN
 F 4 "Walsin" H 6900 5200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6900 5100 60  0001 L CNN "MPN"
@@ -2273,12 +2273,12 @@ F 6 "100n" H 6815 4747 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:C_100n_0402_6V3 C13
+L quick-feather-board:C_100n_0402_6V3 C13
 U 1 1 5DDEA7E7
 P 7150 4800
 F 0 "C13" H 7265 4845 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 7150 4650 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 7350 5000 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 7350 5000 60  0001 L CNN
 F 3 "" H 7150 4800 50  0001 C CNN
 F 4 "Walsin" H 7350 5200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7350 5100 60  0001 L CNN "MPN"
@@ -2287,12 +2287,12 @@ F 6 "100n" H 7265 4747 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:C_100n_0402_6V3 C15
+L quick-feather-board:C_100n_0402_6V3 C15
 U 1 1 5DDEACD8
 P 7600 4800
 F 0 "C15" H 7715 4845 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 7600 4650 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 7800 5000 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 7800 5000 60  0001 L CNN
 F 3 "" H 7600 4800 50  0001 C CNN
 F 4 "Walsin" H 7800 5200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7800 5100 60  0001 L CNN "MPN"
@@ -2301,12 +2301,12 @@ F 6 "100n" H 7715 4747 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:C_100n_0402_6V3 C17
+L quick-feather-board:C_100n_0402_6V3 C17
 U 1 1 5DDEB04F
 P 8000 4800
 F 0 "C17" H 8115 4845 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 8000 4650 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 8200 5000 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 8200 5000 60  0001 L CNN
 F 3 "" H 8000 4800 50  0001 C CNN
 F 4 "Walsin" H 8200 5200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8200 5100 60  0001 L CNN "MPN"
@@ -2315,7 +2315,7 @@ F 6 "100n" H 8115 4747 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR012
+L quick-feather-board:GND #PWR012
 U 1 1 5DDEB6DD
 P 7350 5050
 F 0 "#PWR012" H 7350 4800 50  0001 C CNN
@@ -2326,7 +2326,7 @@ F 3 "" H 7350 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR010
+L quick-feather-board:+3V3 #PWR010
 U 1 1 5DDEBD0E
 P 7350 4450
 F 0 "#PWR010" H 7350 4450 50  0001 C CNN
@@ -2389,7 +2389,7 @@ Wire Notes Line
 Text Notes 8700 5250 0    91   ~ 0
 Buttons, LEDs
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR019
+L quick-feather-board:+3V3 #PWR019
 U 1 1 5DE0E51B
 P 10000 3850
 F 0 "#PWR019" H 10000 3850 50  0001 C CNN
@@ -2437,12 +2437,12 @@ Wire Wire Line
 Wire Wire Line
 	5000 1650 6300 1650
 $Comp
-L quicklogic-quick-feather-board:R_4k7_0402 R18
+L quick-feather-board:R_4k7_0402 R18
 U 1 1 5DE08D4D
 P 12300 8500
 F 0 "R18" V 12255 8570 60  0000 L CNN
 F 1 "R_4k7_0402" H 12300 8350 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 12500 8700 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 12500 8700 60  0001 L CNN
 F 3 "" H 12300 8500 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 12500 8900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 12500 8800 60  0001 L CNN "MPN"
@@ -2451,12 +2451,12 @@ F 6 "4k7" V 12353 8570 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_4k7_0402 R20
+L quick-feather-board:R_4k7_0402 R20
 U 1 1 5DE099EA
 P 12900 8500
 F 0 "R20" V 12855 8570 60  0000 L CNN
 F 1 "R_4k7_0402" H 12900 8350 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 13100 8700 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 13100 8700 60  0001 L CNN
 F 3 "" H 12900 8500 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 13100 8900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 13100 8800 60  0001 L CNN "MPN"
@@ -2465,12 +2465,12 @@ F 6 "4k7" V 12953 8570 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:C_4u7_0603 C16
+L quick-feather-board:C_4u7_0603 C16
 U 1 1 5DE0E7DC
 P 1950 1550
 F 0 "C16" H 2065 1595 60  0000 L CNN
 F 1 "C_4u7_0603" H 1950 1400 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0603-cap" H 2150 1750 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0603-cap" H 2150 1750 60  0001 L CNN
 F 3 "" H 1950 1550 50  0001 C CNN
 F 4 "TDK" H 2150 1950 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1V475M080AC" H 2150 1850 60  0001 L CNN "MPN"
@@ -2479,12 +2479,12 @@ F 6 "4u7" H 2065 1497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:C_4u7_0603 C14
+L quick-feather-board:C_4u7_0603 C14
 U 1 1 5DE10E27
 P 1650 1550
 F 0 "C14" H 1350 1600 60  0000 L CNN
 F 1 "C_4u7_0603" H 1650 1400 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0603-cap" H 1850 1750 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0603-cap" H 1850 1750 60  0001 L CNN
 F 3 "" H 1650 1550 50  0001 C CNN
 F 4 "TDK" H 1850 1950 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1V475M080AC" H 1850 1850 60  0001 L CNN "MPN"
@@ -2501,7 +2501,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 1400 1950 1200
 $Comp
-L quicklogic-quick-feather-board:GND #PWR013
+L quick-feather-board:GND #PWR013
 U 1 1 5DE4BFB6
 P 1650 1700
 F 0 "#PWR013" H 1650 1450 50  0001 C CNN
@@ -2512,7 +2512,7 @@ F 3 "" H 1650 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR014
+L quick-feather-board:GND #PWR014
 U 1 1 5DE4C55A
 P 1950 1700
 F 0 "#PWR014" H 1950 1450 50  0001 C CNN
@@ -2523,7 +2523,7 @@ F 3 "" H 1950 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR017
+L quick-feather-board:GND #PWR017
 U 1 1 5DE977D4
 P 7800 3150
 F 0 "#PWR017" H 7800 2900 50  0001 C CNN
@@ -2541,12 +2541,12 @@ Wire Wire Line
 	7450 2850 7450 2700
 Connection ~ 7450 2850
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R23
+L quick-feather-board:R_10k_0402 R23
 U 1 1 5DEB4758
 P 7450 2550
 F 0 "R23" H 7350 2450 60  0000 L CNN
 F 1 "R_10k_0402" H 7450 2400 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 7650 2750 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 7650 2750 60  0001 L CNN
 F 3 "" H 7450 2550 50  0001 C CNN
 F 4 "VISHAY" H 7650 2950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 7650 2850 60  0001 L CNN "MPN"
@@ -2559,12 +2559,12 @@ Mount R23 for debug mode, \notherwise R22
 Wire Wire Line
 	6300 1550 5000 1550
 $Comp
-L quicklogic-quick-feather-board:TP_SMD1MM TP6
+L quick-feather-board:TP_SMD1MM TP6
 U 1 1 5DED568E
 P 2300 3650
 F 0 "TP6" V 2300 3550 50  0000 C CNN
 F 1 "TP_SMD1MM" H 2300 3550 50  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm" H 2500 3850 60  0001 L CNN
+F 2 "quick-feather-board-footprints:Testpoint_smd_1mm" H 2500 3850 60  0001 L CNN
 F 3 "" H 2500 3950 60  0001 L CNN
 F 4 "N/A" H -3800 1000 50  0001 C CNN "MPN"
 F 5 "N/A" H -3800 1000 50  0001 C CNN "Manufacturer"
@@ -2596,7 +2596,7 @@ Wire Wire Line
 Wire Wire Line
 	13500 2600 14100 2600
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR021
+L quick-feather-board:+3V3 #PWR021
 U 1 1 5E2ECD9F
 P 13500 2350
 F 0 "#PWR021" H 13500 2350 50  0001 C CNN
@@ -2611,7 +2611,7 @@ Wire Wire Line
 Wire Wire Line
 	14000 4000 14100 4000
 $Comp
-L quicklogic-quick-feather-board:GND #PWR022
+L quick-feather-board:GND #PWR022
 U 1 1 5E30177F
 P 14000 4100
 F 0 "#PWR022" H 14000 3850 50  0001 C CNN
@@ -2641,12 +2641,12 @@ Headers
 Wire Wire Line
 	6500 8850 6300 8850
 $Comp
-L quicklogic-quick-feather-board:R_100R_0402 R26
+L quick-feather-board:R_100R_0402 R26
 U 1 1 5E02513F
 P 11200 4100
 F 0 "R26" H 11450 4050 60  0000 C CNN
 F 1 "R_100R_0402" H 11200 3950 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 11400 4300 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 11400 4300 60  0001 L CNN
 F 3 "" H 11200 4100 50  0001 C CNN
 F 4 "BOURNS" H 11400 4500 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 11400 4400 60  0001 L CNN "MPN"
@@ -2655,12 +2655,12 @@ F 6 "100R" H 10950 4050 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_100R_0402 R24
+L quick-feather-board:R_100R_0402 R24
 U 1 1 5E026C5D
 P 11200 4000
 F 0 "R24" H 11450 3950 60  0000 C CNN
 F 1 "R_100R_0402" H 11200 3850 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 11400 4200 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 11400 4200 60  0001 L CNN
 F 3 "" H 11200 4000 50  0001 C CNN
 F 4 "BOURNS" H 11400 4400 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 11400 4300 60  0001 L CNN "MPN"
@@ -2679,7 +2679,7 @@ HEADER_TX
 Wire Wire Line
 	5000 2050 6300 2050
 $Comp
-L quicklogic-quick-feather-board:+VBAT #PWR023
+L quick-feather-board:+VBAT #PWR023
 U 1 1 5E3F5F39
 P 2750 9650
 F 0 "#PWR023" H 2750 9650 50  0001 C CNN
@@ -2690,7 +2690,7 @@ F 3 "" H 2750 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR024
+L quick-feather-board:GND #PWR024
 U 1 1 5E3F6565
 P 2750 9800
 F 0 "#PWR024" H 2750 9550 50  0001 C CNN
@@ -2729,12 +2729,12 @@ Wire Wire Line
 Wire Wire Line
 	13550 3900 13000 3900
 $Comp
-L quicklogic-quick-feather-board:R_22R_0402 R28
+L quick-feather-board:R_22R_0402 R28
 U 1 1 5E720B3F
 P 13750 3000
 F 0 "R28" H 13950 3050 60  0000 C CNN
 F 1 "R_22R_0402" H 13750 2850 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 13950 3200 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 13950 3200 60  0001 L CNN
 F 3 "" H 13750 3000 50  0001 C CNN
 F 4 "VISHAY" H 13950 3400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 13950 3300 60  0001 L CNN "MPN"
@@ -2743,12 +2743,12 @@ F 6 "22R" H 13550 3050 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_22R_0402 R29
+L quick-feather-board:R_22R_0402 R29
 U 1 1 5E720ED0
 P 13750 3100
 F 0 "R29" H 13950 3150 60  0000 C CNN
 F 1 "R_22R_0402" H 13750 2950 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 13950 3300 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 13950 3300 60  0001 L CNN
 F 3 "" H 13750 3100 50  0001 C CNN
 F 4 "VISHAY" H 13950 3500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 13950 3400 60  0001 L CNN "MPN"
@@ -2759,12 +2759,12 @@ $EndComp
 Text Label 9950 4800 0    50   ~ 0
 Q_LED_R
 $Comp
-L quicklogic-quick-feather-board:FTSH-105-01-L-DV-K J6
+L quick-feather-board:FTSH-105-01-L-DV-K J6
 U 1 1 5DF1A95E
 P 13950 1550
 F 0 "J6" H 13850 2000 50  0000 C CNN
 F 1 "FTSH-105-01-L-DV-K" H 13750 1900 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:PinHeader_2x5_P1.27_SMD" H 14150 1750 60  0001 L CNN
+F 2 "quick-feather-board-footprints:PinHeader_2x5_P1.27_SMD" H 14150 1750 60  0001 L CNN
 F 3 "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf" H 14150 1850 60  0001 L CNN
 F 4 "FTSH-105-01-L-DV-K" H 14150 2050 60  0001 L CNN "MPN"
 F 5 "Samtec Inc." H 14150 2650 60  0001 L CNN "Manufacturer"
@@ -2772,12 +2772,12 @@ F 5 "Samtec Inc." H 14150 2650 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:C_100n_0402_6V3 C18
+L quick-feather-board:C_100n_0402_6V3 C18
 U 1 1 5DF1EBE5
 P 13100 1550
 F 0 "C18" H 12950 1650 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 13100 1400 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-cap" H 13300 1750 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 13300 1750 60  0001 L CNN
 F 3 "" H 13100 1550 50  0001 C CNN
 F 4 "Walsin" H 13300 1950 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 13300 1850 60  0001 L CNN "MPN"
@@ -2786,12 +2786,12 @@ F 6 "100n" H 12900 1450 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R34
+L quick-feather-board:R_10k_0402 R34
 U 1 1 5DF24DC8
 P 14900 1150
 F 0 "R34" V 14855 1220 60  0000 L CNN
 F 1 "R_10k_0402" H 14900 1000 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 15100 1350 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 15100 1350 60  0001 L CNN
 F 3 "" H 14900 1150 50  0001 C CNN
 F 4 "VISHAY" H 15100 1550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 15100 1450 60  0001 L CNN "MPN"
@@ -2800,12 +2800,12 @@ F 6 "10k" V 14953 1220 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R32
+L quick-feather-board:R_10k_0402 R32
 U 1 1 5DF271A3
 P 14600 1150
 F 0 "R32" V 14555 1220 60  0000 L CNN
 F 1 "R_10k_0402" H 14600 1000 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 14800 1350 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 14800 1350 60  0001 L CNN
 F 3 "" H 14600 1150 50  0001 C CNN
 F 4 "VISHAY" H 14800 1550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 14800 1450 60  0001 L CNN "MPN"
@@ -2814,7 +2814,7 @@ F 6 "10k" V 14653 1220 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR025
+L quick-feather-board:+3V3 #PWR025
 U 1 1 5DF483A6
 P 13100 950
 F 0 "#PWR025" H 13100 950 50  0001 C CNN
@@ -2825,12 +2825,12 @@ F 3 "" H 13100 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:SD05C.TCT D6
+L quick-feather-board:SD05C.TCT D6
 U 1 1 5DF53AFC
 P 13400 1600
 F 0 "D6" V 13500 1550 60  0000 R CNN
 F 1 "SD05C.TCT" H 13600 1750 60  0000 R CNN
-F 2 "quicklogic-quick-feather-board-footprints:SOD-323-SD05" H 13600 1800 60  0001 L CNN
+F 2 "quick-feather-board-footprints:SOD-323-SD05" H 13600 1800 60  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/761/sdxxc-1277747.pdf" H 13600 1900 60  0001 L CNN
 F 4 "Semtec" H 13600 2200 60  0001 L CNN "Manufacturer"
 F 5 "SD05C.TCT" H 13600 2100 60  0001 L CNN "MPN"
@@ -2838,7 +2838,7 @@ F 5 "SD05C.TCT" H 13600 2100 60  0001 L CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR030
+L quick-feather-board:GND #PWR030
 U 1 1 5DFACA07
 P 13650 1850
 F 0 "#PWR030" H 13650 1600 50  0001 C CNN
@@ -2863,7 +2863,7 @@ Connection ~ 13650 1550
 Wire Wire Line
 	13650 1550 13650 1750
 $Comp
-L quicklogic-quick-feather-board:GND #PWR027
+L quick-feather-board:GND #PWR027
 U 1 1 5DFF5023
 P 13400 1850
 F 0 "#PWR027" H 13400 1600 50  0001 C CNN
@@ -2874,7 +2874,7 @@ F 3 "" H 13400 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR026
+L quick-feather-board:GND #PWR026
 U 1 1 5E026E75
 P 13100 1850
 F 0 "#PWR026" H 13100 1600 50  0001 C CNN
@@ -2898,7 +2898,7 @@ Wire Wire Line
 Wire Wire Line
 	13400 1800 13400 1850
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR031
+L quick-feather-board:+3V3 #PWR031
 U 1 1 5E0A2DF7
 P 14600 950
 F 0 "#PWR031" H 14600 950 50  0001 C CNN
@@ -2939,12 +2939,12 @@ SYS_RST
 Text Label 15300 2900 0    50   ~ 0
 SYS_RST
 $Comp
-L quicklogic-quick-feather-board:TPD2EUSB30DRTR D11
+L quick-feather-board:TPD2EUSB30DRTR D11
 U 1 1 5DFFE1C9
 P 15200 2600
 F 0 "D11" V 15450 2400 60  0000 C CNN
 F 1 "TPD2EUSB30DRTR" V 14800 2750 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:SOT-3" H 15400 2800 60  0001 L CNN
+F 2 "quick-feather-board-footprints:SOT-3" H 15400 2800 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd2eusb30" H 15400 2900 60  0001 L CNN
 F 4 "Texas Instruments" H 15400 3700 60  0001 L CNN "Manufacturer"
 F 5 "TPD2EUSB30DRTR" H 15400 3100 60  0001 L CNN "MPN"
@@ -2952,12 +2952,12 @@ F 5 "TPD2EUSB30DRTR" H 15400 3100 60  0001 L CNN "MPN"
 	0    1    -1   0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_220R_0402 R25
+L quick-feather-board:R_220R_0402 R25
 U 1 1 5DF7CD5E
 P 11200 4200
 F 0 "R25" H 11450 4150 60  0000 C CNN
 F 1 "R_220R_0402" H 11200 4050 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 11400 4400 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 11400 4400 60  0001 L CNN
 F 3 "" H 11200 4200 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 11400 4600 60  0001 L CNN "Manufacturer"
 F 5 "RMCF0402JT220R" H 11400 4500 60  0001 L CNN "MPN"
@@ -2966,7 +2966,7 @@ F 6 "220R" H 10950 4150 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0134
+L quick-feather-board:GND #PWR0134
 U 1 1 5E36F3E4
 P 9750 4800
 F 0 "#PWR0134" H 9750 4550 50  0001 C CNN
@@ -2977,12 +2977,12 @@ F 3 "" H 9750 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:1x16_pinhead J3
+L quick-feather-board:1x16_pinhead J3
 U 1 1 5E0B046D
 P 14100 4150
 F 0 "J3" H 14378 3296 50  0000 L CNN
 F 1 "1x16_pinhead" V 14400 3550 50  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:1x16_pinhead" H 14100 4150 50  0001 C CNN
+F 2 "quick-feather-board-footprints:1x16_pinhead" H 14100 4150 50  0001 C CNN
 F 3 "" H 14100 4150 50  0001 C CNN
 F 4 "Wurth Elektronik" H 14100 4150 50  0001 C CNN "Manufacturer"
 F 5 "61301611121 " H 14100 4150 50  0001 C CNN "MPN"
@@ -2991,12 +2991,12 @@ F 6 "1" H 14100 4150 50  0001 C CNN "DNP"
 	1    0    0    1   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:KMR2 S2
+L quick-feather-board:KMR2 S2
 U 1 1 5DFFAA20
 P 9400 4000
 F 0 "S2" H 9400 4275 50  0000 C CNN
 F 1 "KMR2" H 9400 4184 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:SW_SPST_4.2x2.8" H 9600 4200 50  0001 L CNN
+F 2 "quick-feather-board-footprints:SW_SPST_4.2x2.8" H 9600 4200 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 9600 4300 60  0001 L CNN
 F 4 "KMR211NGLFS" H 9596 4393 60  0001 L CNN "MPN"
 F 5 "C&K Components" H 9600 4472 60  0001 L CNN "Manufacturer"
@@ -3004,12 +3004,12 @@ F 5 "C&K Components" H 9600 4472 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:KMR2 S1
+L quick-feather-board:KMR2 S1
 U 1 1 5DFFBBE4
 P 9400 4400
 F 0 "S1" H 9400 4675 50  0000 C CNN
 F 1 "KMR2" H 9400 4584 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:SW_SPST_4.2x2.8" H 9600 4600 50  0001 L CNN
+F 2 "quick-feather-board-footprints:SW_SPST_4.2x2.8" H 9600 4600 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 9600 4700 60  0001 L CNN
 F 4 "KMR211NGLFS" H 9596 4793 60  0001 L CNN "MPN"
 F 5 "C&K Components" H 9600 4872 60  0001 L CNN "Manufacturer"
@@ -3017,12 +3017,12 @@ F 5 "C&K Components" H 9600 4872 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:S2B-PH-SM4-TB_LF__SN_ J4
+L quick-feather-board:S2B-PH-SM4-TB_LF__SN_ J4
 U 1 1 5E3F3FA2
 P 2100 9800
 F 0 "J4" V 1875 9808 50  0000 C CNN
 F 1 "S2B-PH-SM4-TB_LF__SN_" V 1966 9808 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:PinHeader_2x1mm_P2mm_SMD_RA" H 2300 10000 60  0001 L CNN
+F 2 "quick-feather-board-footprints:PinHeader_2x1mm_P2mm_SMD_RA" H 2300 10000 60  0001 L CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2300 10100 60  0001 L CNN
 F 4 "S2B-PH-SM4-TB(LF)(SN)" H 2300 10300 60  0001 L CNN "MPN"
 F 5 "JST Sales America Inc." H 2300 10900 60  0001 L CNN "Manufacturer"
@@ -3034,12 +3034,12 @@ Wire Wire Line
 Text Label 9400 6650 0    50   ~ 0
 USB_ID
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R36
+L quick-feather-board:R_10k_0402 R36
 U 1 1 5DFEC333
 P 9800 6900
 F 0 "R36" V 9750 6650 60  0000 L CNN
 F 1 "R_10k_0402" H 9800 6750 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10000 7100 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 10000 7100 60  0001 L CNN
 F 3 "" H 9800 6900 50  0001 C CNN
 F 4 "VISHAY" H 10000 7300 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 10000 7200 60  0001 L CNN "MPN"
@@ -3049,7 +3049,7 @@ F 7 "1" V 9800 6900 50  0001 C CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR018
+L quick-feather-board:GND #PWR018
 U 1 1 5E016CC8
 P 9800 7100
 F 0 "#PWR018" H 9800 6850 50  0001 C CNN
@@ -3071,12 +3071,12 @@ HEADER_A5
 Wire Wire Line
 	9800 7050 9800 7100
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R37
+L quick-feather-board:R_10k_0402 R37
 U 1 1 5E1C80BB
 P 5250 7200
 F 0 "R37" V 5200 6950 60  0000 L CNN
 F 1 "R_10k_0402" H 5250 7050 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 5450 7400 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 5450 7400 60  0001 L CNN
 F 3 "" H 5250 7200 50  0001 C CNN
 F 4 "VISHAY" H 5450 7600 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5450 7500 60  0001 L CNN "MPN"
@@ -3088,7 +3088,7 @@ Connection ~ 5250 7050
 Wire Wire Line
 	5250 7050 5000 7050
 $Comp
-L quicklogic-quick-feather-board:GND #PWR032
+L quick-feather-board:GND #PWR032
 U 1 1 5E1EB65A
 P 5250 7350
 F 0 "#PWR032" H 5250 7100 50  0001 C CNN
@@ -3113,12 +3113,12 @@ Wire Wire Line
 Wire Wire Line
 	2850 2250 2950 2250
 $Comp
-L quicklogic-quick-feather-board:TP_SMD1MM TP2
+L quick-feather-board:TP_SMD1MM TP2
 U 1 1 5DC6A90F
 P 2750 2250
 F 0 "TP2" V 2750 2150 50  0000 C CNN
 F 1 "TP_SMD1MM" H 2750 2150 50  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm" H 2950 2450 60  0001 L CNN
+F 2 "quick-feather-board-footprints:Testpoint_smd_1mm" H 2950 2450 60  0001 L CNN
 F 3 "" H 2950 2550 60  0001 L CNN
 F 4 "N/A" H 0   0   50  0001 C CNN "MPN"
 F 5 "N/A" H 0   0   50  0001 C CNN "Manufacturer"
@@ -3132,12 +3132,12 @@ VDD1
 Wire Wire Line
 	2950 2150 2850 2150
 $Comp
-L quicklogic-quick-feather-board:TP_SMD1MM TP1
+L quick-feather-board:TP_SMD1MM TP1
 U 1 1 5DC6A7F5
 P 2750 2150
 F 0 "TP1" V 2750 2050 50  0000 C CNN
 F 1 "TP_SMD1MM" H 2750 2050 50  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:Testpoint_smd_1mm" H 2950 2350 60  0001 L CNN
+F 2 "quick-feather-board-footprints:Testpoint_smd_1mm" H 2950 2350 60  0001 L CNN
 F 3 "" H 2950 2450 60  0001 L CNN
 F 4 "N/A" H 0   0   50  0001 C CNN "MPN"
 F 5 "N/A" H 0   0   50  0001 C CNN "Manufacturer"
@@ -3145,12 +3145,12 @@ F 5 "N/A" H 0   0   50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:EOS-S3-QFN IC1
+L quick-feather-board:EOS-S3-QFN IC1
 U 1 1 5E0610BF
 P 3050 1400
 F 0 "IC1" H 3090 -1870 50  0000 C CNN
 F 1 "EOS-S3-QFN" H 3280 -1950 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:QFN-64_8.5x8.5_EOS" H 4000 -1900 50  0001 C CNN
+F 2 "quick-feather-board-footprints:QFN-64_8.5x8.5_EOS" H 4000 -1900 50  0001 C CNN
 F 3 "" H 4800 -1600 50  0001 C CNN
 F 4 "EOSA1-S-PUN64" H 3050 1400 50  0001 C CNN "MPN"
 F 5 "QuickLogic" H 3050 1400 50  0001 C CNN "Manufacturer"
@@ -3191,12 +3191,12 @@ Wire Wire Line
 Wire Wire Line
 	7450 2150 7450 2400
 $Comp
-L quicklogic-quick-feather-board:MCP73831T-2ACI_OT U2
+L quick-feather-board:MCP73831T-2ACI_OT U2
 U 1 1 5DC1E64E
 P 2750 6450
 F 0 "U2" H 1790 6730 60  0000 C CNN
 F 1 "MCP73831T-2ACI_OT" H 2200 6630 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:SOT-753" H 2950 6650 60  0001 L CNN
+F 2 "quick-feather-board-footprints:SOT-753" H 2950 6650 60  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 2950 6750 60  0001 L CNN
 F 4 "MCP73831T-2ACI/OT" H 2950 6950 60  0001 L CNN "MPN"
 F 5 "Microchip Technology" H 2950 7550 60  0001 L CNN "Manufacturer"
@@ -3204,12 +3204,12 @@ F 5 "Microchip Technology" H 2950 7550 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:NX3008CBKV Q1
+L quick-feather-board:NX3008CBKV Q1
 U 1 1 5E1697DA
 P 6050 6550
 F 0 "Q1" V 6053 6262 60  0000 R CNN
 F 1 "NX3008CBKV" V 5947 6262 60  0000 R CNN
-F 2 "quicklogic-quick-feather-board-footprints:SOT-563" H 6550 6750 60  0001 L CNN
+F 2 "quick-feather-board-footprints:SOT-563" H 6550 6750 60  0001 L CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/NX3008CBKV.pdf" H 6500 6850 60  0001 L CNN
 F 4 "Nexperia" H 6500 7050 60  0001 L CNN "Manufacturer"
 F 5 "NX3008CBKV" H 6500 6950 60  0001 L CNN "MPN"
@@ -3232,12 +3232,12 @@ Wire Wire Line
 	6250 6350 6250 5800
 Connection ~ 6250 5800
 $Comp
-L quicklogic-quick-feather-board:2N7002PV Q2
+L quick-feather-board:2N7002PV Q2
 U 1 1 5E32257A
 P 10650 4800
 F 0 "Q2" H 10500 5150 60  0000 C CNN
 F 1 "2N7002PV" H 10600 4450 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:SOT-563" H 11150 5000 60  0001 L CNN
+F 2 "quick-feather-board-footprints:SOT-563" H 11150 5000 60  0001 L CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/2N7002PV.pdf" H 11100 5100 60  0001 L CNN
 F 4 "Nexperia" H 11100 5300 60  0001 L CNN "Manufacturer"
 F 5 "2N7002PV" H 11100 5200 60  0001 L CNN "MPN"
@@ -3265,7 +3265,7 @@ Wire Wire Line
 Wire Wire Line
 	10950 5000 10950 5050
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0121
+L quick-feather-board:GND #PWR0121
 U 1 1 5E4B802A
 P 10250 5050
 F 0 "#PWR0121" H 10250 4800 50  0001 C CNN
@@ -3276,7 +3276,7 @@ F 3 "" H 10250 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0136
+L quick-feather-board:GND #PWR0136
 U 1 1 5E4B83FF
 P 10950 5050
 F 0 "#PWR0136" H 10950 4800 50  0001 C CNN
@@ -3295,12 +3295,12 @@ Wire Wire Line
 Wire Wire Line
 	12250 4800 12600 4800
 $Comp
-L quicklogic-quick-feather-board:2N7002PV Q3
+L quick-feather-board:2N7002PV Q3
 U 1 1 5E5A2588
 P 12050 4800
 F 0 "Q3" H 11900 5150 60  0000 C CNN
 F 1 "2N7002PV" H 12000 4450 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:SOT-563" H 12550 5000 60  0001 L CNN
+F 2 "quick-feather-board-footprints:SOT-563" H 12550 5000 60  0001 L CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/2N7002PV.pdf" H 12500 5100 60  0001 L CNN
 F 4 "Nexperia" H 12500 5300 60  0001 L CNN "Manufacturer"
 F 5 "2N7002PV" H 12500 5200 60  0001 L CNN "MPN"
@@ -3316,7 +3316,7 @@ Wire Wire Line
 Wire Wire Line
 	12350 5000 12350 5050
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0137
+L quick-feather-board:GND #PWR0137
 U 1 1 5E5A2592
 P 11650 5050
 F 0 "#PWR0137" H 11650 4800 50  0001 C CNN
@@ -3327,7 +3327,7 @@ F 3 "" H 11650 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0138
+L quick-feather-board:GND #PWR0138
 U 1 1 5E5A2598
 P 12350 5050
 F 0 "#PWR0138" H 12350 4800 50  0001 C CNN
@@ -3348,12 +3348,12 @@ LED_G
 Text Label 12350 4600 0    50   ~ 0
 LED_B
 $Comp
-L quicklogic-quick-feather-board:ASMB-MTB1-0A3A2 D4
+L quick-feather-board:ASMB-MTB1-0A3A2 D4
 U 1 1 5E5DD36B
 P 10150 3950
 F 0 "D4" H 10425 4125 50  0000 C CNN
 F 1 "ASMB-MTB1-0A3A2" H 10425 4034 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:LED-PLCC4_3.2x2.8mm_B" H 11200 3600 50  0001 C CNN
+F 2 "quick-feather-board-footprints:LED-PLCC4_3.2x2.8mm_B" H 11200 3600 50  0001 C CNN
 F 3 "https://docs.broadcom.com/docs/AV02-4194EN" H 10150 3950 50  0001 C CNN
 F 4 "Broadcom" H 10350 3400 50  0001 C CNN "Manufacturer"
 F 5 "UHD1110-FKA" H 10425 3500 50  0001 C CNN "MPN"
@@ -3361,12 +3361,12 @@ F 5 "UHD1110-FKA" H 10425 3500 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_10k_0402 R31
+L quick-feather-board:R_10k_0402 R31
 U 1 1 5E067FF2
 P 7800 2600
 F 0 "R31" H 7750 2500 60  0000 L CNN
 F 1 "R_10k_0402" H 7800 2450 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 8000 2800 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 8000 2800 60  0001 L CNN
 F 3 "" H 7800 2600 50  0001 C CNN
 F 4 "VISHAY" H 8000 3000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8000 2900 60  0001 L CNN "MPN"
@@ -3376,7 +3376,7 @@ F 6 "10k" H 7750 2400 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 7800 2750
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR016
+L quick-feather-board:+3V3 #PWR016
 U 1 1 5DEB4A46
 P 8100 1850
 F 0 "#PWR016" H 8100 1850 50  0001 C CNN
@@ -3398,12 +3398,12 @@ Wire Wire Line
 Text Notes 8125 3075 1    51   ~ 10
 DNP
 $Comp
-L quicklogic-quick-feather-board:2x8_pinhead J8
+L quick-feather-board:2x8_pinhead J8
 U 1 1 5E02FD71
 P 14950 4900
 F 0 "J8" H 15175 4990 50  0000 C CNN
 F 1 "2x8_pinhead" H 15175 4899 50  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:2x8_pinhead" H 15275 3875 50  0001 C CNN
+F 2 "quick-feather-board-footprints:2x8_pinhead" H 15275 3875 50  0001 C CNN
 F 3 "" H 14950 4900 50  0001 C CNN
 F 4 "Multicomp" H 14950 4900 50  0001 C CNN "Manufacturer"
 F 5 "2213S-16G " H 14950 4900 50  0001 C CNN "MPN"
@@ -3516,12 +3516,12 @@ ADC1
 Text Label 13000 3000 0    50   ~ 0
 ADC1
 $Comp
-L quicklogic-quick-feather-board:EXB2HV220JV R42
+L quick-feather-board:EXB2HV220JV R42
 U 1 1 5E782EEB
 P 15200 6950
 F 0 "R42" H 15250 7600 60  0000 C CNN
 F 1 "EXB2HV220JV" H 15150 7500 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:R_Array_Convex_8x0602" H 15000 7600 60  0001 L CNN
+F 2 "quick-feather-board-footprints:R_Array_Convex_8x0602" H 15000 7600 60  0001 L CNN
 F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/218/TL3365.pdf" H 15000 7700 60  0001 L CNN
 F 4 "EXB2HV220JV" H 15000 7900 60  0001 L CNN "MPN"
 F 5 "Panasonic" H 15000 7800 60  0001 L CNN "Manufacturer"
@@ -3530,12 +3530,12 @@ F 6 "1" H 15200 6950 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:EXB2HV220JV R33
+L quick-feather-board:EXB2HV220JV R33
 U 1 1 5E7AD5E5
 P 13650 6950
 F 0 "R33" H 13650 7600 60  0000 C CNN
 F 1 "EXB2HV220JV" H 13800 7500 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:R_Array_Convex_8x0602" H 13450 7600 60  0001 L CNN
+F 2 "quick-feather-board-footprints:R_Array_Convex_8x0602" H 13450 7600 60  0001 L CNN
 F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/218/TL3365.pdf" H 13450 7700 60  0001 L CNN
 F 4 "EXB2HV220JV" H 13450 7900 60  0001 L CNN "MPN"
 F 5 "Panasonic" H 13450 7800 60  0001 L CNN "Manufacturer"
@@ -3567,12 +3567,12 @@ Wire Wire Line
 Wire Wire Line
 	13900 2700 14100 2700
 $Comp
-L quicklogic-quick-feather-board:EXB2HV220JV R30
+L quick-feather-board:EXB2HV220JV R30
 U 1 1 5E56D4AE
 P 13700 3600
 F 0 "R30" H 14050 3200 60  0000 C CNN
 F 1 "EXB2HV220JV" H 13850 3100 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:R_Array_Convex_8x0602" H 13500 4250 60  0001 L CNN
+F 2 "quick-feather-board-footprints:R_Array_Convex_8x0602" H 13500 4250 60  0001 L CNN
 F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/218/TL3365.pdf" H 13500 4350 60  0001 L CNN
 F 4 "EXB2HV220JV" H 13500 4550 60  0001 L CNN "MPN"
 F 5 "Panasonic" H 13500 4450 60  0001 L CNN "Manufacturer"
@@ -3637,12 +3637,12 @@ Wire Wire Line
 Wire Wire Line
 	14100 4750 14000 4750
 $Comp
-L quicklogic-quick-feather-board:R_22R_0402 R40
+L quick-feather-board:R_22R_0402 R40
 U 1 1 5EEF4125
 P 13850 4950
 F 0 "R40" H 13650 5000 60  0000 C CNN
 F 1 "R_22R_0402" H 13850 4800 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 14050 5150 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 14050 5150 60  0001 L CNN
 F 3 "" H 13850 4950 50  0001 C CNN
 F 4 "VISHAY" H 14050 5350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 14050 5250 60  0001 L CNN "MPN"
@@ -3651,12 +3651,12 @@ F 6 "22R" H 14000 5000 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_22R_0402 R39
+L quick-feather-board:R_22R_0402 R39
 U 1 1 5EEF3D20
 P 13850 4850
 F 0 "R39" H 13650 4900 60  0000 C CNN
 F 1 "R_22R_0402" H 13850 4700 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 14050 5050 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 14050 5050 60  0001 L CNN
 F 3 "" H 13850 4850 50  0001 C CNN
 F 4 "VISHAY" H 14050 5250 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 14050 5150 60  0001 L CNN "MPN"
@@ -3665,12 +3665,12 @@ F 6 "22R" H 14000 4900 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_22R_0402 R38
+L quick-feather-board:R_22R_0402 R38
 U 1 1 5EEE9896
 P 13850 4750
 F 0 "R38" H 13650 4800 60  0000 C CNN
 F 1 "R_22R_0402" H 13850 4600 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 14050 4950 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 14050 4950 60  0001 L CNN
 F 3 "" H 13850 4750 50  0001 C CNN
 F 4 "VISHAY" H 14050 5150 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 14050 5050 60  0001 L CNN "MPN"
@@ -3679,12 +3679,12 @@ F 6 "22R" H 14000 4800 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:EXB2HV220JV R41
+L quick-feather-board:EXB2HV220JV R41
 U 1 1 5EED5AD0
 P 13850 5450
 F 0 "R41" H 14050 5000 60  0000 C CNN
 F 1 "EXB2HV220JV" H 13500 5000 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:R_Array_Convex_8x0602" H 13650 6100 60  0001 L CNN
+F 2 "quick-feather-board-footprints:R_Array_Convex_8x0602" H 13650 6100 60  0001 L CNN
 F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/218/TL3365.pdf" H 13650 6200 60  0001 L CNN
 F 4 "EXB2HV220JV" H 13650 6400 60  0001 L CNN "MPN"
 F 5 "Panasonic" H 13650 6300 60  0001 L CNN "Manufacturer"
@@ -3702,12 +3702,12 @@ S3IO_32_I2C1
 Text Label 13600 5550 2    50   ~ 0
 IMU_INT
 $Comp
-L quicklogic-quick-feather-board:1x12_pinhead J2
+L quick-feather-board:1x12_pinhead J2
 U 1 1 5E0AEB42
 P 14100 4500
 F 0 "J2" H 14378 3846 50  0000 L CNN
 F 1 "1x12_pinhead" V 14400 3200 50  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:1x12_pinhead" H 14100 4500 50  0001 C CNN
+F 2 "quick-feather-board-footprints:1x12_pinhead" H 14100 4500 50  0001 C CNN
 F 3 "" H 14100 4500 50  0001 C CNN
 F 4 "Multicomp" H 14100 4500 50  0001 C CNN "Manufaturer"
 F 5 "MC34733" H 14100 4500 50  0001 C CNN "MPN"
@@ -3732,7 +3732,7 @@ Wire Wire Line
 Wire Wire Line
 	13350 4600 13350 4650
 $Comp
-L quicklogic-quick-feather-board:+VBAT #PWR020
+L quick-feather-board:+VBAT #PWR020
 U 1 1 5E32C22B
 P 13350 4550
 F 0 "#PWR020" H 13350 4550 50  0001 C CNN
@@ -3751,7 +3751,7 @@ HEADER_P6
 Text Label 13900 4650 2    50   ~ 0
 HEADER_BAT
 $Comp
-L quicklogic-quick-feather-board:+3V3 #PWR0139
+L quick-feather-board:+3V3 #PWR0139
 U 1 1 5FE4E3A4
 P 14700 4900
 F 0 "#PWR0139" H 14700 4900 50  0001 C CNN
@@ -3762,7 +3762,7 @@ F 3 "" H 14700 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0140
+L quick-feather-board:GND #PWR0140
 U 1 1 5FE4E8C1
 P 15550 5800
 F 0 "#PWR0140" H 15550 5550 50  0001 C CNN
@@ -3773,7 +3773,7 @@ F 3 "" H 15550 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:GND #PWR0135
+L quick-feather-board:GND #PWR0135
 U 1 1 5DF6028C
 P 14900 3950
 F 0 "#PWR0135" H 14900 3700 50  0001 C CNN
@@ -3788,12 +3788,12 @@ Wire Wire Line
 Wire Wire Line
 	15200 3750 15500 3750
 $Comp
-L quicklogic-quick-feather-board:TPD2EUSB30DRTR D5
+L quick-feather-board:TPD2EUSB30DRTR D5
 U 1 1 5DE57DB4
 P 15200 3450
 F 0 "D5" V 15500 3300 60  0000 C CNN
 F 1 "TPD2EUSB30DRTR" V 14800 3450 60  0000 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:SOT-3" H 15400 3650 60  0001 L CNN
+F 2 "quick-feather-board-footprints:SOT-3" H 15400 3650 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd2eusb30" H 15400 3750 60  0001 L CNN
 F 4 "Texas Instruments" H 15400 4550 60  0001 L CNN "Manufacturer"
 F 5 "TPD2EUSB30DRTR" H 15400 3950 60  0001 L CNN "MPN"
@@ -3810,45 +3810,45 @@ Connection ~ 14900 3450
 Wire Wire Line
 	14900 3450 14900 3950
 $Comp
-L quicklogic-quick-feather-board:mounting_pad M1
+L quick-feather-board:mounting_pad M1
 U 1 1 5E097291
 P 10900 10250
 F 0 "M1" H 11029 10318 50  0000 L CNN
 F 1 "mounting_pad" H 11029 10227 50  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:MPAD" H 11200 10125 50  0001 C CNN
+F 2 "quick-feather-board-footprints:MPAD" H 11200 10125 50  0001 C CNN
 F 3 "" H 10900 10250 50  0001 C CNN
 	1    10900 10250
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:mounting_pad M2
+L quick-feather-board:mounting_pad M2
 U 1 1 5E0976CB
 P 10900 10450
 F 0 "M2" H 11029 10518 50  0000 L CNN
 F 1 "mounting_pad" H 11029 10427 50  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:MPAD" H 11200 10325 50  0001 C CNN
+F 2 "quick-feather-board-footprints:MPAD" H 11200 10325 50  0001 C CNN
 F 3 "" H 10900 10450 50  0001 C CNN
 	1    10900 10450
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:mounting_pad M3
+L quick-feather-board:mounting_pad M3
 U 1 1 5E09796A
 P 10900 10650
 F 0 "M3" H 11029 10718 50  0000 L CNN
 F 1 "mounting_pad" H 11029 10627 50  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:MPAD" H 11200 10525 50  0001 C CNN
+F 2 "quick-feather-board-footprints:MPAD" H 11200 10525 50  0001 C CNN
 F 3 "" H 10900 10650 50  0001 C CNN
 	1    10900 10650
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:mounting_pad M4
+L quick-feather-board:mounting_pad M4
 U 1 1 5E097B7C
 P 10900 10850
 F 0 "M4" H 11029 10918 50  0000 L CNN
 F 1 "mounting_pad" H 11029 10827 50  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:MPAD" H 11200 10725 50  0001 C CNN
+F 2 "quick-feather-board-footprints:MPAD" H 11200 10725 50  0001 C CNN
 F 3 "" H 10900 10850 50  0001 C CNN
 	1    10900 10850
 	1    0    0    -1  
@@ -4058,12 +4058,12 @@ const
 Text Notes 12750 2500 0    50   ~ 0
 const
 $Comp
-L quicklogic-quick-feather-board:TP_THT TP4
+L quick-feather-board:TP_THT TP4
 U 1 1 5F04ECF4
 P 6850 1850
 F 0 "TP4" V 6850 1796 50  0000 R CNN
 F 1 "TP_THT" H 6850 1750 50  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:Testpoint_THT_Drill0.9mm" H 7050 2050 60  0001 L CNN
+F 2 "quick-feather-board-footprints:Testpoint_THT_Drill0.9mm" H 7050 2050 60  0001 L CNN
 F 3 "" H 7050 2150 60  0001 L CNN
 F 4 "N/A" H 6850 1850 50  0001 C CNN "Manufacturer"
 F 5 "N/A" H 6850 1850 50  0001 C CNN "MPN"
@@ -4072,34 +4072,34 @@ F 5 "N/A" H 6850 1850 50  0001 C CNN "MPN"
 $EndComp
 Connection ~ 6750 1850
 $Comp
-L quicklogic-quick-feather-board:ql_logo N2
+L quick-feather-board:ql_logo N2
 U 1 1 5E1FA52E
 P 8600 10650
 F 0 "N2" H 8794 10653 50  0000 L CNN
 F 1 "ql_logo" H 8794 10562 50  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:LOGO" H 8620 10410 50  0001 C CNN
+F 2 "quick-feather-board-footprints:LOGO" H 8620 10410 50  0001 C CNN
 F 3 "" H 8600 10650 50  0001 C CNN
 	1    8600 10650
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:oshw_logo N1
+L quick-feather-board:oshw_logo N1
 U 1 1 5E1FD684
 P 7650 10650
 F 0 "N1" H 7844 10653 50  0000 L CNN
 F 1 "oshw_logo" H 7844 10562 50  0000 L CNN
-F 2 "quicklogic-quick-feather-board-footprints:oshw-logo" H 7670 10410 50  0001 C CNN
+F 2 "quick-feather-board-footprints:oshw-logo" H 7670 10410 50  0001 C CNN
 F 3 "" H 7650 10650 50  0001 C CNN
 	1    7650 10650
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:C_4u7_0603 C5
+L quick-feather-board:C_4u7_0603 C5
 U 1 1 5E322A57
 P 10050 6850
 F 0 "C5" H 10165 6895 60  0000 L CNN
 F 1 "C_4u7_0603" H 10050 6700 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0603-cap" H 10250 7050 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0603-cap" H 10250 7050 60  0001 L CNN
 F 3 "" H 10050 6850 50  0001 C CNN
 F 4 "TDK" H 10250 7250 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1V475M080AC" H 10250 7150 60  0001 L CNN "MPN"
@@ -4108,12 +4108,12 @@ F 6 "4u7" H 10165 6797 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:C_4u7_0603 C2
+L quick-feather-board:C_4u7_0603 C2
 U 1 1 5E32CA40
 P 4400 6600
 F 0 "C2" H 4515 6645 60  0000 L CNN
 F 1 "C_4u7_0603" H 4400 6450 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0603-cap" H 4600 6800 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0603-cap" H 4600 6800 60  0001 L CNN
 F 3 "" H 4400 6600 50  0001 C CNN
 F 4 "TDK" H 4600 7000 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1V475M080AC" H 4600 6900 60  0001 L CNN "MPN"
@@ -4124,12 +4124,12 @@ $EndComp
 Connection ~ 10050 7000
 Connection ~ 4400 6450
 $Comp
-L quicklogic-quick-feather-board:R_22R_0402 R35
+L quick-feather-board:R_22R_0402 R35
 U 1 1 5E34140B
 P 9800 6150
 F 0 "R35" V 9850 6000 60  0000 C CNN
 F 1 "R_22R_0402" H 9800 6000 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 10000 6350 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 10000 6350 60  0001 L CNN
 F 3 "" H 9800 6150 50  0001 C CNN
 F 4 "VISHAY" H 10000 6550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 10000 6450 60  0001 L CNN "MPN"
@@ -4143,12 +4143,12 @@ DNP
 Text Notes 9400 6950 0    50   ~ 10
 DNP
 $Comp
-L quicklogic-quick-feather-board:R_4k7_0402 R2
+L quick-feather-board:R_4k7_0402 R2
 U 1 1 5E362883
 P 1950 6700
 F 0 "R2" V 1905 6770 60  0000 L CNN
 F 1 "R_4k7_0402" H 1950 6550 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 2150 6900 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 2150 6900 60  0001 L CNN
 F 3 "" H 1950 6700 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2150 7100 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 2150 7000 60  0001 L CNN "MPN"
@@ -4157,12 +4157,12 @@ F 6 "4k7" V 2003 6770 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_1k5_0402 R3
+L quick-feather-board:R_1k5_0402 R3
 U 1 1 5E37139E
 P 3300 6550
 F 0 "R3" H 3350 6450 60  0000 C CNN
 F 1 "R_1k5_0402" H 3300 6400 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 3500 6750 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 3500 6750 60  0001 L CNN
 F 3 "" H 3300 6550 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 3500 6950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1501X" H 3500 6850 60  0001 L CNN "MPN"
@@ -4171,12 +4171,12 @@ F 6 "1k5" H 3350 6350 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_100k_0402 R17
+L quick-feather-board:R_100k_0402 R17
 U 1 1 5E37A479
 P 6800 7100
 F 0 "R17" V 6755 7170 60  0000 L CNN
 F 1 "R_100k_0402" H 6800 6950 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 7000 7300 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 7000 7300 60  0001 L CNN
 F 3 "" H 6800 7100 50  0001 C CNN
 F 4 "VISHAY" H 7000 7500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 7000 7400 60  0001 L CNN "MPN"
@@ -4185,12 +4185,12 @@ F 6 "100k" V 6853 7170 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:R_100k_0402 R12
+L quick-feather-board:R_100k_0402 R12
 U 1 1 5E37E000
 P 5850 6050
 F 0 "R12" V 5805 6120 60  0000 L CNN
 F 1 "R_100k_0402" H 5850 5900 60  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:0402-res" H 6050 6250 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 6050 6250 60  0001 L CNN
 F 3 "" H 5850 6050 50  0001 C CNN
 F 4 "VISHAY" H 6050 6450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 6050 6350 60  0001 L CNN "MPN"
@@ -4202,12 +4202,12 @@ Connection ~ 5850 6200
 Text Label 2410 3550 0    50   ~ 0
 Q_LED_R
 $Comp
-L quicklogic-quick-feather-board:61300211121 J7
+L quick-feather-board:61300211121 J7
 U 1 1 5E5990C7
 P 7550 2050
 F 0 "J7" H 7700 1900 50  0000 R CNN
 F 1 "61300211121" H 7700 1825 50  0000 R CNN
-F 2 "quicklogic-quick-feather-board-footprints:PinHeader_1x2_P2.54_Drill0.9mm" H 7750 2250 60  0001 L CNN
+F 2 "quick-feather-board-footprints:PinHeader_1x2_P2.54_Drill0.9mm" H 7750 2250 60  0001 L CNN
 F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 7750 2350 60  0001 L CNN
 F 4 "61300211121" H 7750 2550 60  0001 L CNN "MPN"
 F 5 "Wurth Electronic" H 7750 3150 60  0001 L CNN "Manufacturer"
@@ -4215,12 +4215,12 @@ F 5 "Wurth Electronic" H 7750 3150 60  0001 L CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L quicklogic-quick-feather-board:61300211121 J1
+L quick-feather-board:61300211121 J1
 U 1 1 5E59A920
 P 7900 2050
 F 0 "J1" H 8050 1900 50  0000 R CNN
 F 1 "61300211121" H 8050 1825 50  0001 R CNN
-F 2 "quicklogic-quick-feather-board-footprints:PinHeader_1x2_P2.54_Drill0.9mm" H 8100 2250 60  0001 L CNN
+F 2 "quick-feather-board-footprints:PinHeader_1x2_P2.54_Drill0.9mm" H 8100 2250 60  0001 L CNN
 F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 8100 2350 60  0001 L CNN
 F 4 "61300211121" H 8100 2550 60  0001 L CNN "MPN"
 F 5 "Wurth Electronic" H 8100 3150 60  0001 L CNN "Manufacturer"
@@ -4664,12 +4664,12 @@ Wire Notes Line
 Wire Wire Line
 	2950 4050 2100 4050
 $Comp
-L quicklogic-quick-feather-board:TP_THT TP5
+L quick-feather-board:TP_THT TP5
 U 1 1 5F03C1C3
 P 2000 4050
 F 0 "TP5" V 2000 3950 50  0000 C CNN
 F 1 "TP_THT" H 2000 3950 50  0001 C CNN
-F 2 "quicklogic-quick-feather-board-footprints:Testpoint_THT_Drill0.9mm" H 2200 4250 60  0001 L CNN
+F 2 "quick-feather-board-footprints:Testpoint_THT_Drill0.9mm" H 2200 4250 60  0001 L CNN
 F 3 "" H 2200 4350 60  0001 L CNN
 F 4 "N/A" H 2000 4050 50  0001 C CNN "Manufacturer"
 F 5 "N/A" H 2000 4050 50  0001 C CNN "MPN"
@@ -4679,12 +4679,12 @@ $EndComp
 Wire Wire Line
 	2000 4450 2950 4450
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:DMG1012T-7 Q4
+L quick-feather-board:DMG1012T-7 Q4
 U 1 1 5E9BD0BB
 P 1950 7150
 F 0 "Q4" H 2058 7203 60  0000 L CNN
 F 1 "DMG1012T-7" H 2058 7097 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-523" H 2150 7350 60  0001 L CNN
+F 2 "quick-feather-board-footprints:SOT-523" H 2150 7350 60  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 2150 7450 60  0001 L CNN
 F 4 "DMG1012T-7" H 2150 7650 60  0001 L CNN "MPN"
 F 5 "Diodes Incorporated" H 2150 8250 60  0001 L CNN "Manufacturer"
@@ -4694,12 +4694,12 @@ $EndComp
 Wire Wire Line
 	2750 6850 2750 7325
 $Comp
-L antmicroResistors0402:R_1M8_0402 R1
+L quick-feather-board:R_1M8_0402 R1
 U 1 1 5EA0A68F
 P 1675 8950
 F 0 "R1" V 1630 9020 60  0000 L CNN
 F 1 "R_1M8_0402" H 1675 8800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1875 9150 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-res" H 1875 9150 60  0001 L CNN
 F 3 "" H 1675 8950 50  0001 C CNN
 F 4 "Multicomp" H 1875 9350 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X185_JTL" H 1875 9250 60  0001 L CNN "MPN"
@@ -4722,7 +4722,7 @@ PG
 Text Label 975  7050 0    50   ~ 0
 PG
 $Comp
-L quicklogic-quick-feather-board:GND #PWR028
+L quick-feather-board:GND #PWR028
 U 1 1 5EA7B915
 P 1350 7350
 F 0 "#PWR028" H 1350 7100 50  0001 C CNN
@@ -4737,12 +4737,12 @@ Wire Wire Line
 Wire Wire Line
 	1650 7050 1350 7050
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C19
+L quick-feather-board:C_1u_0402 C19
 U 1 1 5EA747B1
 P 1350 7200
 F 0 "C19" H 1465 7245 60  0000 L CNN
 F 1 "C_1u_0402" H 1350 7050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1550 7400 60  0001 L CNN
+F 2 "quick-feather-board-footprints:0402-cap" H 1550 7400 60  0001 L CNN
 F 3 "" H 1350 7200 50  0001 C CNN
 F 4 "TDK" H 1550 7600 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 1550 7500 60  0001 L CNN "MPN"
