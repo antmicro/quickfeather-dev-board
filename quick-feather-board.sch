@@ -3461,9 +3461,9 @@ PDM_DATA
 Text Label 5500 3350 0    50   ~ 0
 PDM_CKO
 Text Label 5500 3450 0    50   ~ 0
-S3IO_27
+S3IO_30
 Text Label 13000 3100 0    50   ~ 0
-S3IO_27
+S3IO_30
 Text Label 5500 3550 0    50   ~ 0
 I2S_CLK
 Text Label 2400 3850 0    50   ~ 0
