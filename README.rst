@@ -1,5 +1,5 @@
-Quick Feather Development Board
-===============================
+QuickFeather Development Board
+==============================
 
 .. figure:: img/feather-board.png
 
@@ -7,9 +7,9 @@ Quick Feather Development Board
 Overview
 ========
 
-This repository contains open hardware design files for a development board based on the Quicklogic `EOS S3 Sensor Processing Platform <https://www.quicklogic.com/products/eos-s3/>`_.
+This repository contains open hardware design files for the QuickFeather development board based on the Quicklogic `EOS S3 Sensor Processing Platform <https://www.quicklogic.com/products/eos-s3/>`_.
 The design files were created by `Antmicro <https://www.antmicro.com>`_ in cooperation with `Quicklogic <https://www.quicklogic.com/>`_.
-The board has been designed to keep compatibility with `Adafruit Feather <https://learn.adafruit.com/adafruit-feather/feather-specification>`_ ecosystem of evaluation boards.
+The board has been designed to keep compatibility with the `Adafruit Feather <https://learn.adafruit.com/adafruit-feather/feather-specification>`_ ecosystem of evaluation boards.
 This allows the user to explore functionalities of the EOS S3 platform.
 
 Key features
