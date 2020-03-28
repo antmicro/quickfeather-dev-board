@@ -7,7 +7,7 @@ QuickFeather Development Board
 Overview
 ========
 
-This repository contains open hardware design files for the QuickFeather development board based on the QuickLogic `EOS S3 Sensor Processing Platform <https://www.quicklogic.com/products/eos-s3/>`_.
+This repository contains open hardware design files for the `QuickFeather development board <https://www.quicklogic.com/products/eos-s3/quickfeather-development-kit/>`_ based on the QuickLogic `EOS S3 Sensor Processing Platform <https://www.quicklogic.com/products/eos-s3/>`_.
 The design files were created by `Antmicro <https://www.antmicro.com>`_ in cooperation with `QuickLogic <https://www.quicklogic.com/>`_.
 The board has been designed to keep compatibility with the `Adafruit Feather <https://learn.adafruit.com/adafruit-feather/feather-specification>`_ ecosystem of evaluation boards.
 This allows the user to explore functionalities of the EOS S3 platform.
@@ -38,5 +38,5 @@ Development ecosystem
 Simulation
 ----------
 
-The board is supported in `Renode <https://renode.io/>`_, the open source simulation framework by Antmicro - you can run a virtual copy of this hardware for software development purposes on your PC. A relevant demo script is provided in Renode's `supported boards section <https://renode.readthedocs.io/en/latest/introduction/supported-boards.html>`_.
+The board is supported in `Renode <https://renode.io/>`_, the open source simulation framework by Antmicro - you can run a virtual copy of this hardware for software development purposes on your PC. A link to the relevant demo script is provided in Renode's `supported boards section <https://renode.readthedocs.io/en/latest/introduction/supported-boards.html>`_.
 
