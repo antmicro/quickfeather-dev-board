@@ -31,3 +31,12 @@ Layout and dimensions
 ---------------------
 
 .. figure:: img/feather-layout.png
+
+Development ecosystem
+=====================
+
+Simulation
+----------
+
+The board is supported in `Renode <https://renode.io/>`_, the open source simulation framework by Antmicro - you can run a virtual copy of this hardware for software development purposes on your PC. A relevant demo script is provided in Renode's `supported boards section <https://renode.readthedocs.io/en/latest/introduction/supported-boards.html>`_.
+
