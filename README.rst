@@ -15,14 +15,14 @@ This allows the user to explore functionalities of the EOS S3 platform.
 Key features
 ------------
 
-* EOS S3 Sensor Procssing Platform
-* 16Mbit of flash memory
-* Accelerometer
-* Pressure sensor
-* PDM digital microphone
+* QuickLogic EOS S3 Processing Platform
+* `mCube MC3635 <https://mcubemems.com/wp-content/uploads/2019/06/MC3635-Datasheet-APS-048-0044v1.6.pdf>`_ accelerometer
+* `Infineon DPS310 <https://www.infineon.com/dgdl/Infineon-DPS310-DataSheet-v01_01-EN.pdf?fileId=5546d462576f34750157750826c42242>`_ pressure sensor
+* `Infineon IM69D130 <https://www.infineon.com/dgdl/Infineon-IM69D130-DS-v01_00-EN.pdf?fileId=5546d462602a9dc801607a0e46511a2e>`_ MEMS microphone 
+* 16Mbit of on-board `flash memory  <http://www.gigadevice.com/datasheet/gd25q16c/>`_
 * User button and RGB LED
 * Powered from USB or a single Li-Po battery
-* Integrated battery charger
+* Integrated `battery charger <http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf>`_
 * USB data signals tied to programmable logic
 * IO signals break-routed into general purpose pinheads
 * Compatible with standard 0.1" breadboards
