@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "QuickFeather Development Kit"
 Date ""
-Rev "1.1"
+Rev "1.2.0"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
@@ -1391,13 +1391,13 @@ $Comp
 L quickfeather-board:R_22R_0402 R11
 U 1 1 5DE232D3
 P 1850 4450
-F 0 "R11" H 1850 4250 60  0000 C CNN
+F 0 "R11" H 1600 4500 60  0000 C CNN
 F 1 "R_22R_0402" H 1850 4300 60  0001 C CNN
 F 2 "quickfeather-board-footprints:0402-res" H 2050 4650 60  0001 L CNN
 F 3 "" H 1850 4450 50  0001 C CNN
 F 4 "VISHAY" H 2050 4850 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 2050 4750 60  0001 L CNN "MPN"
-F 6 "22R" H 1850 4350 50  0000 C CNN "Val"
+F 6 "22R" H 1850 4450 50  0000 C CNN "Val"
 	1    1850 4450
 	-1   0    0    -1  
 $EndComp
@@ -1406,22 +1406,20 @@ Wire Wire Line
 $Comp
 L quickfeather-board:R_1k5_0402 R9
 U 1 1 5DE457DE
-P 1850 4150
-F 0 "R9" H 2050 4200 60  0000 C CNN
-F 1 "R_1k5_0402" H 1850 4000 60  0001 C CNN
-F 2 "quickfeather-board-footprints:0402-res" H 2050 4350 60  0001 L CNN
-F 3 "" H 1850 4150 50  0001 C CNN
-F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2050 4550 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2RKF1501X" H 2050 4450 60  0001 L CNN "MPN"
-F 6 "1k5" H 1850 4050 50  0000 C CNN "Val"
-	1    1850 4150
+P 1850 4675
+F 0 "R9" H 1625 4725 60  0000 C CNN
+F 1 "R_1k5_0402" H 1850 4525 60  0001 C CNN
+F 2 "quickfeather-board-footprints:0402-res" H 2050 4875 60  0001 L CNN
+F 3 "" H 1850 4675 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2050 5075 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF1501X" H 2050 4975 60  0001 L CNN "MPN"
+F 6 "1k5" H 1850 4675 50  0000 C CNN "Val"
+	1    1850 4675
 	-1   0    0    -1  
 $EndComp
 Connection ~ 1600 4450
 Wire Wire Line
 	1600 4450 1250 4450
-Wire Wire Line
-	1600 4150 1600 4450
 Wire Wire Line
 	1600 4150 1700 4150
 Wire Wire Line
@@ -3445,7 +3443,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 4250 2420 4250
 Wire Wire Line
-	2950 4350 2310 4350
+	2950 4350 2010 4350
 Text Label 5500 3050 0    50   ~ 0
 I2S_DOUT
 Text Label 5500 2950 0    50   ~ 0
@@ -3561,7 +3559,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 3350 6300 3350
 Wire Wire Line
-	2000 4150 2950 4150
+	2000 4150 2250 4150
 Connection ~ 2000 8800
 Wire Notes Line
 	5450 8000 8350 8000
@@ -4622,18 +4620,18 @@ Wire Notes Line
 Wire Notes Line
 	690  700  8350 700 
 Wire Wire Line
-	2950 4050 2100 4050
+	2950 4050 1750 4050
 $Comp
 L quickfeather-board:TP_THT TP5
 U 1 1 5F03C1C3
-P 2000 4050
-F 0 "TP5" V 2000 3950 50  0000 C CNN
-F 1 "TP_THT" H 2000 3950 50  0001 C CNN
-F 2 "quickfeather-board-footprints:Testpoint_THT_Drill0.9mm" H 2200 4250 60  0001 L CNN
-F 3 "" H 2200 4350 60  0001 L CNN
-F 4 "N/A" H 2000 4050 50  0001 C CNN "Manufacturer"
-F 5 "N/A" H 2000 4050 50  0001 C CNN "MPN"
-	1    2000 4050
+P 1650 4050
+F 0 "TP5" V 1650 3950 50  0000 C CNN
+F 1 "TP_THT" H 1650 3950 50  0001 C CNN
+F 2 "quickfeather-board-footprints:Testpoint_THT_Drill0.9mm" H 1850 4250 60  0001 L CNN
+F 3 "" H 1850 4350 60  0001 L CNN
+F 4 "N/A" H 1650 4050 50  0001 C CNN "Manufacturer"
+F 5 "N/A" H 1650 4050 50  0001 C CNN "MPN"
+	1    1650 4050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -4692,19 +4690,19 @@ Connection ~ 1350 7050
 $Comp
 L quickfeather-board:R_22R_0402 R7
 U 1 1 5DE231E1
-P 2160 4350
-F 0 "R7" H 2160 4563 60  0000 C CNN
-F 1 "R_22R_0402" H 2160 4200 60  0001 C CNN
-F 2 "quickfeather-board-footprints:0402-res" H 2360 4550 60  0001 L CNN
-F 3 "" H 2160 4350 50  0001 C CNN
-F 4 "VISHAY" H 2360 4750 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040222R0FKED" H 2360 4650 60  0001 L CNN "MPN"
-F 6 "22R" H 2160 4465 50  0000 C CNN "Val"
-	1    2160 4350
+P 1860 4350
+F 0 "R7" H 1645 4400 60  0000 C CNN
+F 1 "R_22R_0402" H 1860 4200 60  0001 C CNN
+F 2 "quickfeather-board-footprints:0402-res" H 2060 4550 60  0001 L CNN
+F 3 "" H 1860 4350 50  0001 C CNN
+F 4 "VISHAY" H 2060 4750 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 2060 4650 60  0001 L CNN "MPN"
+F 6 "22R" H 1870 4350 50  0000 C CNN "Val"
+	1    1860 4350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2010 4350 1244 4350
+	1710 4350 1600 4350
 $Comp
 L quickfeather-board:R_1M5_0402 R1
 U 1 1 5E8E2484
@@ -4729,4 +4727,39 @@ Wire Wire Line
 Connection ~ 1650 9100
 Wire Wire Line
 	1650 9100 2250 9100
+Text Notes 15250 5950 2    51   ~ 10
+DNP
+$Comp
+L quickfeather-board:R_1k5_0402 R27
+U 1 1 5EBB0A85
+P 1850 4150
+F 0 "R27" H 1600 4200 60  0000 C CNN
+F 1 "R_1k5_0402" H 1850 4000 60  0001 C CNN
+F 2 "quickfeather-board-footprints:0402-res" H 2050 4350 60  0001 L CNN
+F 3 "" H 1850 4150 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2050 4550 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF1501X" H 2050 4450 60  0001 L CNN "MPN"
+F 6 "1k5" H 1850 4150 50  0000 C CNN "Val"
+F 7 "1" H 1850 4150 50  0001 C CNN "DNP"
+	1    1850 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4450 1600 4675
+Wire Wire Line
+	1600 4675 1700 4675
+Wire Wire Line
+	2000 4675 2250 4675
+Wire Wire Line
+	2250 4675 2250 4150
+Connection ~ 2250 4150
+Wire Wire Line
+	2250 4150 2950 4150
+Wire Wire Line
+	1600 4150 1600 4350
+Connection ~ 1600 4350
+Wire Wire Line
+	1600 4350 1244 4350
+Text Notes 2175 4225 2    51   ~ 10
+DNP
 $EndSCHEMATC
