@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "QuickFeather Development Kit"
 Date ""
-Rev "1.2.0"
+Rev "1.2.1"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
@@ -3441,8 +3441,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 3950 2390 3950
 Wire Wire Line
-	2950 4250 2420 4250
-Wire Wire Line
 	2950 4350 2010 4350
 Text Label 5500 3050 0    50   ~ 0
 I2S_DOUT
@@ -3474,14 +3472,8 @@ Text Label 13000 3500 0    50   ~ 0
 SPI_MST_CLK
 Text Label 13000 3700 0    50   ~ 0
 SPI_MST_MISO
-Text Label 2370 4150 0    50   ~ 0
-PU_CTRL_USBP
 Text Label 13000 3600 0    50   ~ 0
 SPI_MST_MOSI
-Text Label 2450 4250 0    50   ~ 0
-S3IO_40
-Text Label 2450 4350 0    50   ~ 0
-S3_USB_D_N
 Text Label 2350 4450 0    50   ~ 0
 S3_USB_D_P
 Wire Wire Line
@@ -3558,8 +3550,6 @@ Wire Wire Line
 	5000 2950 6300 2950
 Wire Wire Line
 	5000 3350 6300 3350
-Wire Wire Line
-	2000 4150 2250 4150
 Connection ~ 2000 8800
 Wire Notes Line
 	5450 8000 8350 8000
@@ -3906,8 +3896,6 @@ Text Label 13400 6850 2    50   ~ 0
 I2S_DOUT
 Text Label 13400 6650 2    50   ~ 0
 PDM_CKO
-Text Label 14950 7050 2    50   ~ 0
-S3IO_40
 Wire Wire Line
 	13050 6650 13450 6650
 Wire Wire Line
@@ -3920,8 +3908,6 @@ Wire Wire Line
 	14600 6650 15000 6650
 Wire Wire Line
 	14600 6850 15000 6850
-Wire Wire Line
-	14600 7050 15000 7050
 Text Label 14650 6550 0    50   ~ 0
 S3IO_5
 Text Label 14650 6750 0    50   ~ 0
@@ -3990,8 +3976,6 @@ Wire Wire Line
 	15350 6650 15550 6650
 Wire Wire Line
 	15350 6850 15550 6850
-Wire Wire Line
-	15350 7050 15550 7050
 Text Label 13850 6650 0    50   ~ 0
 J8.2
 Text Label 13850 6850 0    50   ~ 0
@@ -4004,8 +3988,6 @@ Text Label 15400 6650 0    50   ~ 0
 J8.10
 Text Label 15400 6850 0    50   ~ 0
 J8.12
-Text Label 15400 7050 0    50   ~ 0
-J8.14
 Text Notes 12850 5750 0    50   ~ 0
 const
 Text Notes 12850 5650 0    50   ~ 0
@@ -4740,7 +4722,6 @@ F 3 "" H 1850 4150 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2050 4550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1501X" H 2050 4450 60  0001 L CNN "MPN"
 F 6 "1k5" H 1850 4150 50  0000 C CNN "Val"
-F 7 "1" H 1850 4150 50  0001 C CNN "DNP"
 	1    1850 4150
 	-1   0    0    -1  
 $EndComp
@@ -4751,15 +4732,24 @@ Wire Wire Line
 Wire Wire Line
 	2000 4675 2250 4675
 Wire Wire Line
-	2250 4675 2250 4150
-Connection ~ 2250 4150
-Wire Wire Line
-	2250 4150 2950 4150
-Wire Wire Line
 	1600 4150 1600 4350
 Connection ~ 1600 4350
 Wire Wire Line
 	1600 4350 1244 4350
-Text Notes 2175 4225 2    51   ~ 10
-DNP
+Text Label 2450 4350 0    50   ~ 0
+S3_USB_D_N
+Text Label 2350 4250 0    50   ~ 0
+PU_CTRL_USBN
+Text Label 2350 4150 0    50   ~ 0
+PU_CTRL_USBP
+Wire Wire Line
+	2950 4150 2250 4150
+Wire Wire Line
+	2250 4150 2250 4675
+Wire Wire Line
+	2950 4250 2150 4250
+Wire Wire Line
+	2150 4250 2150 4150
+Wire Wire Line
+	2150 4150 2000 4150
 $EndSCHEMATC
