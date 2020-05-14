@@ -1822,19 +1822,6 @@ Wire Wire Line
 Wire Wire Line
 	9700 1350 9700 1600
 $Comp
-L quickfeather-board:DPS310 U4
-U 1 1 5DDF0238
-P 9700 8350
-F 0 "U4" H 9690 8390 50  0000 L CNN
-F 1 "DPS310" H 9690 8300 50  0000 L CNN
-F 2 "quickfeather-board-footprints:PG-VLGA-8-2" H 9700 8400 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-DPS310-DataSheet-v01_01-EN.pdf?fileId=5546d462576f34750157750826c42242" H 9700 8350 50  0001 C CNN
-F 4 "DPS310" H 0   0   50  0001 C CNN "MPN"
-F 5 "Infineon" H 0   0   50  0001 C CNN "Manufacturer"
-	1    9700 8350
-	1    0    0    -1  
-$EndComp
-$Comp
 L quickfeather-board:R_200k_0402 R16
 U 1 1 5DDDF534
 P 6550 6850
@@ -4752,4 +4739,17 @@ Wire Wire Line
 	2150 4250 2150 4150
 Wire Wire Line
 	2150 4150 2000 4150
+$Comp
+L quickfeather-board:DPS310 U4
+U 1 1 5EC591E5
+P 9700 8350
+F 0 "U4" H 10428 7796 50  0000 L CNN
+F 1 "DPS310" H 10428 7705 50  0000 L CNN
+F 2 "quickfeather-board-footprints:PG-VLGA-8-2" H 9700 8400 50  0001 C CNN
+F 3 "" H 9700 8350 50  0001 C CNN
+F 4 "Infineon" H 9700 8350 50  0001 C CNN "Manufacturer"
+F 5 "DPS310" H 9700 8350 50  0001 C CNN "MPN"
+	1    9700 8350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
