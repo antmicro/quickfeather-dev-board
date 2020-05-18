@@ -1,4 +1,4 @@
-(module IM69D130 (layer F.Cu) (tedit 5EBD9C4E)
+(module IM69D130 (layer F.Cu) (tedit 5EC2743B)
   (attr smd)
   (fp_text reference REF** (at 0.41 -3.29) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
