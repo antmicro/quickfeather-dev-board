@@ -1,8 +1,10 @@
+==============================
 QuickFeather Development Board
 ==============================
 
-.. figure:: img/feather-board.png
+Copyright (c) 2019-2021 `Antmicro <https://www.antmicro.com>`_
 
+.. figure:: img/feather-board.png
 
 Overview
 ========
