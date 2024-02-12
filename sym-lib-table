@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name quickfeather-board)(type Legacy)(uri ${KIPRJMOD}/lib/quickfeather-board.lib)(options "")(descr ""))
+  (lib (name "quickfeather-board")(type "KiCad")(uri "${KIPRJMOD}/lib/quickfeather-board.kicad_sym")(options "")(descr ""))
 )
