@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "DFN8 2x2, 0.5P; No exposed pad - Ref http://pdfserv.maximintegrated.com/land_patterns/90-0349.PDF")
   (tags "DFN 0.5")
-  (attr smd)
+  (attr smd allow_soldermask_bridges)
   (fp_text reference "U1" (at -0.7 -1.5) (layer "F.SilkS")
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 1c4dcf7b-07bb-4540-a3a7-4d5644726c81)
@@ -59,7 +59,7 @@
   (pad "6" smd rect (at 0.675 0.248) (size 0.55 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c5a4a248-b369-43e4-9ff2-20993b77140d))
   (pad "7" smd rect (at 0.675 -0.25) (size 0.55 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 16481449-cec5-4a71-8595-7e4aaa7675e6))
   (pad "8" smd rect (at 0.675 -0.75) (size 0.55 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1b4ecac4-cf31-4225-aaa6-91fbb285ed1d))
-  (model "/home/ant/Workspace/quicklogic-quickfeather-hw/lib/3d-models/QFN-8_2x1.5mm.step"
+  (model "${KIPRJMOD}/lib/3d-models/QFN-8_2x1.5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

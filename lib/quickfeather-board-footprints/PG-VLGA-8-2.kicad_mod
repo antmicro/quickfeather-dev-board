@@ -5,27 +5,25 @@
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 675b3835-54b2-492d-9aea-f165cfa30047)
   )
-  (fp_text value "${REFERENCE}" (at 2.114 3.064) (layer "F.Fab")
+  (fp_text value "${REFERENCE}" (at -1.6 3.25) (layer "F.Fab")
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 817c29f1-f5de-4800-9a63-a9a8fa4ad4b0)
   )
-  (fp_text user "License: Apache-2.0" (at -1.8 4.3) (layer "F.Fab") hide
+  (fp_text user "License: Apache-2.0" (at -1.75 4.55) (layer "F.Fab") hide
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 31d0a908-f212-41ae-9235-02337e35ecf9)
   )
-  (fp_text user "Author: Antmicro" (at -1.8 5.5) (layer "F.Fab") hide
+  (fp_text user "Author: Antmicro" (at -1.75 5.75) (layer "F.Fab") hide
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 3f924bdd-7e56-44b7-9f58-586c1750aad6)
   )
   (fp_circle (center 0 -0.65) (end 0.05 -0.65)
     (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 728f09fc-ac25-446a-8758-30b0f3252c5b))
-  (fp_circle (center 0.95 0) (end 1.05 0)
-    (stroke (width 0.15) (type solid)) (fill none) (layer "F.SilkS") (tstamp 0b45a696-ef5c-4fcb-93fe-11c94d51d36d))
-  (fp_line (start -1.7 -0.3) (end 0.35 -0.3)
+  (fp_line (start -1.7 -0.25) (end 0.35 -0.25)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp d91746de-289a-4fa6-99ca-86c58b1d0cd0))
-  (fp_line (start -1.7 2.2) (end -1.7 -0.3)
+  (fp_line (start -1.7 2.2) (end -1.7 -0.25)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 5a5e67c8-c928-4c48-893b-2fb83ee3b6f0))
-  (fp_line (start 0.35 -0.3) (end 0.35 2.2)
+  (fp_line (start 0.35 -0.25) (end 0.35 2.2)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp e92299b8-c4eb-4e5e-a654-bb5c25e1cad8))
   (fp_line (start 0.35 2.2) (end -1.7 2.2)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 494e04bd-7c70-46ff-8986-19a0a806d469))
@@ -39,7 +37,7 @@
   (pad "6" smd rect (at -1.45 1.3) (size 0.35 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f2df5ae3-66e8-4383-9661-5733a09133be))
   (pad "7" smd rect (at -1.45 0.65) (size 0.35 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 40d32238-1753-458e-b22a-d92bb5f703a4))
   (pad "8" smd rect (at -1.45 0) (size 0.35 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 736c36fd-0602-4790-a45c-e222aa7cc34a))
-  (model "/home/ant/Workspace/quicklogic-quickfeather-hw/lib/3d-models/PG-VLGA-8-2.step"
+  (model "${KIPRJMOD}/lib/3d-models/PG-VLGA-8-2.step"
     (offset (xyz 0.25 0.3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 -90))

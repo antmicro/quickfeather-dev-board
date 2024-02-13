@@ -39,7 +39,7 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp e2f291f7-1898-45f8-8bf0-eac635aebd70))
   (fp_line (start 0.95 0.751) (end 0.649 0.751)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp ed4122dd-01c8-4ea6-b05b-aa70fb866c26))
-  (fp_rect (start -1.55 -0.925) (end 1.55 0.925)
+  (fp_rect (start -1.55 -0.8) (end 1.55 0.85)
     (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 18110dfa-63e9-4e97-abd9-266df5e2fe44))
   (fp_line (start -0.902 0.699) (end -0.902 -0.699)
     (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 39a97757-da26-4a1e-b7a4-fe80a87dc907))
@@ -125,7 +125,7 @@
     (stroke (width 0.02) (type solid)) (layer "User.9") (tstamp 7548fb76-d841-4d96-94eb-92ed698b277c))
   (pad "A" smd rect (at 1.124 0.001) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 873eac77-f730-4cdd-b310-f003f3aa29ee))
   (pad "K" smd rect (at -1.125 0.001) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8ee9eb6a-dfb5-4e1d-9ac8-f2ebc175dab1))
-  (model "/home/ant/Workspace/quicklogic-quickfeather-hw/lib/3d-models/sod323.step"
+  (model "${KIPRJMOD}/lib/3d-models/sod323.step"
     (offset (xyz 0 -0.001 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

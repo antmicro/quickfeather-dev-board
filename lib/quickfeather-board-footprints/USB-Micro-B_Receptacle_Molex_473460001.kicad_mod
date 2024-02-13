@@ -32,7 +32,7 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 978defb3-11e5-49a1-b29a-84ea209bbce2))
   (fp_circle (center -1.7 -3.2) (end -1.75 -3.2)
     (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (tstamp d75bc91f-7785-4014-ae82-27449b98d735))
-  (fp_rect (start 4.236 -3.154) (end -4.246 2.9714)
+  (fp_rect (start -4.164 -3.2) (end 4.1614 2.8214)
     (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 2cf2391b-42c8-4fff-afec-834d9b8a8b8a))
   (fp_line (start -3.7745 -2.6995) (end -3.9755 -2.5005)
     (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 89eb8e5d-d805-452b-aaec-57880f2cf0d9))
@@ -2625,7 +2625,7 @@
   (pad "SH" smd rect (at 0.836 0.284 90) (size 1.9 1.175) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 12062928-686e-45f9-809b-ba578014fc80))
   (pad "SH" smd rect (at 2.463 -2.016 90) (size 2.1 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8145fa19-4d78-4b9f-be17-f0388c4df510))
   (pad "SH" smd rect (at 2.913 0.284 90) (size 1.9 2.375) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d4eb5991-410d-4fd6-a77d-0a9ff3604478))
-  (model "/home/ant/Workspace/quicklogic-quickfeather-hw/lib/3d-models/USB-Micro-B_Receptacle_Molex_473460001.step"
+  (model "${KIPRJMOD}/lib/3d-models/USB-Micro-B_Receptacle_Molex_473460001.step"
     (offset (xyz -0.001 0.036 1.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

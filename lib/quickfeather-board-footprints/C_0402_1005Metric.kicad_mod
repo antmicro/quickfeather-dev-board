@@ -23,7 +23,7 @@
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp c8dada4b-ab3a-4e1d-8442-2a4c47b5001f)
   )
-  (fp_rect (start -0.8659 -0.381258) (end 0.8649 0.358742)
+  (fp_rect (start -0.8 -0.35) (end 0.8 0.35)
     (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 1a16700b-cd55-4d8a-9cdd-1a6245ed96ae))
   (fp_line (start -0.499 -0.25) (end 0.499 -0.25)
     (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 90294ad6-de70-4c59-aa40-e1c1e8b2ad15))
@@ -1397,7 +1397,7 @@
     (stroke (width 0.02) (type solid)) (layer "User.9") (tstamp b5559f6d-6fdf-420c-88ce-6f1e6813d047))
   (pad "1" smd roundrect (at -0.484 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d56ac47c-5005-4870-8b8c-ddbb1bcea1e2))
   (pad "2" smd roundrect (at 0.484 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e87b6c4e-2f08-47f6-ab24-5f6524b9b249))
-  (model "/home/ant/Workspace/quicklogic-quickfeather-hw/lib/3d-models/C_0402_1005Metric.step"
+  (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
     (offset (xyz 0 0 0.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
