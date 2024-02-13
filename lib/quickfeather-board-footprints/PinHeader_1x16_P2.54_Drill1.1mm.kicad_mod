@@ -70,8 +70,8 @@
   (pad "15" thru_hole oval (at 35.56 0 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 18bb8a7b-7d31-4fc4-a905-907147d2d583))
   (pad "16" thru_hole oval (at 38.1 0 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 682871a8-11d0-4e80-a666-2c958c7fdb5a))
   (model "/home/ant/Workspace/quicklogic-quickfeather-hw/lib/3d-models/PinHeadder_1x16_P2.54mm_Drill1.1mm.step"
-    (offset (xyz 0.005 -19.05 1))
+    (offset (xyz 19.005 -0.05 1))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
+    (rotate (xyz -90 0 -180))
   )
 )
