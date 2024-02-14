@@ -14174,7 +14174,7 @@
     (property "Value" "EOSAI-S-PUN64" (at 172.72 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Footprint" "quickfeather-board-footprints:QFN-64-1EP_8.5x8.5mm_P0.5mm_Layout17x15_EP3.3x3.3mm" (at 172.72 34.29 0)
+    (property "Footprint" "quickfeather-board-footprints:QFN-64-1EP_8.5x8.5mm_P0.5mm_Lay17x15" (at 172.72 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.quicklogic.com/wp-content/uploads/2020/12/QL-EOS-S3-Ultra-Low-Power-multicore-MCU-Datasheet-2020.pdf" (at 172.72 36.83 0)
