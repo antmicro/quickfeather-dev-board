@@ -9090,7 +9090,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 6c0b062c-2e95-4023-8c07-f53ad5a07c53)
   )
-  (text "EOS S3" (at 104.14 20.32 0)
+  (text "EOS S3" (at 104.14 19.05 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 9622af1f-7906-4838-b53f-91a991143058)
   )
@@ -14168,7 +14168,7 @@
   (symbol (lib_id "quickfeather-board:EOSAI-S-PUN64") (at 81.28 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005e0610bf)
-    (property "Reference" "IC1" (at 125.73 20.955 0)
+    (property "Reference" "U6" (at 111.76 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EOSAI-S-PUN64" (at 172.72 31.75 0)
@@ -14180,7 +14180,7 @@
     (property "Datasheet" "https://www.quicklogic.com/wp-content/uploads/2020/12/QL-EOS-S3-Ultra-Low-Power-multicore-MCU-Datasheet-2020.pdf" (at 172.72 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "MPN" "EOSAI-S-PUN64" (at 125.73 23.495 0)
+    (property "MPN" "EOSAI-S-PUN64" (at 111.76 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Manufacturer" "QuickLogic" (at 172.72 41.91 0)
@@ -14260,7 +14260,7 @@
     (instances
       (project "quickfeather-board"
         (path "/902b299f-3bfc-46c5-8ba2-656b16e1e538"
-          (reference "IC1") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
